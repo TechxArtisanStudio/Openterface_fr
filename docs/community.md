@@ -1,39 +1,38 @@
-# コミュニティ
+# Communauté
 
-やあ、こんにちは！ Openterface コミュニティへようこそ！ 🎉 私たちはオープンさ、サポート、そして友好性を大切にしています。
-最新情報、チャット、そして同じ興味を持つ人々とのつながりのために、ぜひ参加してください：
+Salut à tous ! Bienvenue dans notre communauté Openterface ! 🎉 Nous valorisons l'ouverture, le soutien et la convivialité. Pour des mises à jour, des discussions et des connexions avec des personnes partageant vos intérêts, rejoignez :
 
-- :fontawesome-brands-reddit-alien: [Reddit](https://www.reddit.com/r/Openterface_miniKVM/)
-- :fontawesome-brands-discord: [Discord](https://discord.gg/sFTJD6a3R8)
-- :fontawesome-brands-github-alt: [GitHub](https://github.com/TechxArtisanStudio/Openterface/discussions)
+- :fontawesome-brands-reddit-alien: [Rejoignez notre subreddit](https://www.reddit.com/r/Openterface_miniKVM/)
+- :fontawesome-brands-discord: [Rejoignez notre communauté Discord](https://discord.gg/sFTJD6a3R8)
+- :fontawesome-brands-github-alt: [Discussion GitHub](https://github.com/TechxArtisanStudio/Openterface/discussions)
 
-もし変化をもたらすことに情熱を持っている方で、[貢献](/contributing)したいとお考えでしたら、ぜひ[メールを送ってください](mailto:info@techxartisan.com) ✉️。私たちはあなたの参加を心待ちにしています！一緒に協力し、アイデアを共有し、Openterfaceを改良して、私たちの技術体験を一緒に向上させましょう ❤️
+Si vous êtes passionné par le fait de faire une différence et souhaitez [contribuer](/contributing), n'hésitez pas à [nous envoyer un email](mailto:info@techxartisan.com) ✉️. Nous sommes impatients de vous accueillir ! Rejoignez-nous pour collaborer, partager des idées et améliorer Openterface afin d'enrichir notre expérience technologique ensemble ❤️
 
-## 謝辞
+## Remerciements
 
-こちらは、Openterface Mini-KVMを前進させる🦸 **ヒーロー** 🌟たちに捧げるトリビュートです！
+Voici un hommage aux 🦸 **HÉROS** 🌟 qui font avancer Openterface Mini-KVM !
 
-### 🛠 コアチーム
+### 🛠 Équipe principale
 
 - Billy Wang
 - Kevin Peng
 - Shawn Ling
 
-### 💻 開発者の貢献者
+### 💻 Contributeurs Dev
 
 - Vileer
 
-### 🌟 特別感謝
+### 🌟 Remerciements particuliers
 
 - [Cameron Gray](https://www.youtube.com/@camerongray1515)
 - Vincent
 - Vileer
 
-### 🌍 コミュニティ貢献者
+### 🌍 Contributeurs de la communauté
 
-さまざまなコミュニティ、特に以下のようなテック愛好家の皆さんからの貴重なコメントやフィードバックに心から感謝します。
+Un grand merci à tous les passionnés de technologie pour les commentaires et les retours précieux provenant de diverses communautés, y compris :
 
-- YouTube製品レビュー
+- Les critiques de produits sur YouTube
     - Cameron Gray [This USB KVM Console is Awesome! - Openterface by TechxArtisan](https://youtu.be/xAEQpWyfY-c?si=sYXiFBrzTiHyIGna)
 - r/homelab
     - [Been on This Mini KVM Feature Like Crazy: Copy Text from Host to Target](https://www.reddit.com/r/homelab/comments/1b2adz5/been_on_this_mini_kvm_feature_like_crazy_copy/)
@@ -50,4 +49,4 @@
 - r/Design
     - [New Look for Our Mini-KVM: What Do You Think? Feedback pls!](https://www.reddit.com/r/Design/comments/1aht6m3/new_look_for_our_minikvm_what_do_you_think/)
 
-皆さまのコメントやフィードバックは、私たちのチームの精神に燃料を注ぐものであり、🚀 **私たちを前進させ、刺激を与える** ことで、特にプロジェクト開発の初期段階において、可能性の境界を押し広げ続けることができます。🌟 本当にありがとうございます！ 🙌🎉
+Vos commentaires et retours sont comme du carburant pour l'esprit de notre équipe, 🚀 **nous propulsant en avant et nous inspirant** à repousser les limites de ce qui est possible, surtout pendant les premières étapes du développement de notre projet. 🌟 Merci beaucoup ! 🙌🎉

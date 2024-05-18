@@ -10,60 +10,42 @@ tags:
   - Software KVM
 ---
 
-# 比較
+# Comparaison
 
-## **このミニKVMはKVM-over-IPとどう違いますか？**
+## **En quoi ce Mini-KVM est-il différent de KVM-over-IP ?**
 
-1. **ネットワーク独立性**: 当社のOpenterfaceミニKVMは制御用に直接USB接続を使用しますが、KVM-over-IPはネットワーク接続に依存し、新しいターゲットデバイスのセットアップに追加の労力と時間が必要です。
-2. **安定したパフォーマンス**: ミニKVMはネットワークの品質に影響されずに迅速かつ安定したパフォーマンスを提供します。一方、KVM-over-IPはネットワークの速度と安定性の影響を受けることがあります。
-3. **携帯性**: ミニKVMは携帯性と使用の容易さを考慮して設計されており、ネットワークアクセスが限られているか利用不可の不確かな状況に対処するのに適しています。
-4. **直接ファイル転送**: ミニKVMは、USBスティックを差し込むことで、ホストとターゲットデバイス間の安定したファイル転送をサポートする切り替え可能なUSB-Aポートを備えています。これは、一部のKVM-over-IPソリューションでは直感的でないかもしれない機能です。
-5. **対象ユーザー**: ミニKVMは、近くのヘッドレスデバイスの設定やトラブルシューティングを迅速かつ確実に行う必要がある技術愛好家やIT専門家に特に適しています。一方、KVM-over-IPは安定したネットワーク環境でのリモートアクセスが優先される場合に使用されます。
+1. **Indépendance Réseau** : Notre Mini-KVM Openterface utilise une connexion USB directe pour le contrôle, tandis que KVM-over-IP repose sur la connectivité réseau, ce qui nécessite des efforts et du temps supplémentaires pour configurer de nouveaux appareils cibles.
+2. **Performance Stable** : Le Mini-KVM offre une performance rapide et stable sans être affecté par la qualité du réseau, contrairement à KVM-over-IP, qui peut être impacté par la vitesse et la stabilité du réseau.
+3. **Portabilité** : Le Mini-KVM est conçu pour être portable et facile à utiliser avec des appareils sans écran à proximité, ce qui le rend plus adapté aux situations incertaines où l'accès au réseau est limité ou indisponible.
+4. **Transfert de Fichiers Direct** : Le Mini-KVM prend en charge les transferts de fichiers stables entre l'hôte et les appareils cibles via un port USB-A commutable en branchant une clé USB. Cette fonctionnalité peut ne pas être aussi simple avec certaines solutions KVM-over-IP.
+6. **Public Cible** : Le Mini-KVM est particulièrement adapté aux passionnés de technologie et aux professionnels de l'informatique qui ont besoin d'une solution rapide et fiable pour configurer ou dépanner des appareils sans écran à proximité, tandis que KVM-over-IP est souvent utilisé dans des environnements avec un réseau stable où l'accès à distance via IP est une priorité.
 
-## **これは従来のKVMソリューションとどう違いますか？**
+## **En quoi est-ce différent des solutions KVM traditionnelles ?**
 
-1. **携帯性**: OpenterfaceミニKVMは携帯性を考慮して設計されており、コンパクトなソリューションが必要な技術愛好家やIT専門家に理想的です。カッコよくて、バックパックに入れて持ち運び可能なほど小さいです。従来のKVMスイッチは、24/7運用のための固定設置に適しており、一般に大きくなります。
-2. **制御メカニズムと統合**: 従来のKVMスイッチは純粋なハードウェアベースの切り替えメカニズムを使用し、一度に1台のコンピュータのみを制御できます。対照的に、OpenterfaceミニKVMはハードウェアとソフトウェアを組み合わせており、ホストコンピュータまたはホストラップトップ上の単一のインターフェースを通じてホストとターゲットデバイスの両方を制御することができます。この統合されたアプローチは、ホストとターゲット間のアプリウィンドウレベルでのシームレスな切り替えを容易にし、作業効率を大幅に向上させます。
-3. **機能性**: OpenterfaceミニKVMはUSBとHDMIビデオキャプチャを介した1対1の直接制御に焦点を当てていますが、従来のKVMスイッチはUSB、VGA、DVI、HDMI、オーディオサポートを含む多機能制御や、場合によってはネットワーク上でのリモートアクセス機能も提供することがあります。
-4. **電源供給**: ミニKVMは外部電源を必要とせず、ホストからのUSB-C接続を通じて電力を供給されるように設計されており、その携帯性が向上しています。従来のKVMは固定解決策であり、追加の電源供給が必要です。
+1. **Portabilité** : Le Mini-KVM Openterface est conçu pour être portable, ce qui le rend idéal pour les passionnés de technologie et les professionnels de l'informatique qui ont besoin d'une solution compacte. Il est suffisamment petit et esthétique pour être glissé dans votre sac à dos. Les commutateurs KVM traditionnels ont tendance à être plus grands et adaptés aux configurations stationnaires pour un fonctionnement 24/7.
+2. **Mécanisme de Contrôle et Intégration** : Les commutateurs KVM traditionnels utilisent des mécanismes de commutation purement matériels, permettant de contrôler un seul ordinateur à la fois. En revanche, le Mini-KVM Openterface combine matériel et logiciel, permettant de contrôler à la fois les appareils hôte et cible via une interface unique sur l'ordinateur ou l'ordinateur portable hôte. Cette approche intégrée facilite la commutation transparente entre l'hôte et la cible au niveau de la fenêtre de l'application, améliorant considérablement l'efficacité du flux de travail.
+3. **Fonctionnalité** : Alors que le Mini-KVM Openterface se concentre sur le contrôle direct 1-à-1 via USB et la capture vidéo HDMI, les commutateurs KVM traditionnels peuvent offrir une gamme plus large de fonctionnalités, y compris le contrôle de plusieurs appareils via USB, VGA, DVI, HDMI, la prise en charge audio, et parfois même des capacités d'accès à distance via le réseau.
+4. **Alimentation Électrique** : le Mini-KVM ne nécessite pas d'alimentation externe, car il est conçu pour être alimenté via ses connexions USB-C depuis l'hôte, améliorant ainsi sa portabilité. Les KVM traditionnels sont des solutions stationnaires qui nécessitent une alimentation supplémentaire.
 
-## **Openterface Mini-KVM、従来のKVM、およびVNCとの比較**
 
-| 比較カテゴリー             | Openterface Mini-KVM                            | 従来のKVMスイッチ                               | 従来のVNC                                       |
-|---------------------------|-------------------------------------------------|------------------------------------------------|------------------------------------------------|
-| 🎮 方法と制限              | ローカル、ケーブルに制限される                   | ローカル、ケーブルに制限される                  | ローカル/リモート、ネットワークに制限される     |
-| 🚀 携帯性                  | 高携帯性、設置簡単                               | 固定、かさばる                                  | ソフトウェアベース、該当なし                   |
-| 🛠️ 設置の複雑さ            | プラグアンドプレイ、最小限の設置                 | モデレートな設置、周辺機器が必要                | ネットワークとソフトウェアの設定、複雑          |
-| 🖥️ コントロールインターフェース | ホストソフトウェアインターフェース               | 物理的スイッチインターフェース                  | ホストソフトウェアインターフェース              |
-| 👁️ ユーザーインターフェース   | 直感的なアプリベース                             | 物理的な切替、ソフトウェアなし                  | 変動するソフトウェアインターフェース            |
-| 🔄 OS間の互換性             | 複数のOSと完全に互換性がある                     | モデルと接続に依存                              | 互換性のあるソフトウェアが必要                  |
-| 🖼️ 画面解像度              | HDMI経由で高品質                                 | ケーブルとKVMによって異なる                     | ソフトウェアとネットワークによって異なる        |
-| 🔑 BIOSへのアクセス        | あり                                             | あり                                            | なし                                           |
-| 📁 ファイル転送             | スイッチ可能なUSB-A経由でのハードウェアベース     | 利用不可                                        | ソフトウェアベース、ネットワーク依存            |
-| 💻 マルチデバイスサポート   | 1対1、ホストとハードウェアに依存                  | 1対N、物理的設定に依存                          | N対N、ネットワークとソフトウェアに依存          |
-| 🔌 ケーブル＆アクセサリー   | ケーブルが少ない（HDMI、Type-CからUSB-A）        | 複数（ビデオケーブル、キーボード、マウスなど） | ネットワークが必要                              |
-| 📱 ソフトウェア             | macOSホストアプリが必要                           | 基本操作に追加ソフトウェアは不要                | ホストと対象の両方にクライアントソフトウェアが必要 |
-| ⚡️ 電源供給                | 外部電源不要                                      | 外部電源がしばしば必要                          | 該当なし（ソフトウェアベース）                  |
+## **Comparaison entre notre Mini-KVM, KVM traditionnel et VNC**
 
-上記の比較表は、各ソリューションが異なるユーザーのニーズとどのように一致するかの明確な概観を
+| Catégorie de comparaison   | Openterface Mini-KVM                         | Commutateur KVM traditionnel                  | VNC traditionnel                                |
+|----------------------------|----------------------------------------------|-----------------------------------------------|--------------------------------------------------|
+| 🎮 Méthode & Limitation    | Local, limité par câble                      | Local, limité par câble                       | Local/Remote, limité par réseau                  |
+| 🚀 Portabilité             | Très portable, installation facile           | Stationnaire, encombrant                      | Basé sur logiciel, non applicable                |
+| 🛠️ Complexité d'installation | Plug-and-play, installation minimale         | Installation modérée, périphériques requis    | Configuration réseau et logiciel, complexe       |
+| 🖥️ Interface de contrôle   | Interface logicielle de l'hôte               | Interface de commutateur physique             | Interface logicielle de l'hôte                   |
+| 👁️ Interface utilisateur   | Intuitive, basée sur une application         | Commutation physique, pas de logiciel         | Interface logicielle variable                    |
+| 🔄 Compatibilité cross-OS   | Entièrement compatible avec plusieurs OS     | Dépend du modèle et des connexions            | Logiciel compatible requis                      |
+| 🖼️ Résolution d'écran      | Haute qualité via HDMI                       | Varie avec le câble et le KVM                 | Varie avec le logiciel et le réseau              |
+| 🔑 Accès au BIOS           | Oui                                          | Oui                                           | Non                                              |
+| 📁 Transfert de fichiers   | Basé sur le matériel via USB-A commutable    | Non disponible                                | Basé sur logiciel, dépendant du réseau           |
+| 💻 Support multi-appareils | 1-à-1, par un hôte et dépendant du matériel  | 1-à-N, par une configuration physique         | N-à-N, par réseau et dépendant du logiciel       |
+| 🔌 Câbles & Accessoires    | Moins de câbles (HDMI, Type-C vers USB-A)    | Multiples (câble vidéo, clavier, souris, etc.)| Réseau requis                                   |
+| 📱 Logiciel                | Application hôte macOS requise               | Aucun logiciel supplémentaire pour l'opération de base | Logiciel client sur l'hôte et la cible       |
+| ⚡️ Alimentation            | Pas d'alimentation externe nécessaire         | Alimentation externe souvent requise          | Non applicable (basé sur logiciel)              |
 
-提供するために設計されています。これにより、あなたのユニークな設定に最も適したオプションを選ぶのに役立ちます。
+Notre tableau de comparaison ci-dessus est conçu pour fournir une vue d'ensemble claire de la manière dont chaque solution s'aligne sur différents besoins utilisateurs, vous aidant à choisir l'option la plus adaptée à votre configuration unique.
 
-要約すると、**Openterface Mini-KVM**は、その^^携帯性、設置の容易さ、そして直感的なアプリベースのコントロールインターフェース^^で際立っています。それは、ネットワークや外部電源を必要とせずに、1対1のホスト-ターゲット間の安定した高品質な接続を提供することで優れています。対照的に、従来のKVMソリューションは、複数のデバイス間で物理的に切り替えることを提供しますが、しばしば携帯性と設置の簡単さのコストがかかります。VNCは、ネットワークを介して複数のホストが複数のデバイスに接続できる柔軟性を持っていますが、ソフトウェアとネットワークの品質に大きく依存しています。
-
-<section class="dialogue-section-white" id="dialogues-section">
-    <div class="container">
-        <div class="callout-button-container">
-            <div class="dialogue-bubble" id="op-bubble">
-                <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-                <p>もっと読む 📖</p>
-                <a href="/faq" class="md-button md-button--primary" id="join-waitlist-button">FAQs</a>
-            </div>
-            <div class="dialogue-bubble" id="op-bubble">
-                <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-                <p>質問？🤔</p>
-                <a href="https://www.reddit.com/r/Openterface_miniKVM/" class="md-button md-button--primary" id="join-waitlist-button">Subredditで尋ねる</a>
-            </div>
-        </div>
-    </div>
-</section>
+En résumé, l'**Openterface Mini-KVM** se distingue par sa ^^portabilité, sa facilité d'installation et son interface de contrôle intuitive basée sur une application^^. Il excelle à fournir ==une connexion stable et de haute qualité pour une interaction hôte-cible un-à-un sans nécessiter de réseau ni d'alimentation externe==. En revanche, les solutions KVM traditionnelles offrent une commutation physique entre plusieurs appareils, mais souvent au détriment de la portabilité et de la simplicité d'installation. VNC, bien que flexible en permettant à plusieurs hôtes de se connecter à plusieurs appareils via un réseau, dépend fortement de la qualité du logiciel et du réseau.

@@ -194,7 +194,7 @@ nav:
           - Test de base 💬: basic-testing.md
   - Communauté:
       - Bienvenue: community.md
-  # - Articles:
+  - Articles: https://openterface.com/blog/
   #   - blog/index.md
   - À propos:
       - Contact: contact.md
