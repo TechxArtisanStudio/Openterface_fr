@@ -1,4 +1,3 @@
-```markdown
 Ce référentiel GitHub héberge le site web pour le [Openterface Mini-KVM](https://openterface.com/), un appareil KVM compact et riche en fonctionnalités qui est open-source et soutenu par [une communauté dynamique](https://openterface.com/community/).
 
 Nous avons atteint un moment crucial : notre [campagne de financement participatif](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) est maintenant en ligne sur **Crowd Supply** ! Nous avons dépassé notre objectif de 12 000 $ en quelques heures à peine ! Vous êtes incroyables ! Continuons sur cette lancée ! Pensez à vous abonner et à nous soutenir pour aider à amener le Mini-KVM Openterface chez vous plus rapidement. Venez nous rejoindre dans notre [communauté](https://openterface.com/community/) !
@@ -74,4 +73,3 @@ Pour rester informé et vous engager avec notre communauté, suivez-nous sur nos
 - **LinkedIn** : [Suivez-nous sur LinkedIn](https://www.linkedin.com/company/techxartisan/)
 
 Rejoignez la conversation et faites partie de notre communauté grandissante !
-```
