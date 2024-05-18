@@ -7,263 +7,186 @@ tags:
   - BIOS
 ---
 
-# よくある質問（FAQ）
+# Foire aux questions (FAQ)
 
-こちらにお越しいただき、大変嬉しく思います！🌟 このセクションは、定期的に私たちのチームが整理するOpenterface Mini-KVMに関するよくある質問に対処するために設計されています。
+Nous sommes absolument ravis de vous avoir ici ! 🌟 Cette section est conçue pour répondre aux questions fréquemment posées sur le Mini-KVM Openterface, que notre équipe organise périodiquement.
 
-それでは、Openterface Mini-KVMに関する最も一般的な質問について詳しく見ていきましょう。
+Examinons les questions les plus fréquentes concernant le mini-KVM Openterface.
 
-### よくある質問リスト
+### Basique
 
-##### 基本
-- [Openterface Mini-KVMとは何ですか？](#openterface-mini-kvm)
-- [Openterface Mini-KVMが他とどう違うのですか？](#openterface-mini-kvm_1)
-- [このミニKVMの使用例は何ですか？](#kvm)
-- [Openterface Mini-KVMと互換性のあるホストコンピューターは何ですか？](#openterface-mini-kvm_2)
-- [Openterface Mini-KVMと互換性のあるターゲットデバイスは何ですか？](#openterface-mini-kvm_3)
-- [Openterface Mini-KVMには技術サポートやドキュメントは提供されますか？](#openterface-mini-kvm_4)
-- [オープンソースリポジトリが空なのはなぜですか？](#_9)
+#### Qu'est-ce que le mini-KVM Openterface ?
+L'Openterface Mini-KVM est un gadget KVM compact, riche en fonctionnalités et open source piloté par [une communauté dynamique](https://openterface.com/community/). Il vous permet d'utiliser votre propre ordinateur portable pour afficher et contrôler des appareils sans tête directement via une [connexion USB et HDMI](https://openterface.com/quick-start/#connection-procedure). Cette solution KVM sur USB capture la vidéo via HDMI et simule les entrées du clavier et de la souris. Il est particulièrement utile pour [une large gamme d'applications](https://openterface.com/use-cases/), destiné aux passionnés de technologie explorant les ordinateurs monocarte, ainsi qu'aux professionnels de l'informatique dépannant les appareils sans tête. Il élimine le besoin de moniteurs, claviers et souris supplémentaires, offrant ainsi une solution pratique dans les environnements où les connexions réseau sont peu fiables ou indisponibles.
 
-##### ソフトウェア
+#### Pourquoi le mini-KVM Openterface fait-il la différence ?
+Nos [fonctionnalités Openterface Mini-KVM](https://openterface.com/#product-features) sont une **conception portable, une facilité de plug-and-play, un temps de réponse rapide et un accès direct au niveau du BIOS avec un port USB commutable. Un port**, le tout partagé entre les appareils hôtes et cibles. Il garantit une expérience de contrôle fiable et rapide via une connexion HDMI et USB, sans les contraintes de dépendance au réseau, ce qui le rend adapté à divers [scénarios d'utilisation](https://openterface.com/use-cases/), en particulier pour les tâches informatiques et dépannage à la volée.
 
-- [ホストアプリケーションはどこでダウンロードできますか？](#_11)
-- [Android用のホストアプリはいつ利用可能になりますか？](#android)
-- [ChromeOSをサポートするホストアプリはありますか？](#chromeos)
-- [Appleのモバイルデバイスをサポートするホストアプリはありますか？](#apple)
-- [MacOSアプリケーションでF11キーが機能しない場合はどうすればよいですか？](#macosf11)
+De plus, contrairement aux consoles KVM traditionnelles qui ont souvent un prix élevé, notre mini-KVM est conçu pour être accessible et **abordable** à un plus large éventail d'utilisateurs, des professionnels de l'informatique aux passionnés de technologie.
 
-##### スイッチ可能なUSBポートとファイル転送
+Mais la vraie magie réside dans notre engagement envers le **développement open source** et l'**engagement communautaire**. En adoptant ces principes, nous construisons un écosystème dynamique où les utilisateurs peuvent collaborer, contribuer et personnaliser l'appareil pour répondre à leurs besoins uniques, favorisant l'innovation et repoussant les limites de ce qui est possible.
 
-- [Openterface Mini-KVMはファイル転送をサポートしていますか？](#openterface-mini-kvm_5)
-- [スイッチ可能なUSB-Aポートはソフトウェアレベルで切り替えられますか？](#usb-a)
-- [なぜこの切替可能なUSBポートにUSB 3.0ではなくUSB 2.0を使用するのですか？](#usbusb-30usb-20)
+#### Quels sont les cas d'utilisation de ce mini-KVM ?
+Veuillez consulter cette page : [Cas d'utilisation](https://openterface.com/use-cases/)
 
-##### 技術的な質問
-- [Openterface Mini-KVMはオープンソースですか？](#openterface-mini-kvm_6)
-- [デバイスのBIOS設定にアクセスできますか？](#bios)
-- [古いターゲットコンピューターでBIOSレベルでキーボードコントロールが機能しないのはなぜですか？](#bios_1)
-- [デバイス間でのビデオ/データの送信方法は？](#_13)
-- [Openterface Mini-KVMは電力をどのように扱いますか？](#openterface-mini-kvm_7)
-- [このデバイスをDIYできますか？](#diy)
+#### Quels ordinateurs hôtes sont compatibles avec Openterface Mini-KVM ?
+Pour utiliser ce mini-KVM, l'ordinateur hôte doit installer l'une de ces [applications hôtes](https://openterface.com/quick-start/#install-host-application) pour prendre en charge MacOS, Windows et Linux. Une extension Web et des applications Android sont actuellement en cours de développement.
 
-##### 制御メカニズム
-- [ワイヤレスやイーサネット接続のバージョンの予定はありますか？](#_15)
-- [他の伝統的なKVM、KVM-over-IP、VNCなどと比べてどう違いますか？](#kvmkvm-over-ipvnc)
-- [ターゲットコンピュータがPS/2を必要とする場合、動作しますか？](#ps2)
-- [一つのマスターコンピュータから複数のターゲットデバイスを制御するために複数のMini-KVMを使用できますか？](#mini-kvm)
-- [接続されたコンピュータの電源を入れたり切ったりすることはできますか？](#_16)
+#### Quels appareils cibles sont compatibles avec l'Openterface Mini-KVM ?
+Aucune pré-installation ou configuration n’est requise sur l’appareil cible. Tant que le périphérique cible prend en charge les opérations de l'interface utilisateur avec sortie vidéo (par exemple, HDMI, VGA) et dispose d'un port USB pour recevoir les signaux de contrôle du clavier et de la souris émulés (HID), il peut être utilisé. Ainsi, les plates-formes de périphériques cibles prises en charge incluent Windows, MacOS, Linux, Android et iOS.
 
-##### ビデオ関連
-- [ビデオの遅延と解像度については？](#_18)
-- [Openterface Mini-KVMは高品質なゲーミングに適していますか？](#openterface-mini-kvm_8)
-- [将来のバージョンのOpenterface Mini-KVMで高品質ディスプレイのサポートはありますか？](#openterface-mini-kvm_9)
-- [なぜOpenterface Mini-KVMはローカルIP経由でビデオをストリーミングしないのですか？](#openterface-mini-kvmip)
-- [VGA、DVI、DisplayPortなどの異なるビデオ出力で動作しますか？](#vgadvidisplayport)
+#### Y aura-t-il une assistance technique et une documentation disponibles pour le mini-KVM Openterface ?
+Une documentation complète pour Openterface Mini-KVM est disponible sur notre site Web à l'adresse [Openterface.com](https://www.openterface.com/). Nous mettons continuellement à jour ces ressources pour optimiser votre expérience avec l'appareil.
+Pour obtenir une assistance technique, nous vous invitons à rejoindre notre [communauté](https://openterface.com/community/) pour partager des requêtes et des informations entre les autres utilisateurs et notre équipe d'experts. Si votre problème n’est toujours pas résolu, notre équipe est disponible pour vous fournir une assistance technique supplémentaire. Vous pouvez nous contacter via cet e-mail : info@techxartisan.com.
 
-##### その他
+#### Pourquoi votre référentiel open source est-il vide ?
+Nous nous excusons pour le retard. Nous avons été exceptionnellement occupés avec diverses tâches administratives liées à notre campagne de financement participatif. Rassurez-vous, nous nous engageons pleinement à rendre open source le matériel et les logiciels de notre projet. Soyez patient avec nous pendant que nous finalisons les préparatifs. Nous commencerons à publier les détails du matériel et le code progressivement au cours des deux à trois prochaines semaines, dans le but d'avoir tout disponible avant de commencer les expéditions à nos bailleurs de fonds.
 
-- [このプロジェクトにどうやって貢献できますか？](#_20)
-- [当社の便利なガジェットをレビューしてみませんか？](#_21)
-- [ミニKVMの高度な機能計画は何ですか？](#kvm_1)
-- [ミニKVMはAIとどのように統合され、将来的にどのような可能性がありますか？](#kvmai)
+En attendant, vous pouvez en savoir plus sur notre projet ici : [Comment ça marche](https://openterface.com/how-it-works/). Cette ressource donne un aperçu de notre intégration de capture USB-HDMI, avec la puce **CH9329** pour le contrôle du clavier et de la souris. Les passionnés de technologie trouveront peut-être les détails de la puce CH9329 particulièrement intéressants.
 
-### 基本
+De plus, notre mini-KVM utilise la puce **CH340**, prenant en charge deux hubs USB intégrés pour les côtés hôte et cible. Notre mini-KVM est comparable à de nombreuses cartes de capture vidéo actuellement sur le marché. Pour plus de détails techniques, veuillez vous référer à cette [fiche technique](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing).
 
-#### Openterface Mini-KVMとは何ですか？
-Openterface Mini-KVMは、コンパクトで多機能、オープンソースのKVMガジェットで、[活気に満ちたコミュニティ](/community/)によって支えられています。これにより、[USBおよびHDMI接続](/quick-start/#connection-procedure)を通じて、ヘッドレスデバイスを直接自分のノートパソコンで表示および制御することが可能です。このKVM-over-USBソリューションは、HDMI経由でビデオをキャプチャし、キーボードとマウスの入力をシミュレートします。[幅広いアプリケーション](/use-cases/)に対応し、シングルボードコンピューターを探求するテクノロジーエンスージアストや、ヘッドレスデバイスのトラブルシューティングを行うITプロフェッショナルに特に有用です。追加のモニターやキーボード、マウスが不要となり、ネットワーク接続が不安定または利用できない環境でも便利なソリューションを提供します。
+Merci de votre compréhension et de votre patience !
 
-#### Openterface Mini-KVMが他とどう違うのですか？
-私たちの[Openterface Mini-KVMの特徴](/#product-features)は、**持ち運び可能なデザイン、プラグアンドプレイの簡単さ、迅速な反応時間、そしてスイッチ可能なUSB-Aポートを使った直接的なBIOSレベルアクセス**を備え、ホストとターゲットのデバイス間で共有されます。これにより、HDMIおよびUSB接続を通じて、ネットワーク依存の制約から自由な、信頼性とスピードのあるコントロール体験を実現します。これは、即時のIT作業やトラブルシューティングに特に適しているさまざまな[使用シナリオ](/use-cases/)に適しています。
+### Logiciel
 
-さらに、従来のKVMコンソールがしばしば高価であるのに対し、私たちのミニKVMは、ITプロフェッショナルから技術愛好家まで、より広いユーザースペクトラムにアクセス可能で**手頃な価格**に設計されています。
+#### Où puis-je télécharger les applications hôtes ?
+Visitez notre [page Installer l'application hôte](https://openterface.com/quick-start/#install-host-application) pour les téléchargements officiels. Notre projet étant open source, vous pourrez trouver des versions alternatives d'applications hôtes compatibles avec notre mini-KVM développées par la communauté. Bien que ceux-ci puissent offrir des fonctionnalités supplémentaires, assurez-vous de consulter leurs pratiques de sécurité et de confidentialité. TechxArtisan Studio ne peut garantir la sécurité des applications tierces. Merci!
 
-しかし、真の魔法は私たちの**オープンソース開発**と**コミュニティへの関与**へのコミットメントにあります。これらの原則を受け入れることで、ユーザーが協力し、貢献し、独自のニーズに合わせてデバイスをカスタマイズできる活気のあるエコシステムを構築しており、イノベーションを促進し、可能なことの境界を押し広げています。
+#### Quand l'application hôte pour Android sera-t-elle disponible ?
+Nous développons actuellement l'application hôte pour Android, mais elle constitue une priorité moindre par rapport aux versions des systèmes d'exploitation grand public comme macOS, Windows et Linux. Nous apprécions votre patience et vous encourageons à rester à l’écoute des mises à jour. Si vous souhaitez contribuer au développement, n'hésitez pas à rejoindre notre communauté ou à nous contacter par e-mail !
 
-#### このミニKVMの使用例は何ですか？
-このページをご覧ください：[使用例](/use-cases/)
+#### Existe-t-il une application hôte prenant en charge ChromeOS ?
+Oui, mais il est actuellement en cours de développement. Nous prévoyons de créer une extension Web conçue pour prendre en charge les navigateurs Chrome et Firefox. Bien que sa priorité de développement soit légèrement inférieure à celle des systèmes d'exploitation traditionnels tels que macOS, Windows et Linux, nous y travaillons activement. Soyez patient avec nous et restez à l’écoute des mises à jour ! Si vous souhaitez nous aider dans notre développement, venez nous rejoindre dans la communauté ou envoyez-nous un e-mail !
 
-#### Openterface Mini-KVMと互換性のあるホストコンピューターは何ですか？
-このミニKVMを使用するには、ホストコンピューターにこれらの[ホストアプリケーション](/quick-start/#install-host-application)のいずれかをインストールする必要があり、MacOS、Windows、Linuxをサポートします。Webベースの拡張機能とAndroidアプリは現在開発中です。
+#### Existe-t-il une application hôte prenant en charge les appareils mobiles Apple ?
+Nous étudions actuellement la compatibilité avec les systèmes mobiles d'Apple, tels qu'iOS et iPadOS. En raison des contrôles stricts d'Apple, ces plates-formes peuvent ne pas prendre en charge les connexions filaires avec des appareils tiers. Cependant, la situation pourrait changer ou il pourrait y avoir des solutions de contournement. Si vous avez des idées ou des suggestions, nous vous invitons à rejoindre notre communauté pour en discuter avec nous. Nous nous engageons à améliorer la commodité de notre appareil en prenant en charge autant de systèmes que possible. Si vous souhaitez nous aider dans notre développement, venez nous rejoindre dans la communauté ou envoyez-nous un e-mail !
 
-#### Openterface Mini-KVMと互換性のあるターゲットデバイスは何ですか？
-ターゲットデバイスに事前のインストールや設定は必要ありません。ターゲットデバイスがビデオ出力（例：HDMI、VGA）をサポートし、エミュレートされたキーボードやマウスの制御（HID）シグナルを受け取るUSBポートを持っていれば使用できます。したがって、対応するターゲットデバイスプラットフォームには、Windows、MacOS、Linux、Android、iOSが含まれます。
+#### Et si F11 ne fonctionne pas sur les applications macOS ?
+Sur macOS, appuyer sur F11 affiche le bureau macOS au lieu de transmettre la touche F11 à l'application et à l'ordinateur cible. Pour résoudre ce problème, vous pouvez dissocier F11 de la fonction "Afficher le bureau". Voici comment:
 
-#### Openterface Mini-KVMの技術サポートとドキュメントは提供されますか？
-Openterface Mini-KVMの詳細なドキュメントは、[Openterface.com](https://www.openterface.com/)のウェブサイトで見つけることができます。これらのリソースは定期的に更新され、デバイスの使用体験を最適化します。
-技術サポートについては、ユーザーや専門チームとの質問や知見の共有を行う[コミュニティ](/community/)に参加することをお勧めします。問題が解決しない場合は、さらなる技術支援を提供するためにチームが対応します。このメールアドレスまでご連絡ください：info@techxartisan.com。
+1. Accédez aux paramètres système.
+2. Sélectionnez Bureau et Dock.
+3. Faites défiler vers le bas et cliquez sur le bouton « Raccourcis… ».
+4. Recherchez « Afficher le bureau » et définissez-le sur le trait d'union (-) en bas de la liste déroulante.
+5. Cette modification permettra à la touche F11 de passer à votre application sur l'ordinateur cible.
 
-#### オープンソースリポジトリが空なのはなぜですか？
-遅れてしまい申し訳ございません。クラウドファンディングキャンペーンに関連する様々な管理業務で非常に忙しくしておりました。プロジェクトのハードウェアとソフトウェアをオープンソース化することに全力を尽くしていることを保証します。準備を整えるまで少々お待ちください。次の2〜3週間でハードウェアの詳細とコードを段階的に公開し始める予定で、出荷を開始する前にすべての情報を提供することを目指しています。
+### Port USB commutable et transfert de fichiers
 
-その間に、こちらでプロジェクトの詳細を学ぶことができます：[How It Works](/how-it-works/)。このリソースは、キーボードとマウスの制御用の**CH9329**チップを特徴とするUSB-HDMIキャプチャ統合についての洞察を提供しています。技術愛好家にはCH9329チップの詳細が特に興味深いかもしれません。
+#### L'Openterface Mini-KVM peut-il prendre en charge les transferts de fichiers ?
+Oui, l'Openterface Mini-KVM comprend un port USB-A commutable partagé entre les appareils hôte et cible. Avec une clé/un disque USB branché sur ce port, les fichiers peuvent être transférés entre l'hôte et la cible en suivant ces étapes :
 
-さらに、当社のミニKVMは**CH340**チップを利用し、ホスト側とターゲット側の両方に内蔵されたUSBハブを2つサポートしています。当社のミニKVMは、現在市場に出ている多くのビデオキャプチャカードと比較しています。技術的な詳細については、この[データシート](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing)をご参照ください。
+1. Montez une clé USB sur l'hôte lorsque le petit interrupteur noir est placé sur le côté du port Type-C de l'hôte.
+2. Copiez les fichiers sur ce lecteur monté.
+3. Après la copie, démontez le lecteur sans le débrancher physiquement.
+4. Basculez le petit interrupteur noir de l'autre côté. Cette action bascule la connexion du port USB-A vers la cible.
+5. Montez la clé USB sur le périphérique cible et copiez/déplacez les fichiers du lecteur, complétant ainsi le processus de transfert des fichiers de l'hôte vers la cible.
 
-ご理解とご忍耐をいただきありがとうございます！
+Cette méthode peut également être utilisée dans le sens inverse.
 
-### ソフトウェア
+#### Le port USB-A commutable peut-il être activé au niveau logiciel ?
+La conception actuelle ne prend pas en charge le basculement au niveau logiciel ; il ne peut être inversé que physiquement pour l'instant.
 
-#### ホストアプリケーションはどこでダウンロードできますか？
-公式のダウンロードは、[ホストアプリケーションのインストールページ](/quick-start/#install-host-application)をご覧ください。当プロジェクトはオープンソースであるため、コミュニティによって開発された当ミニKVMと互換性のあるホストアプリケーションの代替バージョンが見つかるかもしれません。これらは追加機能を提供する可能性がありますが、セキュリティやプライバシーの実践を確認することをお勧めします。TechxArtisan Studioは第三者のアプリケーションの安全性を保証することはできません。ありがとうございます！
+La mise en œuvre du basculement au niveau logiciel nécessiterait une nouvelle conception, incorporant un bouton et un indicateur LED (vert/bleu ou marche/arrêt) pour indiquer si le port USB est réglé sur le mode hôte ou cible.
 
-#### Android用ホストアプリはいつ利用可能になりますか？
-現在、Android用ホストアプリを開発中ですが、macOS、Windows、Linuxなどの主要なオペレーティングシステム用のバージョンと比べて優先度は低く設定されています。ご理解とご忍耐をお願いいたします。更新情報にご注目ください。開発に参加を希望される場合は、コミュニティに参加するか、メールでお問い合わせください！
+De plus, cela nécessiterait l’intégration d’une puce supplémentaire, ce qui entraînerait une augmentation des coûts de développement matériel et logiciel. La conception existante représente un compromis visant à équilibrer la rentabilité et les fonctionnalités de base. Malgré le potentiel d'augmentation des coûts, nous souhaitons intégrer cette fonctionnalité dans une future version pour une meilleure expérience utilisateur.
 
-#### ChromeOSをサポートするホストアプリはありますか？
-はい、現在開発中です。ChromeおよびFirefoxブラウザをサポートするためのWebエクステンションを作成する計画です。その開発優先度はmacOS、Windows、Linuxなどの主要なオペレーティングシステムよりもわずかに低いですが、積極的に取り組んでいます。ご理解をお願いし、更新情報にご注目ください！開発を手伝いたい方は、コミュニティでの交流に参加するか、メールでご連絡ください！
+#### Pourquoi USB 2.0 mais pas USB 3.0 pour ce port USB commutable ?
+L'USB 2.0 est entièrement capable de gérer la capture vidéo à 1080p à 30 Hz, de transmettre des signaux HID (pour le clavier et la souris) et de gérer les transferts de fichiers à vitesse standard entre l'ordinateur cible et l'ordinateur hôte. Cela fait de notre produit une solution rapide, légère et portable, exactement comme conçu.
 
-#### Appleのモバイルデバイスをサポートするホストアプリはありますか？
-現在、iOSやiPadOSなど、Appleのモバイルシステムとの互換性を探っています。Appleの厳しい制御により、これらのプラットフォームではサードパーティのデバイスとの有線接続がサポートされない場合があります。しかし、状況は変わる可能性がありますし、潜在的な回避策も存在するかもしれません。ご意見や提案があれば、是非当コミュニティに参加して私たちと議論してください。できるだけ多くのシステムをサポートすることで、デバイスの利便性を高めることに取り組んでいます。開発を手伝っていただける方は、コミュニティで交流するか、メールでご連絡ください！
+L’utilisation de l’USB 3.0 rendrait la conception des PCB beaucoup plus complexe et augmenterait considérablement les coûts de production. De plus, même si l'USB 3.0 offre des transferts de fichiers plus rapides, il génère également plus de chaleur, ce qui pourrait réduire la durée de vie de l'appareil.
 
-#### macOSアプリケーションでF11が機能しない場合は？
-macOSでF11を押すと、アプリケーションやターゲットコンピュータにF11キーを送信する代わりにmacOSのデスクトップが表示されます。これを修正するには、F11を「デスクトップ表示」機能から解除することができます。以下の手順で設定してください：
+Nous envisageons l'application de l'USB 3.0 pour la prochaine version, ciblant des scénarios d'utilisation plus professionnels et des solutions KVM stationnaires.
 
-1. システム設定に行きます。
-2. デスクトップとドックを選択します。
-3. 下にスクロールして「ショートカット...」ボタンをクリックします。
-4. 「デスクトップ表示」を見つけて、ドロップダウンリストの一番下にあるハイフン(-)に設定します。
-5. この変更により、F11キーがターゲットコンピュータのアプリケーションに正しく送信されるようになります。
+### Technique
 
-### スイッチ可能なUSBポートとファイル転送
+#### Le Mini-KVM Openterface est-il open source ?
+Oui! Nous ouvrirons à la fois le [matériel](/how-it-works/#explore-hardware-details) et le [logiciel](https://openterface.com/quick-start/#install-host-application). Attendez-nous encore un peu ; Nous devons ranger pas mal de choses pour l'ouverture. Si vous êtes intéressé à [contribuer](/contribuer/), veuillez nous le faire savoir via cet e-mail : info@techxartisan.com. Restez à l'écoute!
 
-#### Openterface Mini-KVMはファイル転送をサポートしていますか？
-はい、Openterface Mini-KVMにはホストとターゲットデバイス間で共有される切り替え可能なUSB-Aポートが含まれています。このポートにUSBスティック/ディスクを接続することで、以下の手順に従ってホストとターゲット間でファイルを転送することができます：
+#### Puis-je accéder aux paramètres du BIOS d'un appareil ?
+Oui, la connexion directe de l'Openterface Mini-KVM permet d'accéder aux paramètres de bas niveau du BIOS ou du firmware.
 
-1. ホストのType-Cポート側に小さな黒いスイッチを設定した状態で、USBスティックドライブをホストにマウントします。
-2. このマウントされたドライブにファイルをコピーします。
-3. コピー後、ドライブを物理的に抜かずにアンマウントします。
-4. 小さな黒いスイッチを反対側に切り替えます。この操作により、USB-Aポートの接続がターゲットに切り替わります。
-5. ターゲットデバイスでUSBスティックをマウントし、ドライブからファイルをコピー/移動して、ホストからターゲットへのファイル転送プロセスを完了します。
+Cette fonctionnalité contraste avec les solutions KVM logicielles ou les applications de contrôle à distance telles que TeamViewer et Zoom, qui ne sont généralement pas capables d'interagir au niveau du BIOS.
 
-この方法は逆方向でも使用できます。
+#### Pourquoi le contrôle du clavier ne fonctionne-t-il pas au niveau du BIOS pour certains ordinateurs cibles plus anciens ?
+Il semble que le BIOS de certains anciens ordinateurs ne puisse pas reconnaître le hub USB de notre appareil, ce qui peut entraîner des problèmes avec notre clavier et notre souris émulés qui ne fonctionnent pas correctement au niveau du BIOS. Nous gardons un œil sur ce problème.
 
-#### スイッチ可能なUSB-Aポートはソフトウェアレベルで切り替えられますか？
-現在の設計ではソフトウェアレベルでの切り替えはサポートされておらず、物理的に切り替える必要があります。
+Nous avons reçu un rapport indiquant que sur un ordinateur HP spécifique, le HP Engage Flex Pro, le clavier ne fonctionne pas sur l'écran du BIOS, bien qu'il fonctionne normalement une fois le système d'exploitation démarré.
 
-ソフトウェアレベルでの切り替えを実装するには、新しい設計が必要になります。これには、USBポートがホストモードかターゲットモードかを示すために、ボタンとLEDインジケーター（緑/青またはオン/オフ）を組み込む必要があります。
+Si vous rencontrez le même problème, veuillez nous le signaler via un problème GitHub.
 
-さらに、これには追加のチップの統合が必要となり、ハードウェアとソフトウェアの開発コストが増加します。既存の設計は、コスト効率と基本的な機能のバランスを目指した妥協案です。コストが増加する可能性があるにもかかわらず、より良いユーザー体験のためにこの機能を将来のバージョンに取り入れることに興味があります。
+#### Comment les vidéos/données sont-elles transmises entre les appareils ?
+Les données vidéo sont capturées via HDMI et transmises via USB 2.0 à l'ordinateur hôte pour affichage. Le port USB 2.0 commutable permet le partage d'une clé USB ou d'un autre périphérique USB entre la cible et l'hôte.
 
-#### なぜこの切替可能なUSBポートにUSB 3.0ではなくUSB 2.0を使用するのですか？
-USB 2.0は1080p@30Hzでのビデオキャプチャ、HIDシグナル（キーボードやマウス用）の送信、およびターゲットとホストコンピュータ間の標準速度ファイル転送を完全に処理できます。これにより、当社の製品は設計通り、迅速で軽量かつ携帯性に優れたソリューションとなっています。
+#### Comment le mini-KVM Openterface gère-t-il l'alimentation ?
+L'appareil ne nécessite pas d'alimentation externe, car il est conçu pour être alimenté via ses connexions USB Type-C depuis l'hôte, améliorant ainsi sa portabilité. Dans les scénarios où le périphérique cible est un micro-ordinateur à faible consommation, tel qu'un Raspberry Pi, il pourrait être alimenté via l'hôte via le port USB commutable du Mini-KVM. Cependant, cela n'est pas recommandé. La méthode de fonctionnement standard consiste à disposer d’une alimentation externe pour l’appareil cible.
 
-USB 3.0を使用すると、PCBの設計が大幅に複雑になり、生産コストも大幅に増加します。さらに、USB 3.0はより速いファイル転送を提供しますが、それによって発生する熱が多くなり、デバイスの寿命が短くなる可能性があります。
+#### Puis-je bricoler cet appareil ?
+Absolument! Nous sommes un groupe de créateurs passionnés qui aiment bricoler, et nous veillons à ce que ce projet soit open source, tant matériel que logiciel, et mettons à jour sa documentation. Techniquement, vous pouvez le construire à partir de zéro. Nous envisageons même de publier un guide sur la façon de créer une version maquette de notre produit qui serait également compatible avec notre logiciel.
 
-次のバージョンでは、よりプロフェッショナルな使用シナリオや固定式KVMソリューションを対象にUSB 3.0の適用を検討しています。
+Notre communauté expérimente déjà différentes versions matérielles. Consultez nos publications communautaires pour en savoir plus ou partagez vos propres expériences de bricolage ! Cela pourrait vraiment enrichir notre communauté. De plus, vous constaterez peut-être qu'avec quelques modifications du code, notre logiciel pourrait fonctionner de manière transparente avec votre configuration créative de bricolage !
 
-### 技術的な質問
+### Mécanisme de contrôle
 
-#### Openterface Mini-KVMはオープンソースですか？
-はい！[ハードウェア](/how-it-works/#explore-hardware-details)と[ソフトウェア](/quick-start/#install-host-application)の両方をオープンソース化する予定です。もう少しだけお待ちください。公開のために整理することがまだたくさんあります。[貢献](/contributing/)に興味がある方は、このメールアドレスまでお知らせください：info@techxartisan.com。お待ちしています！
+#### Une version avec connectivité sans fil ou Ethernet est-elle prévue ?
+Actuellement, nous ne prévoyons pas d'ajouter une connectivité sans fil ou Ethernet à nos produits Openterface. Nous nous efforçons de fournir un contrôle rapide et stable via USB directement sur votre appareil cible, afin que vous n'ayez pas à vous soucier des problèmes de réseau.
 
-#### デバイスのBIOS設定にアクセスできますか？
-はい、Openterface Mini-KVMの直接接続により、低レベルのBIOSまたはファームウェア設定にアクセスできます。
+Mais bon, nous sommes toujours ouverts aux commentaires ! Si vous pensez qu'il existe un réel besoin pour cette fonctionnalité, ou si vous avez du mal à trouver une bonne solution KVM sur IP, envoyez-nous un e-mail : info@techxartisan.com. Et n'oubliez pas que si nous décidons d'étendre nos options de connectivité, notre [communauté](https://www.reddit.com/r/Openterface_miniKVM/) sera la première à le savoir.
 
-この機能は、BIOSレベルの操作が通常できないソフトウェアベースのKVMソリューションや、TeamViewerやZoomのようなリモートコントロールアプリケーションとは対照的です。
+#### En quoi est-ce différent des autres solutions KVM telles que les KVM traditionnels, le KVM sur IP et le VNC, etc. ?
+Curieux de savoir comment l'Openterface Mini-KVM se compare à d'autres solutions ? Consultez notre page détaillée [Comparaison](https://openterface.com/comparison).
 
-#### 古いターゲットコンピューターでBIOSレベルでキーボードコントロールが機能しないのはなぜですか？
-どうやら古いコンピューターのBIOSが当社のデバイスのUSBハブを認識できないため、BIOSレベルでエミュレートされたキーボードとマウスが正常に機能しない問題が発生しているようです。この問題には注目しています。
+#### Fonctionne-t-il avec un ordinateur cible nécessitant PS/2 ?
+Non. Nous sommes conscients qu’il existe encore de nombreux vieux ordinateurs sans tête qui nécessitent des claviers et des souris PS/2. À notre connaissance, il n'existe pas encore de solution élégante pour convertir les signaux USB HID afin de les diviser en signaux de clavier et de souris PS/2. Nous étudions toujours cette question et réfléchissons à la manière de prendre en charge PS/2 dans les futures versions du Mini-KVM. Si vous connaissez des solutions qui pourraient fonctionner avec élégance avec notre Mini-KVM, partagez-les avec nous. Merci!
 
-特定のHPコンピューター、HP Engage Flex Proでは、BIOS画面でキーボードが機能しないという報告がありましたが、オペレーティングシステムが起動すると正常に機能します。
+#### Puis-je utiliser plusieurs Mini-KVM pour contrôler plusieurs périphériques cibles à partir d'un ordinateur maître ?
+Oui, vous pouvez! Notre Mini-KVM peut techniquement gérer cela, mais nous sommes encore en train de peaufiner le code et d'exécuter des tests. Nous nous efforçons de garantir que notre logiciel puisse automatiquement relier le clavier et la souris à la bonne source vidéo lorsque vous utilisez plusieurs Mini-KVM à la fois. Nous avons également amélioré l'interface utilisateur du logiciel pour la rendre plus adaptée à ce type de configuration. Restez à l'écoute des mises à jour de notre communauté lorsque nous déploierons cette fonctionnalité !
 
-同じ問題に遭遇した場合は、GitHubのissueで報告してください。
+#### Est-il capable d'éteindre/rallumer l'ordinateur auquel il est connecté ?
+Notre appareil ne prend pas en charge ATX (contrôle marche/arrêt pour l'ordinateur cible). Nous l'avons conçu pour qu'il soit portable, rapide pour le dépannage et stable pour le contrôle local. Il est vraiment destiné à être utilisé lorsque vous êtes là avec votre ordinateur portable, gérant un ou plusieurs ordinateurs cibles. Nous pourrions créer une version pro à l’avenir avec ATX et plus de fonctionnalités.
 
-#### デバイス間でのビデオ/データの送信方法は？
-ビデオデータはHDMIを通じてキャプチャされ、USB 2.0を介してホストコンピューターに送信されて表示されます。スイッチ可能なUSB 2.0ポートにより、ターゲットとホストの間でUSBドライブまたは他のUSBデバイスの共有が可能です。
+### Vidéo liée
 
-#### Openterface Mini-KVMは電力をどのように扱いますか？
-このデバイスは外部電源を必要とせず、ホストからのUSB Type-C接続を通じて電力が供給されるよう設計されており、携帯性を高めています。ターゲットデバイスがラズベリーパイのような低電力マイクロコンピューターの場合、Mini-KVMのスイッチ可能なUSBポートを通じてホストから電力を供給することができますが、これは推奨されません。標準的な運用方法は、ターゲットデバイスに外部電源を供給することです。
+#### Qu'en est-il de la latence et de la résolution vidéo ?
+Notre appareil gère la vidéo 1080p avec moins de 140 millisecondes de latence, ce qui rend votre expérience de contrôle fluide et transparente.
 
-#### このデバイスをDIYできますか？
-もちろんです！私たちは情熱を持ってDIYを楽しむメーカー集団で、このプロジェクトがハードウェアもソフトウェアもオープンソースであること、そしてドキュメントが更新されることを保証しています。技術的には一から製作することが可能です。私たちは製品のブレッドボードバージョンをDIYする方法のガイドを投稿することも検討しており、それも私たちのソフトウェアと互換性があります。
+#### Le Mini-KVM Openterface est-il adapté aux jeux de haute qualité ?
+La conception actuelle se concentre sur les opérations techniques et informatiques, offrant un contrôle fiable pour la configuration et le dépannage des appareils plutôt que sur les jeux haute résolution. Bien qu’il soit idéal pour de nombreuses tâches, ce mini-KVM pourrait ne pas répondre aux besoins d’affichage des jeux de haute qualité.
 
-すでにコミュニティでは異なるハードウェアバージョンの実験が行われています。コミュニティの投稿をチェックして詳しく知ることができますし、自分のDIY体験を共有することもできます！それによってコミュニティが豊かになる可能性があります。さらに、コードを少し調整するだけで、私たちのソフトウェアがあなたの創造的なDIYセットアップとシームレスに動作するかもしれません！
+#### L'affichage de haute qualité sera-t-il pris en charge dans les futures versions d'Openterface Mini-KVM ?
+Nous savons que vous êtes nombreux à rechercher des fonctionnalités d’affichage de premier ordre. Bien que ce ne soit pas notre objectif principal pour le moment, sur la base de vos commentaires, nous envisageons d'ajouter des capacités d'affichage améliorées dans une version professionnelle du Mini-KVM Openterface.
 
-### 制御メカニズム
+#### Pourquoi Openterface Mini-KVM ne diffuse-t-il pas de vidéo sur IP locale ?
+Le Mini-KVM Openterface a été conçu pour garantir des performances fiables et stables grâce à des connexions filaires, via HDMI et USB. Bien qu'il soit techniquement possible de diffuser de la vidéo sur un réseau via nos applications hôtes, nous envisageons d'ajouter une fonctionnalité VLC, et même VNC, à nos applications hôtes à l'avenir.
 
-#### ワイヤレスやイーサネット接続のバージョンの予定はありますか？
-現在、Openterface製品にワイヤレスやイーサネット接続を追加する予定はありません。私たちはUSBを介してターゲットデバイスに直接、迅速かつ安定した制御を提供することに焦点を当てていますので、ネットワークの問題について心配する必要はありません。
+#### Peut-il fonctionner avec différentes sorties vidéo comme VGA, DVI, DisplayPort, etc. ??
+Sorte de. L'Openterface Mini-KVM capture la vidéo via un port HDMI. Cependant, vous pouvez utiliser divers adaptateurs vidéo tels que [VGA-to-HDMI](https://openterface.com/use-cases/#streamlined-server-management), [DVI-to-HDMI](https://openterface .com/use-cases/#unified-control-for-diverse-devices), [miniHDMI-to-HDMI](https://openterface.com/use-cases/#simplified-setup-for-tech-enthusiasts) , ou DP vers HDMI, pour connecter différentes sources vidéo.
 
-でも、フィードバックはいつでも歓迎です！この機能が実際に必要だと思う場合、または良いKVM-over-IPソリューションが見つからない場合は、メールでお知らせください：info@techxartisan.com。そして、接続オプションを拡大することにした場合、[コミュニティ](https://www.reddit.com/r/Openterface_miniKVM/)が最初に知ることになるでしょう。
+### Plus
 
-#### 他の伝統的なKVM、KVM-over-IP、VNCなどと比べてどう違いますか？
-Openterface Mini-KVMが他のソリューションとどのように比較されるか気になりますか？ 詳細は当社の[比較ページ](/comparison)をご覧ください。
+#### Comment puis-je contribuer à ce projet ?
+Absolument! Il existe de nombreuses façons de contribuer :
 
-#### ターゲットコンピュータがPS/2を必要とする場合、動作しますか？
-いいえ。まだ多くの古いヘッドレスコンピュータがPS/2キーボードとマウスを必要としていることは承知しています。現在のところ、USB HIDシグナルをPS/2キーボードおよびマウスシグナルに分割するエレガントなソリューションは存在しないと思われます。私たちはこの問題を調査し、将来のバージョンのMini-KVMでPS/2をサポートする方法を検討しています。もしこのMini-KVMとエレガントに動作するソリューションをご存じの場合は、ぜひご共有ください。ありがとうございます！
+- Si vous aimez le codage, aidez-nous en signalant et en corrigeant les bugs.
+- Bon avec les mots et la technologie ? Vous pourriez donner un coup de main avec notre documentation.
+- Et si vous êtes un expert en langues, pourquoi ne pas aider à traduire nos documents pour aider davantage de personnes à embarquer ?
+- Si le design est votre truc, nous sommes toujours à la recherche de nouvelles idées en matière de conception graphique, d'interface utilisateur d'application et de rendre notre appareil encore plus convivial.
+- Envie de contribuer à maintenir le dynamisme de notre communauté ? Nous pourrions également utiliser vos compétences là-bas.
 
-#### 一つのマスターコンピュータから複数のターゲットデバイスを制御するために複数のMini-KVMを使用できますか？
-はい、できます！技術的にはMini-KVMがこれを扱うことができますが、コードの調整とテストを行っています。複数のMini-KVMを同時に使用する場合に、キーボードとマウスが正しいビデオソースと自動的にリンクするように、私たちのソフトウェアを確実にすることに焦点を当てています。また、この種のセットアップに適したソフトウェアのUIを向上させています。この機能を展開する際のコミュニティアップデートにご注目ください！
+Votre soutien et vos [contributions](https://openterface.com/contributing/) sont ce qui permet à Openterface Mini-KVM de croître. Merci de faire partie de notre aventure! 🚀 Vous avez envie d’aider mais vous ne trouvez pas la solution idéale ? Envoyez-nous simplement un e-mail !
 
-#### 接続されたコンピュータの電源を入れたり切ったりすることはできますか？
-私たちのデバイスはATX（ターゲットコンピュータの電源のオン/オフ制御）をサポートしていません。ポータブルでトラブルシューティングに迅速かつ地元でのコントロールに安定したデザインを目指しています。ラップトップを持って直接複数のターゲットコンピュータを管理する場合に使用することを意図しています。将来的にATXとさらに多くの機能を備えたプロバージョンを作成する可能性があります。
+#### Vous souhaitez consulter notre gadget pratique ?
+Hé, nous aimons faire du bruit et faire connaître notre Mini-KVM ! Si vous êtes de la presse ou si vous le faites sur les réseaux sociaux et que vous avez envie d'essayer notre produit, nous sommes tout ouïe. Que vous souhaitiez des critiques détaillées, des vidéos de déballage ou que vous vouliez simplement nous faire signe, nous sommes là pour cela et faisons des vagues ensemble ! 🎉 Envoyez-nous simplement un e-mail MAINTENANT !
 
-### ビデオ関連
+#### Quelles sont les fonctionnalités avancées prévues pour le mini-KVM ?
 
-#### ビデオの遅延と解像度については？
-私たちのデバイスは1080pビデオを140ミリ秒未満の遅延で処理し、スムーズでシームレスな操作体験を提供します。
+Nous sommes enthousiasmés par le potentiel du mini-KVM et nous nous engageons à documenter toutes nos idées actuelles dans une feuille de route complète. Cette feuille de route présentera les fonctionnalités avancées et les développements futurs que nous envisageons pour l'appareil. Nous sommes impatients de développer ces fonctionnalités en collaboration avec notre communauté. Restez à l’écoute pour plus de mises à jour alors que nous continuons à grandir et à innover ensemble.
 
-#### Openterface Mini-KVMは高品質のゲームに適していますか？
-現在のデザインは技術とIT運用に焦点を当てており、高解像度のゲームではなく、デバイスの設定とトラブルシューティングのための信頼性の高い制御を提供します。多くのタスクには適していますが、このミニKVMは高品質ゲームの表示ニーズを満たさないかもしれません。
+#### Comment le mini-KVM s'intègre-t-il à l'IA et quelles sont ses possibilités futures ?
 
-#### Openterface Mini-KVMの将来のバージョンで高品質ディスプレイのサポートはありますか？
-多くの方々が高品質のディスプレイ機能を求めていることを私たちは承知しています。現在の主な焦点ではありませんが、皆さんのフィードバックに基づき、Openterface Mini-KVMのプロフェッショナルバージョンに強化されたディスプレイ機能を追加することを検討しています。
+Notre objectif ultime est de permettre à l’IA de contrôler les ordinateurs cibles, et Openterface joue un rôle crucial dans cette vision. Inspirés par des projets tels que [l'ordinateur autonome d'OthersideAI](https://github.com/OthersideAI/self-operating-computer), nous visons à ce que le mini-KVM agisse comme une extension des « mains » (fournissant le clavier et contrôle de la souris) et les « yeux » (capturant la source vidéo) pour l'ordinateur hôte. Si l'ordinateur hôte est suffisamment puissant, il pourrait potentiellement émuler les capacités vues dans le film "Her" de 2013. Bien qu’il s’agisse d’une aspiration future, elle met en évidence les possibilités passionnantes que nous voyons pour le mini-KVM.
 
-#### なぜOpenterface Mini-KVMはローカルIP経由でビデオをストリーミングしないのですか？
-Openterface Mini-KVMは、HDMIおよびUSBを使用した有線接続を通じて、信頼性と安定性のあるパフォーマンスを保証するために設計されています。技術的にはネットワーク経由でビデオをストリーミングすることは可能ですが、将来的にはホストアプリケーションにVLCやVNCの機能を追加することを検討しています。
+---------
 
-#### VGA、DVI、DisplayPortなどの異なるビデオ出力で動作しますか？
-ある程度は可能です。Openterface Mini-KVMはHDMIポートを通じてビデオをキャプチャします。しかし、[VGAからHDMI](/use-cases/#streamlined-server-management)、[DVIからHDMI](/use-cases/#unified-control-for-diverse-devices)、[miniHDMIからHDMI](/use-cases/#simplified-setup-for-tech-enthusiasts)、またはDPからHDMIへの各種ビデオアダプターを使用して、異なるビデオソースを接続することができます。
+Votre curiosité et votre soutien alimentent nos progrès et nous voulons nous assurer que chacune de vos questions trouve une réponse. Veuillez noter qu'au fil du temps, le contenu ci-dessus dans notre FAQ peut devenir obsolète. Si votre requête n'est pas couverte dans cette FAQ, consultez toujours notre site Web [openterface.com](https://openterface.com/) pour obtenir les informations les plus récentes. N’hésitez pas non plus à rejoindre notre communauté enthousiaste. Nous sommes actifs sur notre Subreddit à l'adresse [/r/Openterface_miniKVM/](https://www.reddit.com/r/Openterface_miniKVM/) et sur notre serveur Discord, [TechxArtisan](https://discord.gg/sFTJD6a3R8) , où vous pouvez poser des questions, partager des idées ou simplement discuter de tout ce qui concerne la technologie.
 
-### その他
-
-#### このプロジェクトにどうやって貢献できますか？
-もちろんです！参加する方法はたくさんあります：
-
-- コーディングが得意な方は、バグの報告や修正で手を貸してください。
-- 言葉と技術に長けているなら、私たちのドキュメント作成を手伝っていただけると助かります。
-- 言語の魔法使いなら、より多くの人が参加できるようにドキュメントの翻訳を手伝ってはいかがでしょうか？
-- デザインが得意なら、グラフィックデザイン、アプリのUI、デバイスの使いやすさ向上に新しいアイデアを求めています。
-- コミュニティを盛り上げるのが好きなら、そちらのスキルも活かせます。
-
-あなたのサポートと[貢献](/contributing/)がOpenterface Mini-KVMの成長を支えています。この冒険の一部としてくれてありがとう！🚀 助けたい気持ちはあるけれど、ピッタリの役割が見つからない？ぜひメールでご連絡ください！
-
-#### 当社の便利なガジェットをレビューしてみませんか？
-ねえ、私たちはMini-KVMについて騒ぎ立てたり、話題を広めるのが大好きです！プレス関係者であるか、ソーシャルメディアで活躍していて、私たちの製品を試してみたいと思っているなら、是非お聞かせください。詳細なレビューや開封動画、またはただシャウトアウトしたいだけでも、私たちはそれに対応しますし、一緒に盛り上がりましょう！🎉 今すぐメールを送ってください！
-
-#### ミニKVMの高度な機能計画は何ですか？
-
-ミニKVMの可能性にわくわくしており、現在のアイデアを包括的なロードマップに記録することを約束しています。このロードマップは、私たちがデバイスに対して見込んでいる高度な機能や将来の開発を概説します。これらの機能をコミュニティと協力して開発することを楽しみにしています。私たちが一緒に成長し、革新を続ける中で、さらなるアップデートにご期待ください。
-
-#### ミニKVMはAIとどのように統合され、将来的にどのような可能性がありますか？
-
-私たちの究極の目標は、AIがターゲットコンピュータを制御できるようにすることであり、Openterfaceはこのビジョンにおいて重要な役割を果たします。[OthersideAIの自己操作コンピュータ](https://github.com/OthersideAI/self-operating-computer)のようなプロジェクトに触発され、ミニKVMはホストコンピュータの「手」（キーボードとマウスの制御を提供）および「目」（ビデオソースをキャプチャ）として機能することを目指しています。ホストコンピュータが十分に強力であれば、2013年の映画『Her』で見られる機能をエミュレートする可能性もあります。これは将来の目標であり、私たちがミニKVMに対して抱くワクワクするような可能性を示しています。
-
--------------
-
-皆様の好奇心とサポートが私たちの進歩を促しています。皆様の質問に対して一つ一つ答えを出すことを心掛けています。時間の経過とともに、上記のFAQの内容が古くなる可能性がありますのでご注意ください。もしFAQで解決できない質問がある場合は、常に当社のウェブサイト[openterface.com](https://openterface.com/)をご確認いただき、最新の情報を入手してください。また、私たちの熱心なコミュニティに参加することを躊躇しないでください。私たちはSubredditの[/r/Openterface_miniKVM/](https://www.reddit.com/r/Openterface_miniKVM/)やDiscordサーバー[TechxArtisan](https://discord.gg/sFTJD6a3R8)で活動しており、質問したり、アイデアを共有したり、またはテクノロジーについて話すだけでも大歓迎です。
-
-さらに、info@techxartisan.comに直接メールを送って、専任のチームにご連絡いただくこともお気軽にどうぞ。皆様からの連絡をお待ちしており、いつでもお手伝いをさせていただきます！
-
-
-<section class="dialogue-section-white" id="dialogues-section">
-    <div class="container">
-    <div class="callout-button-container">
-        <div class="dialogue-bubble" id="op-bubble">
-         <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-         <p>質問？🤔</p>
-         <a href="https://www.reddit.com/r/Openterface_miniKVM/" class="md-button md-button--primary" id="join-waitlist-button">Subredditで尋ねる</a>
-         <!-- <a href="https://forms.gle/rwDDsMbs5pFwq7227" class="md-button md-button--primary" id="join-waitlist-button">Ask NOW</a> -->
-        </div>
-      <div class="dialogue-bubble" id="op-bubble">
-        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-        <p>もっと読む 📖</p>
-        <a href="/quick-start" class="md-button md-button--primary" id="join-waitlist-button">Docs</a>
-      </div>
-      <div class="dialogue-bubble" id="op-bubble">
-        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-        <p>支援者になる！❤️</p>
-        <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" class="md-button md-button--primary" id="join-waitlist-button">Crowd Supply へ行く</a>
-      </div>
-    </div>
-</section>
+De plus, n'hésitez pas à contacter directement notre équipe dédiée en envoyant un email à info@techxartisan.com. Nous aimons avoir de vos nouvelles et sommes toujours là pour vous aider !
