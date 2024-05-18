@@ -1,14 +1,14 @@
-Ce référentiel GitHub héberge le site web pour le [Openterface Mini-KVM](https://openterface.com/), un appareil KVM compact et riche en fonctionnalités qui est open-source et soutenu par [une communauté dynamique](https://openterface.com/community/).
+Ce référentiel GitHub héberge le site web pour le [Openterface Mini-KVM](https://fr.openterface.com/), un appareil KVM compact et riche en fonctionnalités qui est open-source et soutenu par [une communauté dynamique](https://fr.openterface.com/community/).
 
-Nous avons atteint un moment crucial : notre [campagne de financement participatif](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) est maintenant en ligne sur **Crowd Supply** ! Nous avons dépassé notre objectif de 12 000 $ en quelques heures à peine ! Vous êtes incroyables ! Continuons sur cette lancée ! Pensez à vous abonner et à nous soutenir pour aider à amener le Mini-KVM Openterface chez vous plus rapidement. Venez nous rejoindre dans notre [communauté](https://openterface.com/community/) !
+Nous avons atteint un moment crucial : notre [campagne de financement participatif](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) est maintenant en ligne sur **Crowd Supply** ! Nous avons dépassé notre objectif de 12 000 $ en quelques heures à peine ! Vous êtes incroyables ! Continuons sur cette lancée ! Pensez à vous abonner et à nous soutenir pour aider à amener le Mini-KVM Openterface chez vous plus rapidement. Venez nous rejoindre dans notre [communauté](https://fr.openterface.com/community/) !
 
 ![pre_launch_poster](docs/images/event/pre_launch_poster.jpg)
 
-**[Openterface Mini-KVM](https://openterface.com/)** vous permet de contrôler un appareil cible sans écran, tel qu'un mini PC, un kiosque ou un serveur, directement depuis votre ordinateur portable ou de bureau sans avoir besoin d'un clavier, d'une souris et d'un moniteur supplémentaires.
+**[Openterface Mini-KVM](https://fr.openterface.com/)** vous permet de contrôler un appareil cible sans écran, tel qu'un mini PC, un kiosque ou un serveur, directement depuis votre ordinateur portable ou de bureau sans avoir besoin d'un clavier, d'une souris et d'un moniteur supplémentaires.
 
 C'est un outil plug-and-play qui se connecte via HDMI pour l'affichage et USB pour les signaux émulés de clavier/souris (HID). Il nécessite une configuration minimale : installez notre application hôte sur votre ordinateur hôte, et vous êtes prêt à avoir un contrôle sans écran en déplacement.
 
-Découvrez-en plus sur notre [page FAQ](https://openterface.com/faq/).
+Découvrez-en plus sur notre [page FAQ](https://fr.openterface.com/faq/).
 
 ## Contrôlez vos appareils quand et où vous voulez
 
@@ -16,7 +16,7 @@ Découvrez-en plus sur notre [page FAQ](https://openterface.com/faq/).
 
 Que vous soyez un professionnel de l'informatique ayant besoin de dépanner un serveur, un développeur gérant plusieurs tests sur des machines de calcul en périphérie, un passionné de technologie piratant des ordinateurs monocartes, ou simplement quelqu'un cherchant à désencombrer son bureau, Openterface Mini-KVM est la solution.
 
-Découvrez-en plus sur nos [cas d'utilisation](https://openterface.com/use-cases/).
+Découvrez-en plus sur nos [cas d'utilisation](https://fr.openterface.com/use-cases/).
 
 ## Caractéristiques et spécifications
 
@@ -40,7 +40,7 @@ Découvrez-en plus sur nos [cas d'utilisation](https://openterface.com/use-cases
 
 - **Configuration propre** : Ne laisse aucun logiciel sur l'ordinateur cible.
 
-En savoir plus sur les [spécifications](https://openterface.com/specifications/).
+En savoir plus sur les [spécifications](https://fr.openterface.com/specifications/).
 
 ## Installer l'application hôte
 
@@ -61,7 +61,7 @@ Si vous êtes impatient de contribuer et souhaitez rejoindre notre équipe de d�
 
 ## Restez en contact et restez informé
 
-Nous sommes ravis que vous pensiez à nous contacter ! Si vous avez des questions, des retours ou simplement envie de dire bonjour, rendez-vous sur notre [page de contact](https://openterface.com/contact/) pour découvrir toutes les façons dont vous pouvez nous contacter.
+Nous sommes ravis que vous pensiez à nous contacter ! Si vous avez des questions, des retours ou simplement envie de dire bonjour, rendez-vous sur notre [page de contact](https://fr.openterface.com/contact/) pour découvrir toutes les façons dont vous pouvez nous contacter.
 
 Pour rester informé et vous engager avec notre communauté, suivez-nous sur nos réseaux sociaux :
 
