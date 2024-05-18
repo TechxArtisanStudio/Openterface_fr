@@ -1,63 +1,77 @@
-このGitHubリポジトリは、[Openterface Mini-KVM](https://jp.openterface.com/)のウェブサイトをホストしています。Openterface Mini-KVMは、コンパクトで機能豊富なKVMデバイスで、オープンソースであり、[活気あるコミュニティ](https://jp.openterface.com/community/)によって支えられています。
+```markdown
+Ce référentiel GitHub héberge le site web pour le [Openterface Mini-KVM](https://openterface.com/), un appareil KVM compact et riche en fonctionnalités qui est open-source et soutenu par [une communauté dynamique](https://openterface.com/community/).
 
-我々は画期的な瞬間に到達しました：**Crowd Supply**での[クラウドファンディングキャンペーン](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)がいま、ライブです！わずか数時間で$12,000の目標を達成しました！皆さん、素晴らしいですね！このパーティーを続けましょう！Openterface Mini-KVMを早く皆さんにお届けするために、ぜひ購読してバックアップしてください。私たちの[コミュニティ](https://jp.openterface.com/community/)で一緒に楽しみましょう！
+Nous avons atteint un moment crucial : notre [campagne de financement participatif](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) est maintenant en ligne sur **Crowd Supply** ! Nous avons dépassé notre objectif de 12 000 $ en quelques heures à peine ! Vous êtes incroyables ! Continuons sur cette lancée ! Pensez à vous abonner et à nous soutenir pour aider à amener le Mini-KVM Openterface chez vous plus rapidement. Venez nous rejoindre dans notre [communauté](https://openterface.com/community/) !
 
-**[Openterface Mini-KVM](https://jp.openterface.com/)**を使用すると、ミニPC、キオスク、またはサーバーなどのヘッドレスターゲットデバイスを、追加のキーボード、マウス、モニターなしで、ラップトップまたはデスクトップから直接制御できます。
+![pre_launch_poster](docs/images/event/pre_launch_poster.jpg)
 
-これは、ディスプレイ用のHDMI経由で接続し、エミュレートされたキーボード/マウス（HID）信号用のUSB経由で接続するプラグアンドプレイのツールです。最小限のセットアップが必要です：ホストコンピューターにホストアプリケーションをインストールして、移動中にヘッドレスコントロールを開始できます。
+**[Openterface Mini-KVM](https://openterface.com/)** vous permet de contrôler un appareil cible sans écran, tel qu'un mini PC, un kiosque ou un serveur, directement depuis votre ordinateur portable ou de bureau sans avoir besoin d'un clavier, d'une souris et d'un moniteur supplémentaires.
 
-詳細は、[FAQページ](https://jp.openterface.com/faq/)で確認してください。
+C'est un outil plug-and-play qui se connecte via HDMI pour l'affichage et USB pour les signaux émulés de clavier/souris (HID). Il nécessite une configuration minimale : installez notre application hôte sur votre ordinateur hôte, et vous êtes prêt à avoir un contrôle sans écran en déplacement.
 
-## いつでもどこでもデバイスを制御
+Découvrez-en plus sur notre [page FAQ](https://openterface.com/faq/).
 
-ITプロフェッショナルでサーバーのトラブルシューティングが必要な場合、エッジコンピューティングマシンで複数のテストを管理する開発者、シングルボードコンピューターをハッキングするテックエンスージアスト、または単にデスクを整理したい人、Openterface Mini-KVMが解決策です。
+## Contrôlez vos appareils quand et où vous voulez
 
-[ユースケース](https://jp.openterface.com/use-cases/)について詳しく調べてください。
+![use-case-demo-industrial-pc](/docs/images/product/use-case-demo-industrial-pc.jpg)
 
-## 機能と仕様
+Que vous soyez un professionnel de l'informatique ayant besoin de dépanner un serveur, un développeur gérant plusieurs tests sur des machines de calcul en périphérie, un passionné de technologie piratant des ordinateurs monocartes, ou simplement quelqu'un cherchant à désencombrer son bureau, Openterface Mini-KVM est la solution.
 
-- **ホストアプリの互換性**：現在はmacOSをサポートしており、WindowsとLinuxのサポートが開発中です。
-- **プラグアンドプレイの便利さ**：HDMIおよびエミュレートされたキーボード/マウスによるヘッドレス制御、ネットワークの心配なし。
-- **携帯性**：コンパクトで軽量なデザインで、移動中のプロフェッショナルに最適なツールです。
-- **ホストからターゲットへのテキスト転送**：ユーザー名、パスワード、およびターゲットコンピューターへのコードの小さな断片のコピーに最適です。
-- **低遅延のフルHD**：1920x1080の解像度でHDMI経由でビデオをキャプチャし、遅延は140ミリ秒未満です。ビデオアダプターの使用により、DisplayPortおよびDVIビデオソースもサポートできます。
-- **オーディオ統合**：ターゲットデバイスのオーディオをホストコンピューターで直接キャプチャして再生します。
-- **BIOSレベルのアクセス**：ターゲットデバイスのBIOS、ファームウェア、または起動管理に直接アクセスします。
-- **切り替え可能なUSB Type-Aポート**：これにより、USBドライブを再プラグインすることなく、ホストとターゲット間でUSBアクセスを切り替えることができます。
-- **クリーンなセットアップ**：ターゲットコンピューターにソフトウェアを残しません。
+Découvrez-en plus sur nos [cas d'utilisation](https://openterface.com/use-cases/).
 
-[仕様](https://jp.openterface.com/specifications/)について詳しく学びます。
+## Caractéristiques et spécifications
 
-## ホストアプリのインストール
+![openterface-mini-kvm-product-view-two-sides](/docs/images/product/openterface-mini-kvm-product-view-two-sides.jpg)
 
-このミニKVMを使用するには、ホストコンピューターに以下のホストアプリのいずれかをインストールする必要があります。
+- **Compatibilité de l'application hôte** : Actuellement compatible avec macOS, avec prise en charge de Windows et Linux en développement.
 
-- [Openterface_MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS)（作業中）：macOSサポート用；macOSアプリはまた、AppleのApp Storeで「Openterface」を検索して入手できます。
-- [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)（作業中）：WindowsとLinuxサポート用
-- [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android)（作業中）：Androidサポート用
-- [Openterface_WebExtension](https
+- **Commodité plug-and-play** : Contrôle sans écran via HDMI et clavier/souris émulés, sans souci de réseau.
 
-://github.com/TechxArtisanStudio/Openterface_WebExtension)（作業中）：Chrome/Firefox拡張機能のWebベースアプリ
+- **Portabilité** : Son design compact et léger en fait l'outil parfait pour les professionnels en déplacement.
 
-## オープンソースのコミットメント
+- **Transfert de texte de l'hôte à la cible** : Idéal pour copier des noms d'utilisateur, mots de passe et petits morceaux de code vers l'ordinateur cible via nos applications hôtes.
 
-上記のホストアプリケーションは積極的に開発中です。私たちのチームは、これらのツールのパフォーマンスと機能を向上させるために継続的にコーディングと洗練を行っています。ハードウェアのオープン性とオープンソースソフトウェアへの私たちのコミットメントは堅固であり、キャンペーン中にさらなる詳細を開示します。
+- **Full HD avec faible latence** : Capture de la vidéo via HDMI en résolution 1920x1080 à 30fps, avec une latence inférieure à 140 millisecondes. Avec l'aide d'un adaptateur vidéo, il peut également prendre en charge les sources vidéo DisplayPort et DVI.
 
-現在、リポジトリをクリーンアップして整理し、コードを公開リリース用に準備中です。
+- **Intégration audio** : Capture et joue l'audio de l'appareil cible directement sur l'ordinateur hôte.
 
-貢献したいと思っており、私たちの開発チームに参加したい場合は、[今日ご連絡ください](mailto:info@techxartisan.com)。技術の未来を形作るのにお手伝いいただけます！ 🚀
+- **Accès au niveau du BIOS** : Fournit un accès direct au BIOS, au firmware ou à la gestion du démarrage de l'appareil cible.
 
-## 連絡を取り合い、最新情報を入手
+- **Port USB Type-A commutable** : Permet de basculer l'accès USB entre l'hôte et la cible, idéal pour partager un disque USB sans le rebrancher.
 
-私たちに連絡を取りたいと思っていることを喜んでいます！質問やフィードバックがある場合、または単にこんにちはを言いたい場合は、私たちと連絡を取る方法のすべてについての[連絡ページ](https://jp.openterface.com/contact/)に移動してください。
+- **Configuration propre** : Ne laisse aucun logiciel sur l'ordinateur cible.
 
-最新情報を入手し、コミュニティと関わり合いに参加するには、次のソーシャルメディアチャンネルで私たちをフォローしてください：
+En savoir plus sur les [spécifications](https://openterface.com/specifications/).
 
-- **Reddit**：[サブレディットに参加](https://www.reddit.com/r/Openterface_miniKVM/)
-- **Discord**：[Discordコミュニティに参加](https://discord.gg/sFTJD6a3R8)
-- **Twitter**：[Twitterでフォロー](https://twitter.com/TechxArtisan)
-- **YouTube**：[YouTubeチャンネルに登録](https://youtube.com/@TechxArtisan)
-- **Facebook**：[Facebookで「いいね！」](https://www.facebook.com/TechxArtisan)
-- **LinkedIn**：[LinkedInでフォロー](https://www.linkedin.com/company/techxartisan/)
+## Installer l'application hôte
 
-会話に参加し、成長するコミュニティの一部になりましょう！
+Pour utiliser ce mini-KVM, l'ordinateur hôte doit installer l'une des applications hôtes ci-dessous. 
+
+- [Openterface_MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS) (En cours de réalisation) : Pour la prise en charge de macOS ; L'application macOS est également sur l'App Store d'Apple, en recherchant "Openterface".
+- [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) (En cours de réalisation) : Pour la prise en charge de Windows et Linux.
+- [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android) (En cours de réalisation) : Pour la prise en charge d'Android.
+- [Openterface_WebExtension](https://github.com/TechxArtisanStudio/Openterface_WebExtension) (En cours de réalisation) : Application web pour l'extension Chrome/Firefox.
+
+## Engagement open-source
+
+Les applications hôtes mentionnées ci-dessus sont en cours de développement actif. Notre équipe code et affine ces outils avec diligence pour améliorer leurs performances et leur fonctionnalité. Notre engagement envers le matériel open-source et les logiciels open-source reste ferme, et nous divulguerons plus de détails tout au long de la campagne.
+
+Nous préparons actuellement le code pour une publication publique en nettoyant et organisant nos dépôts.
+
+Si vous êtes impatient de contribuer et souhaitez rejoindre notre équipe de développement, [contactez-nous dès aujourd'hui](mailto:info@techxartisan.com) et aidez à façonner l'avenir de la technologie ! 🚀
+
+## Restez en contact et restez informé
+
+Nous sommes ravis que vous pensiez à nous contacter ! Si vous avez des questions, des retours ou simplement envie de dire bonjour, rendez-vous sur notre [page de contact](https://openterface.com/contact/) pour découvrir toutes les façons dont vous pouvez nous contacter.
+
+Pour rester informé et vous engager avec notre communauté, suivez-nous sur nos réseaux sociaux :
+
+- **Reddit** : [Rejoignez notre subreddit](https://www.reddit.com/r/Openterface_miniKVM/)
+- **Discord** : [Rejoignez notre communauté Discord](https://discord.gg/sFTJD6a3R8)
+- **Twitter** : [Suivez-nous sur Twitter](https://twitter.com/TechxArtisan)
+- **YouTube** : [Abonnez-vous à notre chaîne YouTube](https://youtube.com/@TechxArtisan)
+- **Facebook** : [Aimez-nous sur Facebook](https://www.facebook.com/TechxArtisan)
+- **LinkedIn** : [Suivez-nous sur LinkedIn](https://www.linkedin.com/company/techxartisan/)
+
+Rejoignez la conversation et faites partie de notre communauté grandissante !
+```
