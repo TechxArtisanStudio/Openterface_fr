@@ -3,12 +3,12 @@ date: 2024-04-26
 authors:
   - Openterface
 categories:
-  - 議論
+  - Discussion
 ---
 
-# スティッカーマニア: 技術の遊び心を解き放つ！
+# Stickermania: Unleashing Tech's Playful Side!
 
-これらのステッカーに完全に夢中です！ 💻📱🤓 Openterfaceのmini-KVMデバイス、ノートパソコン、電話をこれらのクリエイティブな追加でジャズアップするのは絶対的な喜びでした。 🤣 向上した美的感覚に完全に夢中です！ ❣️
+Completely enthralled by these stickers! 💻📱🤓 It's been an absolute delight jazzing up our Openterface mini-KVM device, laptop, and phone with these creative additions. 🤣 Absolutely smitten with the enhanced aesthetic they bring! ❣️
 
 ![cool-sticker](https://pbs.twimg.com/media/GMGBPQvagAAmzCL?format=jpg&name=large)
 
@@ -18,5 +18,5 @@ categories:
 
 --------
 
-ここで [発売前ページ](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) をチェックして、サブスクリプションに参加してください。
-さらに議論するには、Redditの[r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/)に参加してください。ご期待ください！
+Check out the [Pre-Launch page](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) here and Join subscription!
+Pour plus de discussions, veuillez rejoindre [r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/) sur Reddit. Restez à l'écoute !

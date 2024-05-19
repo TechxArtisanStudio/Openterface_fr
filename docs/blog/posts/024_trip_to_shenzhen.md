@@ -3,37 +3,39 @@ date: 2024-05-16
 authors:
   - Openterface
 categories:
-  - ステージ - プロダクション
+  - Étape - Production
 ---
 
-# ✨ 1000%の目標達成と深圳への旅！🏭
+# ✨ Objectif atteint à 1000 % et notre voyage à Shenzhen ! 🏭
 
-皆さん、こんにちは！
+Bonjour à tous !
 
-私たちは、当初の資金調達目標の驚異的な1000%にほぼ到達したことに大変興奮しています！🎉 皆さん一人一人に心から感謝しています。皆さんのサポートは本当に素晴らしいです！🧡
+Nous sommes absolument ravis d'avoir presque atteint un incroyable 1000 % de notre objectif de financement initial ! 🎉 Un immense merci à chacun d'entre vous. Votre soutien a été phénoménal ! 🧡
 
-私たちは最高の製造業者を探しに忙しくしており、今日は技術先進都市の深圳に行く機会がありました。🏭 Meta、ABB、Blaupunktなどの大手企業と協力しているトップの技術製造業者の一つを訪れました。彼らの高度な生産ラインと品質管理機械を目の当たりにするのは驚きでした。🤖 彼らの素晴らしい施設の写真をもっとお見せしたいのですが、現在は機密保持のためにデジタルモザイクを少し施した1枚だけを共有する許可を得ています。📸
+Nous avons été occupés à rechercher les meilleurs fabricants et avons eu la chance de nous rendre aujourd'hui dans la ville technologique de Shenzhen ! 🏭 Nous avons visité l'un des principaux fabricants de technologie là-bas, connu pour travailler avec de grands noms comme Meta, ABB et Blaupunkt. C'était incroyable de voir leurs lignes de production avancées et leurs machines de contrôle qualité en action. 🤖 J'aimerais pouvoir vous montrer plus de photos de leurs installations impressionnantes, mais pour l'instant, je n'ai reçu le feu vert que pour partager une photo avec un peu de mosaïque numérique pour la confidentialité. 📸
 
 <!-- more -->
 
 ![Shenzhen-trip-production-line](https://pbs.twimg.com/media/GNsUI85acAA1ZaZ?format=jpg&name=large)
 
-このパートナーシップと、私たちのような技術スタートアップをサポートする彼らの意欲に自信を持っています。皆さんが期待するのと同じ献身と品質で製造段階を処理し、製品を早く皆さんの手元に届けるために順調に進んでいます！📦🚀
+Nous sommes confiants quant à ce partenariat et à leur volonté de soutenir une startup technologique comme la nôtre. Nous sommes en bonne voie pour garantir que la phase de fabrication soit gérée avec le même dévouement et la qualité que vous attendez, afin que nous puissions mettre notre produit entre vos mains bientôt ! 📦🚀
 
-工場の入口でのコアチームメンバーのスナップショットはこちらです。写真の左から右へ：Shawn、Billy、Kevin、Vileer。
+Voici une photo de nos membres principaux de l'équipe à l'entrée de l'usine. De gauche à droite sur la photo : Shawn, Billy, Kevin, Vileer.
 
 ![Shenzhen-trip-txa-team](https://pbs.twimg.com/media/GNsUKzWagAA-m54?format=jpg&name=large)
 
-さらに、MAKE: MagazineのDavid Groomに招待されて、来週の29日（水）午後3時（東部標準時）にライブストリームを設定する予定です。私たちのOpenterface mini-KVMとその背景について話します。ライブストリーム中に私たちと交流し、製品について質問する絶好の機会です！ライブストリームに参加するためのZoomコードについては、後ほど私たちのRedditコミュニティでお知らせします！
+De plus, nous prévoyons de mettre en place une diffusion en direct, à l'invitation de David Groom de MAKE: Magazine, pour mercredi prochain, le 29 à 15h, heure de l'Est. Nous parlerons de notre Openterface mini-KVM et de l'histoire derrière celui-ci. C'est une excellente occasion d'interagir avec nous et de poser des questions sur le produit pendant la diffusion en direct ! Je posterai plus d'informations plus tard sur le code Zoom pour rejoindre la diffusion en direct sur notre communauté Reddit ici !
 
-すぐにもっと多くのアップデートを共有できるのが待ち遠しいです！ライブストリームで皆さんにお会いできるのを楽しみにしています！🤟
+J'ai hâte de partager bientôt plus de mises à jour ! J'ai hâte de vous voir virtuellement lors de notre diffusion en direct ! 🤟
 
-よろしくお願いします、
+Cheers,
 
 Billy Wang
-Openterfaceチーム | TechxArtisan Studio
+Équipe Openterface | TechxArtisan Studio
+
 
 --------
 
-[ローンチページ](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)をこちらでチェックして、サブスクリプションに参加してください！
-詳しいディスカッションについては、Redditの [r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/) に参加してください。お楽しみに！
+Consultez la [page de lancement](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) ici et abonnez-vous !
+
+Pour plus de discussions, veuillez rejoindre [r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/) sur Reddit. Restez à l'écoute !

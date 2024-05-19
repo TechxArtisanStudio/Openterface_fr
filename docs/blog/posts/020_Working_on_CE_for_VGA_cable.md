@@ -3,26 +3,27 @@ date: 2024-05-04
 authors:
   - Openterface
 categories:
-  - ステージ - プロトタイピング
+  - Étape - Prototypage
 ---
 
-# 🇪🇺🇬🇧 EU/UKバッカー向けVGA-HDMIケーブルのCE認証作業中！🛠️
+# 🇪🇺🇬🇧 Working on CE for VGA-to-HDMI Cable for EU/UK Backers! 🛠️
 
 <blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="546"><a href="https://www.reddit.com/r/Openterface_miniKVM/comments/1cjf8zi/working_on_ce_for_vgatohdmi_cable_for_euuk_backers/">🇪🇺🇬🇧 Working on CE for VGA-to-HDMI Cable for EU/UK Backers! 🛠️</a><br> by<a href="https://www.reddit.com/user/youyoubilly/">u/youyoubilly</a> in<a href="https://www.reddit.com/r/Openterface_miniKVM/">Openterface_miniKVM</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
 <!-- more -->
 
-こんにちは！👋
+Hey! 👋
 
-多くの皆さんが楽しみにしているVGA-HDMIケーブルについての最新情報をお伝えします。現在、EUおよびUKの皆さんが注文に追加できないことを完全に認識しています。CE認証に少し問題が発生しています。🚧
+Just wanted to drop a quick update about the VGA-to-HDMI cable that many of you have been excited about. We’re totally aware that some of you in the EU and UK can’t add this to your orders right now—we've hit a small bump on the road with the CE certification. 🚧
 
-製造業者や関連当局と調整してCE認証を取得するために懸命に取り組んでいます。裏での書類手続きは少し厄介ですが、進んでおり、すぐに解決できると楽観しています。🌟
+We're still hard at work coordinating with manufacturers and relevant parties to secure the CE certificate. Sorting out the paperwork behind the scenes can be a bit of a headache, but we’re pushing through and feeling optimistic about getting it all sorted out soon. 🌟
 
-認証が完了次第、ここでお知らせします。
+I’ll keep you all posted right here once we’ve got the green light.
 
-皆さんの忍耐とサポートに深く感謝しています。本当にありがとうございます！🙌
+Your patience and support are deeply appreciated and mean a lot to us! Thanks for sticking with us and being awesome! 🙌
 
 --------
 
-[ローンチページ](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)をチェックして、サブスクリプションに参加してください！
-詳細なディスカッションについては、Redditの [r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/) に参加してください。ご期待ください！
+Consultez la [page de lancement](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) ici et abonnez-vous !
+
+Pour plus de discussions, veuillez rejoindre [r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/) sur Reddit. Restez à l'écoute !

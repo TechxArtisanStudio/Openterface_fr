@@ -6,8 +6,8 @@ tags:
   - KVM-over-IP
   - KVM-over-USB
   - VNC
-  - Hardware KVM
-  - Software KVM
+  - Matériel KVM
+  - Logiciel KVM
 ---
 
 # Comparaison

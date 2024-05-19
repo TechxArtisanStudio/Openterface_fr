@@ -3,19 +3,19 @@ date: 2024-03-14
 authors:
   - Openterface
 categories:
-  - お知らせ
+  - Annonce
 ---
 
-# Crowd Supplyでのプレローンチが始まりました！
+# Pre-Launch on Crowd Supply NOW!
 
 ![pre-launch-poster](/images/event/pre_launch_poster.jpg)
 
-🚀 エキサイティングなニュースです！Openterface Mini-KVMがついにライブです！ラップトップだけでヘッドレスデバイスをコントロールできます。追加の周辺機器は必要ありません。ITプロフェッショナル、開発者、技術愛好家に最適です。あなたの技術生活をより簡単にしましょう！🌈
+🚀 Exciting news! Our Openterface Mini-KVM is finally live on ! Control headless devices with just your laptop - no extra peripherals needed. Perfect for IT pros, developers, and tech enthusiasts. Make your tech life easier! 🌈
 
-[プレローンチページ](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)をここでチェックして、サブスクリプションに参加しましょう！
+Check out the [Pre-Launch page](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) here and Join subscription!
 
 <!-- more -->
 
 --------
 
-さらに議論するには、Redditの[r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/)に参加してください。ご期待ください！
+Pour plus de discussions, veuillez rejoindre [r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/) sur Reddit. Restez à l'écoute !

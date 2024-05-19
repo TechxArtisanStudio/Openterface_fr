@@ -3,36 +3,36 @@ date: 2024-02-06
 authors:
   - Openterface
 categories:
-  - 議論
-  - ステージ - プロトタイピング
+  - Discussion
+  - Étape - Prototypage
 tags:
-  - Community
+  - Communauté
 ---
 
-# Openterface Mini-KVM Buzz: 賛否両論とアップデート！
-
-皆さん、こんにちは！🎉 ここに来てくれて嬉しいです！
-
-なんと！ 私たちはとてもクールなものを作るために奮闘中です。それがOpenterface mini-KVMです！ この便利なガジェットはUSB経由のポータブルKVMで、ラップトップから他のコンピュータを操作できるんです。素晴らしいでしょ？ 🚀
-
-<!-- more -->
-
-[homelab](link)コミュニティでこの2つの投稿：[こちら](link)と[ここ](link)でこれについて話してきました。また、[デザイン](link)コミュニティでラベルの改善について意見を求めました。
-
-いやあ、なんて嵐を巻き起こしたんでしょう！ 🌪️ 一部の人たちはこの小さなUSB経由のKVMが何をするのか首をかしげていましたが、他の人たちはそれがただの技術的なガラクタだと思っていました。でも、すぐに理解してくれて、私たちに愛と本当に洞察に富んだフィードバックを与えてくれた人たちもいました。🥰
-
-すべての意見に感謝しています - 良いものも悪いものも、その間のすべての意見も。非常に貴重で、私たちの計画を改善し、洗練させるための多くの考えを与えてくれました。本当に大切で励みになります！ 🌟
-
-🤔 皆さんの質問やフィードバックに基づいて、製品サイトの[FAQページ](https://openterface.com/faq/)を改良しました。KVM、VNC、VLCなどの経験がないため、私たちの製品が何であるか理解しづらいことは承知しています。いくつかのデモビデオを作成する予定で、特定の使用例に対してmini-KVMの能力をより分かりやすく紹介するつもりです。
-
-ぜひご覧になって、感想をお聞かせください。何かがおかしいと思ったり、この件についてお話ししたい場合は、メッセージを送ってください！ 皆さんの洞察は金のように貴重です。✨
-
-技術好きの皆さん、サポートしてくれて本当にありがとう！ 批判者でも応援者でも、皆さんが私たちを前進させてくれる存在です。この会話を続けましょう！ 💌
-
-では、また！🌈
+# Openterface Mini-KVM Buzz: Cheers, Jeers, & Updates!
 
 <blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="479"><a href="https://www.reddit.com/r/Openterface_miniKVM/comments/1ak4kes/minikvm_openterface_buzz_cheers_jeers_updates/">Openterface mini-KVM Buzz: Cheers, Jeers, &amp; Updates!</a><br> by<a href="https://www.reddit.com/user/youyoubilly/">u/youyoubilly</a> in<a href="https://www.reddit.com/r/Openterface_miniKVM/">Openterface_miniKVM</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
+<!-- more -->
+
+Hey folks! 🎉 Glad to have you here!
+
+Guess what? We're deep in the trenches crafting something pretty cool – our Openterface mini-KVM! This nifty gadget is a portable KVM-over-USB that lets you control another computer right from your laptop. Neat, huh? 🚀
+
+I've been chatting about it over in the [homelab](https://www.reddit.com/r/homelab/) community with these two posts: [this one](https://www.reddit.com/r/homelab/comments/1acdfwt/crafting_a_minikvm_prototype_in_a_black_aluminium/?utm_source=share&utm_medium=web2x&context=3) and [here](https://www.reddit.com/r/homelab/comments/1ahwrl4/trying_out_my_minikvm_on_ubuntu_any_feedback/?utm_source=share&utm_medium=web2x&context=3). I also asked for opinion on improving its labels in [design](https://www.reddit.com/r/Design/comments/1aht6m3/new_look_for_our_minikvm_what_do_you_think/?utm_source=share&utm_medium=web2x&context=3) community.
+
+Boy, did it stir up a storm! 🌪️ Some folks were scratching their heads, wondering what on earth this little KVM-over-USB does, while others thought it might just be another piece of tech clutter. But then, there were those who got it in a heartbeat and were all in, showering us with love and some really insightful feedback. 🥰
+
+I'm super grateful for every bit of chatter - good, bad, and everything in between. It's been incredibly valuable and has given me loads to ponder on improving and refining our plans. It truly means a lot and encouraging! 🌟
+
+🤔 Based on your questions and feedback, we've spruced up our [FAQ page](https://openterface.com/faq/) on the product website. I know that our product could be a bit difficult to understand what is it as people doesn't have experience of KVM, VNC, VLC, sort of things. I will make some more demo videos, which shall be much easier to present our mini-KVM's capabilities for certain use cases.
+
+Well, please take a look and let us know what you think. If something's not quite right or if you fancy a chat about it, drop me a message! Your insights are gold. ✨
+
+Thanks a million for your support, you tech aficionados! Whether you're a critic or a cheerleader, you're what keeps us going. Let's keep the conversation rolling! 💌
+
+Catch ya later! 🌈
+
 --------
 
-さらに議論するには、Redditの[r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/)に参加してください。ご期待ください！
+Pour plus de discussions, veuillez rejoindre [r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/) sur Reddit. Restez à l'écoute !

@@ -3,45 +3,45 @@ date: 2024-03-21
 authors:
   - Openterface
 categories:
-  - お知らせ
+  - Annonce
 ---
 
-# MacOSアプリのローンチ & ベータテスター募集！
+# MacOS App Launch & Wanna Become a Beta Tester!
 
 ![macos-app-poster](/images/event/macos_app.webp)
 
-コミュニティメンバーの皆様へ！
+Greetings, Community Members!
 
-このメッセージが皆さんに届くことを願っています！
+I hope this message finds you all in good spirits!
 
-今日は重要なマイルストーンを皆さんと共有できることを嬉しく思います：**Openterface mini-KVM用のmacOSホストアプリケーションがApple App Storeで利用可能になりました！**
+I'm thrilled to share a milestone achievement with you today: **Our macOS host application for Openterface mini-KVM is now available on the Apple App Store!**
 
 <!-- more -->
 
-アプリケーションを見つけるには、App Storeで「Openterface」または「minikvm」を検索してください🔍。
+To discover our application, simply search for "Openterface" or "minikvm" on the App Store 🔍.
 
 ![macos-app-demo-connnection](/images/event/macos-app-demo-connections.webp)
 
-しかし、ここでユニークなポイントがあります！現時点では、Openterface mini-KVMデバイスがないとアプリを完全に体験できないかもしれません。ここで興奮する機会があります：**私たちは大切なコミュニティメンバーの皆様をベータテスターとして招待します！** 🌟
+However, there's a unique twist! As of now, you might not be able to fully experience the app without an Openterface mini-KVM device. This brings us to an exciting opportunity: **We are inviting our cherished community members to become beta testers!** 🌟
 
-テスターとして、画期的なアプリケーションに早期アクセスできるだけでなく、Openterface mini-KVMも無料で受け取れます！私たちのアプリとデバイスを実際のシナリオでテストするよう招待します：仕事や趣味のプロジェクトに。
+As a tester, you'll not only gain early access to our groundbreaking application but will also receive an Openterface mini-KVM, on the house! We're inviting you to test our app and device in real-world scenarios: your work or hobby projects.
 
-🕵️ **あなたのミッションは？** 修正が必要なバグ 🐞 を見つけ、体験を向上させる機能 🚀 を提案することなどです。これは、あなたのデジタルライフを簡素化するために設計された製品の開発に直接影響を与える機会です。あなたの貢献は感謝されるだけでなく、後の感謝リスト 📜 にも記載されます。この早期アクセスフェーズの特性上、ベータテスターになる機会は限られています。
+🕵️ **Your mission?** To identify any bugs 🐞 that need addressing, suggest features 🚀 that could enhance your experience, and much more. This is your chance to directly influence the development of a product designed to streamline your digital life. Your contributions will not only be appreciated but also acknowledged in our thank-you list 📜 later. Please note, the opportunity to become a beta tester is limited due to the unique and exclusive nature of this early access phase.
 
-📝 **興味がありますか？** この先駆的な旅に私たちと一緒に参加したい場合は、この投稿に返信して興味を示し、[申込フォーム](https://forms.gle/gNKpnvrvwnZNUJbq5)に記入してください。
+📝 **Interested?** If you're eager to embark on this pioneering journey with us, simply express your interest by replying to this post and completing [the application form](https://forms.gle/gNKpnvrvwnZNUJbq5).
 
-🗓 **このラウンドの締め切り**：最初のベータテストラウンドに興味を示し、申込書を提出する締め切りは、ニューヨーク時間で **3月29日** です。この投稿で4月1日に幸運なベータテスターを発表します。このユニークな機会をお見逃しなく。
+🗓 **Deadline for This Round**: the deadline to express interest and submit your application for this first round of beta testing is **29th March**, New York time. We will announce the lucky individuals selected as our beta testers right here in this post on 1st April. Don't miss this unique opportunity to shape the future of technology with us.
 
-⏳ **次は何？** これはベータテスターの招待の最初のラウンドです。今回はうまくいかなくても、希望を失わないでください！今後のラウンドにご期待ください。
+⏳ **What's Next?** This is just the first round of invitations for beta testers. If you don't make it this time, don't lose hope! Stay tuned for future rounds.
 
-📣 **行動の呼びかけ！** テストに加えて、もう一つお願いがあります。Openterface mini-KVMとその次のクラウドファンディングキャンペーンについて広めるのを手伝ってください。あなたのサポートがこの製品をより早く、より手頃な価格で実現するための後押しとなります。シェアするごとに、会話するごとに、私たちが必要とする勢いを得るのに役立ちます。
+📣 **A Call to Action!** Beyond testing, we have another favour to ask. Help us spread the word about the Openterface mini-KVM and its upcoming crowdfunding campaign. Your support could be the wind beneath our wings, propelling this product into existence more swiftly and making it more affordable. Every share, every conversation helps us gain the momentum we need.
 
-あなたのサポートをお待ちしています！まだ[Crowd Supplyのプレローンチページ](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)に登録していない場合は、ぜひ登録し、次のクラウドファンディングキャンペーンで私たちの支援者になることを検討してください。一緒にこの冒険に乗り出すのが待ちきれません！❤️
+We're looking forward to your support! If you haven't subscribed to our [Crowd Supply's Pre-launch page](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) yet, please do so and consider becoming our backer in the upcoming crowdfunding campaign. Can't wait to embark on this adventure with you! ❤️
 
-よろしくお願いします、
+Best,
 
-Openterfaceチーム | TechxArtisan Studio
+Openterface Team | TechxArtisan Studio
 
 --------
 
-さらに議論するには、Redditの[r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/)に参加してください。ご期待ください！
+Pour plus de discussions, veuillez rejoindre [r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/) sur Reddit. Restez à l'écoute !
