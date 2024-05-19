@@ -6,21 +6,22 @@ categories:
   - Étape - Prototypage
 ---
 
-# 🇪🇺🇬🇧 Working on CE for VGA-to-HDMI Cable for EU/UK Backers! 🛠️
-
-<blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="546"><a href="https://www.reddit.com/r/Openterface_miniKVM/comments/1cjf8zi/working_on_ce_for_vgatohdmi_cable_for_euuk_backers/">🇪🇺🇬🇧 Working on CE for VGA-to-HDMI Cable for EU/UK Backers! 🛠️</a><br> by<a href="https://www.reddit.com/user/youyoubilly/">u/youyoubilly</a> in<a href="https://www.reddit.com/r/Openterface_miniKVM/">Openterface_miniKVM</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+# 🇪🇺🇬🇧 Travail sur la certification CE pour le câble VGA-vers-HDMI pour les soutiens de l'UE et du Royaume-Uni ! 🛠️
 
 <!-- more -->
 
-Hey! 👋
+Salut ! 👋
 
-Just wanted to drop a quick update about the VGA-to-HDMI cable that many of you have been excited about. We’re totally aware that some of you in the EU and UK can’t add this to your orders right now—we've hit a small bump on the road with the CE certification. 🚧
+Je voulais juste vous donner une petite mise à jour sur le câble VGA-vers-HDMI que beaucoup d'entre vous attendent avec impatience. Nous sommes totalement conscients que certains d'entre vous dans l'UE et au Royaume-Uni ne peuvent pas encore ajouter cela à leurs commandes - nous avons rencontré un petit obstacle avec la certification CE. 🚧
 
-We're still hard at work coordinating with manufacturers and relevant parties to secure the CE certificate. Sorting out the paperwork behind the scenes can be a bit of a headache, but we’re pushing through and feeling optimistic about getting it all sorted out soon. 🌟
+Nous travaillons toujours dur en coordination avec les fabricants et les parties concernées pour obtenir le certificat CE. S'occuper de la paperasse en coulisses peut être un peu pénible, mais nous continuons à avancer et nous sommes optimistes quant à la résolution de tout cela bientôt. 🌟
 
-I’ll keep you all posted right here once we’ve got the green light.
+Je vous tiendrai tous informés ici dès que nous aurons le feu vert.
 
-Your patience and support are deeply appreciated and mean a lot to us! Thanks for sticking with us and being awesome! 🙌
+Votre patience et votre soutien sont profondément appréciés et signifient beaucoup pour nous ! Merci de rester avec nous et d'être géniaux ! 🙌
+
+
+<blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="546"><a href="https://www.reddit.com/r/Openterface_miniKVM/comments/1cjf8zi/working_on_ce_for_vgatohdmi_cable_for_euuk_backers/">🇪🇺🇬🇧 Working on CE for VGA-to-HDMI Cable for EU/UK Backers! 🛠️</a><br> by<a href="https://www.reddit.com/user/youyoubilly/">u/youyoubilly</a> in<a href="https://www.reddit.com/r/Openterface_miniKVM/">Openterface_miniKVM</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
 --------
 

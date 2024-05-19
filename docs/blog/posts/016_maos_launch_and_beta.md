@@ -6,41 +6,41 @@ categories:
   - Annonce
 ---
 
-# MacOS App Launch & Wanna Become a Beta Tester!
+# Lancement de l'application MacOS & Devenir un bêta-testeur !
 
 ![macos-app-poster](/images/event/macos_app.webp)
 
-Greetings, Community Members!
+Salutations, membres de la communauté !
 
-I hope this message finds you all in good spirits!
+J'espère que ce message vous trouve tous en bonne forme !
 
-I'm thrilled to share a milestone achievement with you today: **Our macOS host application for Openterface mini-KVM is now available on the Apple App Store!**
+Je suis ravi de partager avec vous une réalisation majeure aujourd'hui : **Notre application hôte macOS pour Openterface mini-KVM est maintenant disponible sur l'App Store d'Apple !**
 
 <!-- more -->
 
-To discover our application, simply search for "Openterface" or "minikvm" on the App Store 🔍.
+Pour découvrir notre application, il vous suffit de rechercher "Openterface" ou "minikvm" sur l'App Store 🔍.
 
 ![macos-app-demo-connnection](/images/event/macos-app-demo-connections.webp)
 
-However, there's a unique twist! As of now, you might not be able to fully experience the app without an Openterface mini-KVM device. This brings us to an exciting opportunity: **We are inviting our cherished community members to become beta testers!** 🌟
+Cependant, il y a une particularité unique ! Pour l'instant, vous ne pourrez peut-être pas profiter pleinement de l'application sans un appareil Openterface mini-KVM. Cela nous amène à une opportunité passionnante : **Nous invitons nos précieux membres de la communauté à devenir bêta-testeurs !** 🌟
 
-As a tester, you'll not only gain early access to our groundbreaking application but will also receive an Openterface mini-KVM, on the house! We're inviting you to test our app and device in real-world scenarios: your work or hobby projects.
+En tant que testeur, vous aurez non seulement un accès anticipé à notre application révolutionnaire, mais vous recevrez également un Openterface mini-KVM, gratuitement ! Nous vous invitons à tester notre application et notre appareil dans des scénarios réels : vos projets professionnels ou de loisirs.
 
-🕵️ **Your mission?** To identify any bugs 🐞 that need addressing, suggest features 🚀 that could enhance your experience, and much more. This is your chance to directly influence the development of a product designed to streamline your digital life. Your contributions will not only be appreciated but also acknowledged in our thank-you list 📜 later. Please note, the opportunity to become a beta tester is limited due to the unique and exclusive nature of this early access phase.
+🕵️ **Votre mission ?** Identifier les bugs 🐞 qui nécessitent une correction, suggérer des fonctionnalités 🚀 qui pourraient améliorer votre expérience, et bien plus encore. C'est votre chance d'influencer directement le développement d'un produit conçu pour simplifier votre vie numérique. Vos contributions seront non seulement appréciées, mais aussi reconnues dans notre liste de remerciements 📜 ultérieurement. Veuillez noter que l'opportunité de devenir bêta-testeur est limitée en raison de la nature unique et exclusive de cette phase d'accès anticipé.
 
-📝 **Interested?** If you're eager to embark on this pioneering journey with us, simply express your interest by replying to this post and completing [the application form](https://forms.gle/gNKpnvrvwnZNUJbq5).
+📝 **Intéressé ?** Si vous êtes désireux d'embarquer dans cette aventure pionnière avec nous, exprimez simplement votre intérêt en répondant à ce post et en remplissant [le formulaire de candidature](https://forms.gle/gNKpnvrvwnZNUJbq5).
 
-🗓 **Deadline for This Round**: the deadline to express interest and submit your application for this first round of beta testing is **29th March**, New York time. We will announce the lucky individuals selected as our beta testers right here in this post on 1st April. Don't miss this unique opportunity to shape the future of technology with us.
+🗓 **Date limite pour cette phase** : la date limite pour exprimer votre intérêt et soumettre votre candidature pour ce premier tour de tests bêta est le **29 mars**, heure de New York. Nous annoncerons les heureux élus sélectionnés comme nos bêta-testeurs ici même le 1er avril. Ne manquez pas cette opportunité unique de façonner l'avenir de la technologie avec nous.
 
-⏳ **What's Next?** This is just the first round of invitations for beta testers. If you don't make it this time, don't lose hope! Stay tuned for future rounds.
+⏳ **Et après ?** Ceci n'est que le premier tour d'invitations pour les bêta-testeurs. Si vous ne réussissez pas cette fois-ci, ne perdez pas espoir ! Restez à l'écoute pour les prochains tours.
 
-📣 **A Call to Action!** Beyond testing, we have another favour to ask. Help us spread the word about the Openterface mini-KVM and its upcoming crowdfunding campaign. Your support could be the wind beneath our wings, propelling this product into existence more swiftly and making it more affordable. Every share, every conversation helps us gain the momentum we need.
+📣 **Un appel à l'action !** Au-delà des tests, nous avons une autre faveur à demander. Aidez-nous à faire connaître l'Openterface mini-KVM et sa prochaine campagne de financement participatif. Votre soutien pourrait être le vent sous nos ailes, propulsant ce produit vers l'existence plus rapidement et le rendant plus abordable. Chaque partage, chaque conversation nous aide à gagner l'élan dont nous avons besoin.
 
-We're looking forward to your support! If you haven't subscribed to our [Crowd Supply's Pre-launch page](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) yet, please do so and consider becoming our backer in the upcoming crowdfunding campaign. Can't wait to embark on this adventure with you! ❤️
+Nous attendons avec impatience votre soutien ! Si vous ne vous êtes pas encore abonné à notre [page de pré-lancement sur Crowd Supply](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm), veuillez le faire et envisagez de devenir notre soutien dans la prochaine campagne de financement participatif. Nous avons hâte de vivre cette aventure avec vous ! ❤️
 
-Best,
+Cordialement,
 
-Openterface Team | TechxArtisan Studio
+L'équipe Openterface | TechxArtisan Studio
 
 --------
 
