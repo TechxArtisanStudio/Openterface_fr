@@ -1,4 +1,4 @@
-# ロードマップ
+# Feuille de route
 
-作業中
-近日公開。
+Travail en cours
+À venir bientôt.

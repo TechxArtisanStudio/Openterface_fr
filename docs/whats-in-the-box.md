@@ -1,38 +1,21 @@
-# 箱の中身
+# Qu'y a-t-il dans la boîte
 
-あなたのニーズに合わせて設計された2つの購入オプションを探索してください。基本的なものを探している場合でも、ツールの完全なセットを探している場合でも対応します。
+Découvrez nos deux options d'achat conçues pour répondre à vos besoins, que vous recherchiez l'essentiel ou un ensemble complet d'outils.
 
-## パッケージ1：ベーシックパック
+## Forfait 1 : Pack de base
 
-![basic-pack](/images/product/product-option-1-basic.jpg)
+![pack-de-base](/images/product/product-option-1-basic.jpg)
 
-1. コア製品：Openterface Mini-KVM
-2. クイックスタートガイド
+1. Produit principal : Openterface Mini-KVM
+2. Guide de démarrage rapide
 
-## パッケージ2：ツールキットパック
+## Forfait 2 : Pack d'outils
 
-![toolkit-pack](/images/product/product-option-2-toolkit.jpg)
+![pack-d-outils](/images/product/product-option-2-toolkit.jpg)
 
-1. コア製品：Openterface Mini-KVM
-2. クイックスタートガイド
-3. HDMI オス-オスケーブル（30cm）
-4. Type-C オスからUSB-A オスケーブル（30cm）および USB-A オスから Type-C オスアダプター
-5. Type-C オス-オスケーブル（150cm）
-6. ツールキットバッグ（長さ14cm x 幅10cm x 高さ3.8cm）
-
-<section class="dialogue-section-white" id="dialogues-section">
-    <div class="container">
-        <div class="callout-button-container">
-            <div class="dialogue-bubble" id="op-bubble">
-                <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-                <p>今すぐ注文！❤️</p>
-                <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" class="md-button md-button--primary" id="join-waitlist-button">Crowd Supply へ行く</a>
-            </div>
-            <div class="dialogue-bubble" id="op-bubble">
-                <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-                <p>もっと読む 📖</p>
-                <a href="/faq" class="md-button md-button--primary" id="join-waitlist-button">FAQs</a>
-            </div>
-        </div>
-    </div>
-</section>
+1. Produit principal : Openterface Mini-KVM
+2. Guide de démarrage rapide
+3. Câble HDMI mâle-mâle (30cm)
+4. Câble Type-C mâle vers USB-A mâle (30cm) avec adaptateur USB-A femelle vers USB-C mâle
+5. Câble Type-C mâle-mâle (150cm)
+6. Sac à outils (14cm L x 10cm l x 3,8cm H)
