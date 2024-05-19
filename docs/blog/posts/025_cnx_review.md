@@ -6,7 +6,7 @@ categories:
   - Revue technique
 ---
 
-### Revue de Produit par CNX Software : Openterface Mini-KVM - Un Dispositif KVM-over-USB Abordable (Financement Participatif)
+# Revue de Produit par CNX Software : Openterface Mini-KVM - Un Dispositif KVM-over-USB Abordable (Financement Participatif)
 
 Ce post est reformulé à partir de l'article original de l'auteur [Openterface Mini-KVM is an affordable KVM-over-USB device (Crowdfunding), 9 mai 2024 par Jean-Luc Aufranc (CNXSOFT)](https://www.cnx-software.com/2024/05/09/openterface-mini-kvm-affordable-kvm-over-usb-device/)
 
