@@ -1,0 +1,2241 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Une solution KVM-over-USB riche en fonctionnalités, open-source et orientée communauté">
+      
+      
+        <meta name="author" content="Billy Wang">
+      
+      
+        <link rel="canonical" href="https://fr.openterface.com/faq/">
+      
+      
+        <link rel="prev" href="../comparison/">
+      
+      
+        <link rel="next" href="../contributing/">
+      
+      
+      <link rel="icon" href="../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.26">
+    
+    
+      
+        <title>Questions fréquentes - Openterface Mini-KVM | Transformez votre ordinateur portable en console KVM</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6543a935.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h224V368c0-26.5 21.5-48 48-48h112V96c0-35.3-28.7-64-64-64H64zm384 320H336c-8.8 0-16 7.2-16 16v112l32-32 64-64 32-32z"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96zm0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zm-40-176h24v-64h-24c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24h-80c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M480 32c0-12.9-7.8-24.6-19.8-29.6S434.5.2 425.3 9.3L381.7 53c-48 48-113.1 75-181 75H64c-35.3 0-64 28.7-64 64v96c0 35.3 28.7 64 64 64v128c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32V352h8.7c67.9 0 133 27 181 75l43.6 43.6c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V300.4c18.6-8.8 32-32.5 32-60.4s-13.4-51.6-32-60.4V32zm-64 76.7v262.6C357.2 317.8 280.5 288 200.7 288H192v-96h8.7c79.8 0 156.5-29.8 215.3-83.3z"/></svg>');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg>');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zm-86.2-346.7c7.9-22.3 29.1-37.3 52.8-37.3h58.3c34.9 0 63.1 28.3 63.1 63.1 0 22.6-12.1 43.5-31.7 54.8L280 264.4c-.2 13-10.9 23.6-24 23.6-13.3 0-24-10.7-24-24v-13.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1 0-8.4-6.8-15.1-15.1-15.1h-58.3c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM224 352a32 32 0 1 1 64 0 32 32 0 1 1-64 0z"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7.2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8.2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24v112c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0-64 0 32 32 0 1 0 64 0z"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.1 52.4 442.6 6.5c-1.9-3.9-6.1-6.5-10.5-6.5s-8.5 2.6-10.4 6.5l-16.5 45.9-46 16.8c-4.3 1.6-7.3 5.9-7.2 10.4 0 4.5 3 8.7 7.2 10.2l45.7 16.8 16.8 45.8c1.5 4.4 5.8 7.5 10.4 7.5s8.9-3.1 10.4-7.5l16.5-45.8 45.7-16.8c4.2-1.5 7.2-5.7 7.2-10.2 0-4.6-3-8.9-7.2-10.4l-45.6-16.8zm-132.4 53c-12.5-12.5-32.8-12.5-45.3 0l-2.9 2.9c-22-8-45.8-12.3-70.5-12.3C93.1 96 0 189.1 0 304s93.1 208 208 208 208-93.1 208-208c0-24.7-4.3-48.5-12.2-70.5l2.9-2.9c12.5-12.5 12.5-32.8 0-45.3l-80-80zM200 192c-57.4 0-104 46.6-104 104v8c0 8.8-7.2 16-16 16s-16-7.2-16-16v-8c0-75.1 60.9-136 136-136h8c8.8 0 16 7.2 16 16s-7.2 16-16 16h-8z"/></svg>');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 398.9c58.5-41.1 96-104.1 96-174.9C512 100.3 397.4 0 256 0S0 100.3 0 224c0 70.7 37.5 133.8 96 174.9V464c0 26.5 21.5 48 48 48h48v-48c0-8.8 7.2-16 16-16s16 7.2 16 16v48h64v-48c0-8.8 7.2-16 16-16s16 7.2 16 16v48h48c26.5 0 48-21.5 48-48v-65.1zM96 256a64 64 0 1 1 128 0 64 64 0 1 1-128 0zm256-64a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M320 0c17.7 0 32 14.3 32 32v64h120c39.8 0 72 32.2 72 72v272c0 39.8-32.2 72-72 72H168c-39.8 0-72-32.2-72-72V168c0-39.8 32.2-72 72-72h120V32c0-17.7 14.3-32 32-32zM208 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16h-32zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16h-32zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16h-32zM264 256a40 40 0 1 0-80 0 40 40 0 1 0 80 0zm152 40a40 40 0 1 0 0-80 40 40 0 1 0 0 80zM48 224h16v192H48c-26.5 0-48-21.5-48-48v-96c0-26.5 21.5-48 48-48zm544 0c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48h-16V224h16z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M288 0H128c-17.7 0-32 14.3-32 32s14.3 32 32 32v132.8c0 11.8-3.3 23.5-9.5 33.5L10.3 406.2C3.6 417.2 0 429.7 0 442.6 0 480.9 31.1 512 69.4 512h309.2c38.3 0 69.4-31.1 69.4-69.4 0-12.8-3.6-25.4-10.3-36.4L329.5 230.4c-6.2-10.1-9.5-21.7-9.5-33.5V64c17.7 0 32-14.3 32-32S337.7 0 320 0h-32zm-96 196.8V64h64v132.8c0 23.7 6.6 46.9 19 67.1l34.5 56.1h-171l34.5-56.1c12.4-20.2 19-43.4 19-67.1z"/></svg>');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64h-64c-35.3 0-64-28.7-64-64V216z"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-EKZEH6QYWT"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-EKZEH6QYWT",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-EKZEH6QYWT",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>var consent;"undefined"==typeof __md_analytics||(consent=__md_get("__consent"))&&consent.analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  <link rel="stylesheet" href="../assets/stylesheets/custom.css">
+
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#questions-frequemment-posees-faqs" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+  Enthousiasmé par notre prochain Openterface mini-KVM ? Soutenez-nous sur
+  <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm">
+    <span class="twemoji reddit">
+      <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 140 140"><path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555" /><path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099" /><path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF" /><path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF" /></svg>
+    </span>
+    Crowd Supply
+  </a>
+  MAINTENANT ! Pour les dernières mises à jour, suivez-nous sur
+  <a href="https://www.reddit.com/r/Openterface_miniKVM/">
+    <span class="twemoji reddit">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M373 138.6c-25.2 0-46.3-17.5-51.9-41-30.6 4.3-54.2 30.7-54.2 62.4v.2c47.4 1.8 90.6 15.1 124.9 36.3 12.6-9.7 28.4-15.5 45.5-15.5 41.3 0 74.7 33.4 74.7 74.7 0 29.8-17.4 55.5-42.7 67.5-2.4 86.8-97 156.6-213.2 156.6S45.5 410.1 43 323.4c-25.4-11.9-43-37.7-43-67.7C0 214.4 33.4 181 74.7 181c17.2 0 33 5.8 45.7 15.6 34-21.1 76.8-34.4 123.7-36.4v-.3c0-44.3 33.7-80.9 76.8-85.5C325.8 50.2 347.2 32 373 32c29.4 0 53.3 23.9 53.3 53.3s-23.9 53.3-53.3 53.3zM157.5 255.3c-20.9 0-38.9 20.8-40.2 47.9s17.1 38.1 38 38.1 36.6-9.8 37.8-36.9-14.7-49.1-35.7-49.1zM395 303.1c-1.2-27.1-19.2-47.9-40.2-47.9s-36.9 22-35.7 49.1c1.2 27.1 16.9 36.9 37.8 36.9s39.3-11 38-38.1zm-60.1 70.8c1.5-3.6-1-7.7-4.9-8.1-23-2.3-47.9-3.6-73.8-3.6s-50.8 1.3-73.8 3.6c-3.9.4-6.4 4.5-4.9 8.1 12.9 30.8 43.3 52.4 78.7 52.4s65.8-21.6 78.7-52.4z"/></svg>
+    </span>
+  </a>
+
+  <a href="https://discord.gg/4khsrbGS">
+    <span class="twemoji discord">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485.065 485.065 0 0 0 404.081 32.03a1.816 1.816 0 0 0-1.923.91 337.461 337.461 0 0 0-14.9 30.6 447.848 447.848 0 0 0-134.426 0 309.541 309.541 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.689 483.689 0 0 0-119.688 37.107 1.712 1.712 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016 0 0 0 .765 1.375 487.666 487.666 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321.173 321.173 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251.047 251.047 0 0 0 9.109-7.137 1.819 1.819 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.812 1.812 0 0 1 1.924.233 234.533 234.533 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.407 301.407 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391.055 391.055 0 0 0 30.014 48.815 1.864 1.864 0 0 0 2.063.7A486.048 486.048 0 0 0 610.7 405.729a1.882 1.882 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541ZM222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241Zm195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241Z"/></svg>
+    </span>
+  </a>
+
+  <a href="https://twitter.com/TechxArtisan">
+    <span class="twemoji x-twitter">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9L389.2 48zm-24.8 373.8h39.1L151.1 88h-42l255.3 333.8z"/></svg>
+    </span>
+  </a>
+
+  <a href="https://www.facebook.com/TechxArtisan">
+    <span class="twemoji facebook">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M80 299.3V512h116V299.3h86.5l18-97.8H196v-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4v42.1H14v97.8h66z"/></svg>
+    </span>
+  </a>
+
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="Openterface Mini-KVM | Transformez votre ordinateur portable en console KVM" class="md-header__button md-logo" aria-label="Openterface Mini-KVM | Transformez votre ordinateur portable en console KVM" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Openterface Mini-KVM | Transformez votre ordinateur portable en console KVM
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Questions fréquentes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Sélectionner la langue">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="https://openterface.com/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://jp.openterface.com/" hreflang="ja" class="md-select__link">
+              日本語
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://kr.openterface.com/" hreflang="ko" class="md-select__link">
+              한국어
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://fr.openterface.com/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://de.openterface.com/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://it.openterface.com/" hreflang="it" class="md-select__link">
+              Italiano
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://es.openterface.com/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/TechxArtisanStudio/Openterface" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Openterface
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Accueil
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Questions fréquentes
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../quick-start/" class="md-tabs__link">
+          
+  
+    
+  
+  Documentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+    
+  
+  Communauté
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../blog/" class="md-tabs__link">
+          
+  
+    
+  
+  Articles
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contact/" class="md-tabs__link">
+          
+  
+    
+  
+  À propos
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Openterface Mini-KVM | Transformez votre ordinateur portable en console KVM" class="md-nav__button md-logo" aria-label="Openterface Mini-KVM | Transformez votre ordinateur portable en console KVM" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    Openterface Mini-KVM | Transformez votre ordinateur portable en console KVM
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/TechxArtisanStudio/Openterface" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Openterface
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Accueil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Questions fréquentes
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Questions fréquentes
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basique
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logiciel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logiciel
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#port-usb-commutable-et-transfert-de-fichiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Port USB commutable et transfert de fichiers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technique
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mecanisme-de-controle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mécanisme de Contrôle
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vidéo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plus
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quick-start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Démarrage rapide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../why-openterface-minikvm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pourquoi Openterface
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-cases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cas d'utilisation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../specifications/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Spécifications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../whats-in-the-box/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contenu de la boîte
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-it-works/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fonctionnement 💬
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparison/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comparaison 💬
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Questions fréquentes
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Questions fréquentes
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basique
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logiciel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logiciel
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#port-usb-commutable-et-transfert-de-fichiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Port USB commutable et transfert de fichiers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technique
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mecanisme-de-controle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mécanisme de Contrôle
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vidéo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plus
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_9" id="__nav_3_9_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Développement
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_9">
+            <span class="md-nav__icon md-icon"></span>
+            Développement
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribuer 💬
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basic-testing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Test de base 💬
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Communauté
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Communauté
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bienvenue
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../blog/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Articles
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Articles
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Categories
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Categories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/category/annonce/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annonce
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/category/cas-dutilisation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cas d'utilisation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/category/discussion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Discussion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/category/revue-technique/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Revue technique
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/category/stage---production/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Stage - Production
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/category/stage---prototyping/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Stage - Prototyping
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/category/%C3%A9tape---production/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Étape - Production
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/category/%C3%A9tape---prototypage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Étape - Prototypage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    À propos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            À propos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Politique
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Politique
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privacy-policy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Politique de confidentialité
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../terms-of-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conditions d'utilisation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../return-refunds-warranty/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Retours, remboursements, garantie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+<nav class="md-tags" >
+  
+    
+    
+    
+      <a href="../tags/#file-transfer" class="md-tag">File Transfer</a>
+    
+  
+    
+    
+    
+      <a href="../tags/#mini-kvm" class="md-tag">mini-KVM</a>
+    
+  
+    
+    
+    
+      <a href="../tags/#switchable-usb" class="md-tag">Switchable USB</a>
+    
+  
+    
+    
+    
+      <a href="../tags/#bios" class="md-tag">BIOS</a>
+    
+  
+</nav>
+
+
+  
+  
+
+
+<h1 id="questions-frequemment-posees-faqs">Questions Fréquemment Posées (FAQs)<a class="headerlink" href="#questions-frequemment-posees-faqs" title="Permanent link">¶</a></h1>
+<p>Nous sommes absolument ravis de vous accueillir ici ! 🌟 Cette section est conçue pour répondre aux questions fréquemment posées sur l'Openterface Mini-KVM, que notre équipe organise périodiquement.</p>
+<p>Plongeons dans les questions les plus fréquentes sur l'Openterface Mini-KVM.</p>
+<h3 id="basique">Basique<a class="headerlink" href="#basique" title="Permanent link">¶</a></h3>
+<h4 id="quest-ce-que-lopenterface-mini-kvm">Qu'est-ce que l'Openterface Mini-KVM ?<a class="headerlink" href="#quest-ce-que-lopenterface-mini-kvm" title="Permanent link">¶</a></h4>
+<p>L'Openterface Mini-KVM est un gadget KVM compact, riche en fonctionnalités et open-source, animé par <a href="https://openterface.com/community/">une communauté dynamique</a>. Il vous permet d'utiliser votre propre ordinateur portable pour afficher et contrôler des appareils sans écran directement via une <a href="https://openterface.com/quick-start/#connection-procedure">connexion USB et HDMI</a>. Cette solution KVM-over-USB capture la vidéo via HDMI et simule les entrées clavier et souris. Elle est particulièrement utile pour <a href="https://openterface.com/use-cases/">une large gamme d'applications</a>, s'adressant aux passionnés de technologie explorant des ordinateurs monocarte ainsi qu'aux professionnels de l'informatique dépannant des appareils sans écran. Elle élimine le besoin de moniteurs, claviers et souris supplémentaires, offrant une solution pratique dans les environnements où les connexions réseau sont peu fiables ou inexistantes.</p>
+<h4 id="pourquoi-lopenterface-mini-kvm-fait-il-la-difference">Pourquoi l'Openterface Mini-KVM fait-il la différence ?<a class="headerlink" href="#pourquoi-lopenterface-mini-kvm-fait-il-la-difference" title="Permanent link">¶</a></h4>
+<p>Notre <a href="https://openterface.com/#product-features">Openterface Mini-KVM</a> propose un <strong>design portable, une facilité de connexion plug-and-play, un temps de réponse rapide et un accès direct au niveau du BIOS avec un port USB-A commutable</strong>, tous partagés entre les appareils hôtes et cibles. Il assure une expérience de contrôle fiable et rapide via une connexion HDMI et USB, sans les contraintes de la dépendance au réseau, le rendant adapté à divers <a href="https://openterface.com/use-cases/">scénarios d'utilisation</a>, en particulier pour les tâches informatiques et le dépannage en cours de route.</p>
+<p>De plus, contrairement aux consoles KVM traditionnelles souvent coûteuses, notre mini-KVM est conçu pour être accessible et <strong>abordable</strong> pour un large éventail d'utilisateurs, des professionnels de l'informatique aux passionnés de technologie.</p>
+<p>Mais la véritable magie réside dans notre engagement envers le <strong>développement open-source</strong> et l'<strong>engagement communautaire</strong>. En embrassant ces principes, nous construisons un écosystème dynamique où les utilisateurs peuvent collaborer, contribuer et personnaliser l'appareil pour répondre à leurs besoins uniques, favorisant ainsi l'innovation et repoussant les limites du possible.</p>
+<h4 id="quels-sont-les-cas-dutilisation-de-ce-mini-kvm">Quels sont les cas d'utilisation de ce mini-KVM ?<a class="headerlink" href="#quels-sont-les-cas-dutilisation-de-ce-mini-kvm" title="Permanent link">¶</a></h4>
+<p>Veuillez consulter cette page : <a href="https://openterface.com/use-cases/">Cas d'utilisation</a></p>
+<h4 id="quels-ordinateurs-hotes-sont-compatibles-avec-lopenterface-mini-kvm">Quels ordinateurs hôtes sont compatibles avec l'Openterface Mini-KVM ?<a class="headerlink" href="#quels-ordinateurs-hotes-sont-compatibles-avec-lopenterface-mini-kvm" title="Permanent link">¶</a></h4>
+<p>Pour utiliser ce mini-KVM, l'ordinateur hôte doit installer l'une de ces <a href="https://openterface.com/quick-start/#install-host-application">applications hôtes</a> pour supporter MacOS, Windows et Linux. Une extension web et des applications Android sont actuellement en développement.</p>
+<h4 id="quels-appareils-cibles-sont-compatibles-avec-lopenterface-mini-kvm">Quels appareils cibles sont compatibles avec l'Openterface Mini-KVM ?<a class="headerlink" href="#quels-appareils-cibles-sont-compatibles-avec-lopenterface-mini-kvm" title="Permanent link">¶</a></h4>
+<p>Aucune pré-installation ou configuration n'est requise sur l'appareil cible. Tant que l'appareil cible prend en charge les opérations UI avec sortie vidéo (par exemple, HDMI, VGA) et dispose d'un port USB pour recevoir les signaux de contrôle émulés de clavier et de souris (HID), il peut être utilisé. Ainsi, les plateformes d'appareils cibles prises en charge incluent Windows, MacOS, Linux, Android et iOS.</p>
+<h4 id="y-aura-t-il-un-support-technique-et-une-documentation-disponibles-pour-lopenterface-mini-kvm">Y aura-t-il un support technique et une documentation disponibles pour l'Openterface Mini-KVM ?<a class="headerlink" href="#y-aura-t-il-un-support-technique-et-une-documentation-disponibles-pour-lopenterface-mini-kvm" title="Permanent link">¶</a></h4>
+<p>Une documentation exhaustive pour l'Openterface Mini-KVM est disponible sur notre site web à <a href="https://www.openterface.com/">Openterface.com</a>. Nous mettons continuellement à jour ces ressources pour optimiser votre expérience avec l'appareil.<br />
+Pour le support technique, nous vous invitons à rejoindre notre <a href="https://openterface.com/community/">communauté</a> pour partager vos questions et idées avec d'autres utilisateurs et notre équipe d'experts. Si votre problème persiste, notre équipe est disponible pour fournir une assistance technique supplémentaire. Vous pouvez nous contacter par email à : info@techxartisan.com.</p>
+<h4 id="pourquoi-votre-depot-open-source-est-il-vide">Pourquoi votre dépôt open-source est-il vide ?<a class="headerlink" href="#pourquoi-votre-depot-open-source-est-il-vide" title="Permanent link">¶</a></h4>
+<p>Nous nous excusons pour le retard. Nous avons été exceptionnellement occupés par diverses tâches administratives liées à notre campagne de financement participatif. Rassurez-vous, nous nous engageons pleinement à open-sourcer à la fois le matériel et le logiciel de notre projet. Veuillez faire preuve de patience pendant que nous finalisons les préparatifs. Nous commencerons à publier les détails matériels et le code progressivement au cours des deux à trois prochaines semaines, visant à tout rendre disponible avant de commencer les expéditions à nos soutiens.</p>
+<p>En attendant, vous pouvez en apprendre plus sur notre projet ici : <a href="https://openterface.com/how-it-works/">Comment ça marche</a>. Cette ressource fournit un aperçu de notre intégration de capture USB-HDMI, mettant en vedette la puce <strong>CH9329</strong> pour le contrôle du clavier et de la souris. Les passionnés de technologie trouveront peut-être les détails sur la puce CH9329 particulièrement intéressants.</p>
+<p>De plus, notre mini-KVM utilise la puce <strong>CH340</strong>, supportant deux hubs USB intégrés pour les côtés hôte et cible. Notre mini-KVM est comparable à de nombreuses cartes de capture vidéo actuellement sur le marché. Pour plus de détails techniques, veuillez consulter cette <a href="https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing">fiche technique</a>.</p>
+<p>Merci pour votre compréhension et votre patience !</p>
+<h3 id="logiciel">Logiciel<a class="headerlink" href="#logiciel" title="Permanent link">¶</a></h3>
+<h4 id="ou-puis-je-telecharger-les-applications-hotes">Où puis-je télécharger les applications hôtes ?<a class="headerlink" href="#ou-puis-je-telecharger-les-applications-hotes" title="Permanent link">¶</a></h4>
+<p>Visitez notre <a href="https://openterface.com/quick-start/#install-host-application">page d'installation des applications hôtes</a> pour les téléchargements officiels. Comme notre projet est open source, vous pouvez trouver des versions alternatives des applications hôtes compatibles avec notre mini-KVM développées par la communauté. Bien que celles-ci puissent offrir des fonctionnalités supplémentaires, assurez-vous de vérifier leurs pratiques en matière de sécurité et de confidentialité. TechxArtisan Studio ne peut pas garantir la sécurité des applications tierces. Merci !</p>
+<h4 id="quand-lapplication-hote-pour-android-sera-t-elle-disponible">Quand l'application hôte pour Android sera-t-elle disponible ?<a class="headerlink" href="#quand-lapplication-hote-pour-android-sera-t-elle-disponible" title="Permanent link">¶</a></h4>
+<p>Nous développons actuellement l'application hôte pour Android, mais elle est moins prioritaire par rapport aux versions pour les systèmes d'exploitation courants tels que macOS, Windows et Linux. Nous vous remercions de votre patience et vous encourageons à rester informé des mises à jour. Si vous êtes intéressé à aider au développement, n'hésitez pas à rejoindre notre communauté ou à nous contacter par email !</p>
+<h4 id="existe-t-il-une-application-hote-prenant-en-charge-chromeos">Existe-t-il une application hôte prenant en charge ChromeOS ?<a class="headerlink" href="#existe-t-il-une-application-hote-prenant-en-charge-chromeos" title="Permanent link">¶</a></h4>
+<p>Oui, mais elle est actuellement en cours de développement. Nous prévoyons de créer une extension web conçue pour prendre en charge les navigateurs Chrome et Firefox. Bien que sa priorité de développement soit légèrement inférieure à celle des systèmes d'exploitation courants tels que macOS, Windows et Linux, nous y travaillons activement. Merci de votre patience et restez informé des mises à jour ! Si vous êtes intéressé à contribuer à notre développement, rejoignez notre communauté ou envoyez-nous un email !</p>
+<h4 id="existe-t-il-une-application-hote-prenant-en-charge-les-appareils-mobiles-dapple">Existe-t-il une application hôte prenant en charge les appareils mobiles d'Apple ?<a class="headerlink" href="#existe-t-il-une-application-hote-prenant-en-charge-les-appareils-mobiles-dapple" title="Permanent link">¶</a></h4>
+<p>Nous explorons actuellement la compatibilité avec les systèmes mobiles d'Apple, tels que iOS et iPadOS. En raison des contrôles stricts d'Apple, ces plateformes peuvent ne pas prendre en charge les connexions filaires avec des appareils tiers. Cependant, la situation pourrait évoluer, ou il pourrait y avoir des solutions de contournement potentielles. Si vous avez des idées ou des suggestions, nous vous invitons à rejoindre notre communauté pour en discuter avec nous. Nous nous engageons à améliorer la commodité de notre appareil en prenant en charge le plus de systèmes possible. Si vous êtes intéressé à contribuer à notre développement, rejoignez notre communauté ou envoyez-nous un email !</p>
+<h4 id="que-faire-si-la-touche-f11-ne-fonctionne-pas-sur-les-applications-macos">Que faire si la touche F11 ne fonctionne pas sur les applications macOS ?<a class="headerlink" href="#que-faire-si-la-touche-f11-ne-fonctionne-pas-sur-les-applications-macos" title="Permanent link">¶</a></h4>
+<p>Sur macOS, appuyer sur F11 affiche le bureau macOS au lieu de transmettre la touche F11 à l'application et à l'ordinateur cible. Pour résoudre ce problème, vous pouvez dissocier F11 de la fonction "Afficher le bureau". Voici comment procéder :</p>
+<ol>
+<li>Allez dans les Réglages Système.</li>
+<li>Sélectionnez Bureau et Dock.</li>
+<li>Faites défiler vers le bas et cliquez sur le bouton "Raccourcis…".</li>
+<li>Trouvez "Afficher le bureau" et définissez-le sur le trait d'union (-) en bas de la liste déroulante.</li>
+<li>Cette modification permettra à la touche F11 de passer à travers votre application sur l'ordinateur cible.</li>
+</ol>
+<h3 id="port-usb-commutable-et-transfert-de-fichiers">Port USB commutable et transfert de fichiers<a class="headerlink" href="#port-usb-commutable-et-transfert-de-fichiers" title="Permanent link">¶</a></h3>
+<h4 id="le-mini-kvm-openterface-peut-il-prendre-en-charge-les-transferts-de-fichiers">Le Mini-KVM Openterface peut-il prendre en charge les transferts de fichiers ?<a class="headerlink" href="#le-mini-kvm-openterface-peut-il-prendre-en-charge-les-transferts-de-fichiers" title="Permanent link">¶</a></h4>
+<p>Oui, le Mini-KVM Openterface comprend un port USB-A commutable partagé entre l'hôte et les appareils cibles. Avec une clé/disque USB branché sur ce port, les fichiers peuvent être transférés entre l'hôte et la cible en suivant ces étapes :</p>
+<ol>
+<li>Montez une clé USB sur l'hôte lorsque le petit interrupteur noir est réglé du côté du port Type-C de l'hôte.</li>
+<li>Copiez les fichiers sur ce lecteur monté.</li>
+<li>Après la copie, démontez le lecteur sans le débrancher physiquement.</li>
+<li>Basculez le petit interrupteur noir de l'autre côté. Cette action connecte le port USB-A à la cible.</li>
+<li>Montez la clé USB sur l'appareil cible et copiez/déplacez les fichiers du lecteur, complétant ainsi le processus de transfert de fichiers de l'hôte vers la cible.</li>
+</ol>
+<p>Cette méthode peut également être utilisée dans le sens inverse.</p>
+<h4 id="le-port-usb-a-commutable-peut-il-etre-bascule-au-niveau-logiciel">Le port USB-A commutable peut-il être basculé au niveau logiciel ?<a class="headerlink" href="#le-port-usb-a-commutable-peut-il-etre-bascule-au-niveau-logiciel" title="Permanent link">¶</a></h4>
+<p>Le design actuel ne supporte pas le basculement au niveau logiciel ; il ne peut être basculé physiquement pour l'instant.</p>
+<p>Mettre en œuvre le basculement au niveau logiciel nécessiterait un nouveau design, intégrant un bouton et un indicateur LED (soit vert/bleu ou allumé/éteint) pour indiquer si le port USB est réglé sur le mode hôte ou cible.</p>
+<p>De plus, cela nécessiterait l'intégration d'une puce supplémentaire, entraînant une augmentation des coûts en termes de matériel et de développement logiciel. Le design actuel représente un compromis, visant à équilibrer rentabilité et fonctionnalité de base. Malgré le potentiel d'augmentation des coûts, nous sommes intéressés à incorporer cette fonctionnalité dans une version future pour une meilleure expérience utilisateur.</p>
+<h4 id="pourquoi-usb-20-et-non-usb-30-pour-ce-port-usb-commutable">Pourquoi USB 2.0 et non USB 3.0 pour ce port USB commutable ?<a class="headerlink" href="#pourquoi-usb-20-et-non-usb-30-pour-ce-port-usb-commutable" title="Permanent link">¶</a></h4>
+<p>USB 2.0 est entièrement capable de gérer la capture vidéo à 1080p@30Hz, la transmission de signaux HID (pour clavier et souris), et la gestion des transferts de fichiers à vitesse standard entre les ordinateurs cibles et hôtes. Cela rend notre produit rapide, léger et portable, exactement comme conçu.</p>
+<p>L'utilisation de l'USB 3.0 rendrait la conception du PCB beaucoup plus complexe et augmenterait considérablement les coûts de production. De plus, bien que l'USB 3.0 offre des transferts de fichiers plus rapides, il génère également plus de chaleur, ce qui pourrait raccourcir la durée de vie de l'appareil.</p>
+<p>Nous envisageons l'application de l'USB 3.0 pour la prochaine version, ciblant des scénarios d'utilisation plus professionnels et des solutions KVM stationnaires.</p>
+<h3 id="technique">Technique<a class="headerlink" href="#technique" title="Permanent link">¶</a></h3>
+<h4 id="le-mini-kvm-openterface-est-il-open-source">Le Mini-KVM Openterface est-il open source ?<a class="headerlink" href="#le-mini-kvm-openterface-est-il-open-source" title="Permanent link">¶</a></h4>
+<p>Oui ! Nous allons ouvrir à la fois <a href="/how-it-works/#explore-hardware-details">le matériel</a> et <a href="https://openterface.com/quick-start/#install-host-application">le logiciel</a>. Patientez encore un peu ; nous devons arranger pas mal de choses avant l'ouverture. Si vous êtes intéressé à <a href="/contributing/">contribuer</a>, faites-le nous savoir par email : info@techxartisan.com. Restez informé !</p>
+<h4 id="puis-je-acceder-aux-parametres-bios-dun-appareil">Puis-je accéder aux paramètres BIOS d'un appareil ?<a class="headerlink" href="#puis-je-acceder-aux-parametres-bios-dun-appareil" title="Permanent link">¶</a></h4>
+<p>Oui, la connexion directe du Mini-KVM Openterface permet d'accéder aux paramètres BIOS ou firmware de bas niveau.</p>
+<p>Cette fonctionnalité se distingue des solutions KVM basées sur logiciel ou des applications de contrôle à distance comme TeamViewer et Zoom, qui ne sont généralement pas capables d'interactions au niveau BIOS.</p>
+<h4 id="pourquoi-le-controle-du-clavier-ne-fonctionne-t-il-pas-au-niveau-du-bios-pour-certains-ordinateurs-cibles-plus-anciens">Pourquoi le contrôle du clavier ne fonctionne-t-il pas au niveau du BIOS pour certains ordinateurs cibles plus anciens ?<a class="headerlink" href="#pourquoi-le-controle-du-clavier-ne-fonctionne-t-il-pas-au-niveau-du-bios-pour-certains-ordinateurs-cibles-plus-anciens" title="Permanent link">¶</a></h4>
+<p>Il semble que certains anciens BIOS d'ordinateurs ne puissent pas reconnaître le hub USB de notre appareil, ce qui peut entraîner des problèmes avec notre clavier et notre souris émulés ne fonctionnant pas correctement au niveau du BIOS. Nous surveillons ce problème.</p>
+<p>Nous avons eu un rapport indiquant que sur un ordinateur HP spécifique, le HP Engage Flex Pro, le clavier ne fonctionne pas à l'écran du BIOS, bien qu'il fonctionne normalement une fois le système d'exploitation démarré.</p>
+<p>Si vous rencontrez le même problème, veuillez nous le signaler via un problème GitHub.</p>
+<h4 id="comment-les-donnees-videoinformation-sont-elles-transmises-entre-les-appareils">Comment les données vidéo/information sont-elles transmises entre les appareils ?<a class="headerlink" href="#comment-les-donnees-videoinformation-sont-elles-transmises-entre-les-appareils" title="Permanent link">¶</a></h4>
+<p>Les données vidéo sont capturées via HDMI et transmises via USB 2.0 à l'ordinateur hôte pour affichage. Le port USB 2.0 commutable permet le partage de clé USB ou d'autres appareils USB entre la cible et l'hôte.</p>
+<h4 id="comment-le-mini-kvm-openterface-gere-t-il-lalimentation">Comment le Mini-KVM Openterface gère-t-il l'alimentation ?<a class="headerlink" href="#comment-le-mini-kvm-openterface-gere-t-il-lalimentation" title="Permanent link">¶</a></h4>
+<p>L'appareil ne nécessite pas d'alimentation externe, car il est conçu pour être alimenté via ses connexions USB Type-C de l'hôte, améliorant ainsi sa portabilité. Dans les scénarios où l'appareil cible est un micro-ordinateur basse consommation, tel qu'un Raspberry Pi, il pourrait être alimenté par l'hôte via le port USB commutable du Mini-KVM. Cependant, cela n'est pas recommandé. La méthode standard de fonctionnement consiste à avoir une alimentation externe pour l'appareil cible.</p>
+<h4 id="puis-je-fabriquer-cet-appareil-moi-meme">Puis-je fabriquer cet appareil moi-même ?<a class="headerlink" href="#puis-je-fabriquer-cet-appareil-moi-meme" title="Permanent link">¶</a></h4>
+<p>Absolument ! Nous sommes une équipe de passionnés du DIY, et nous nous assurons que ce projet soit open source, tant au niveau du matériel que du logiciel, et nous mettons à jour sa documentation. Techniquement, vous pouvez le construire de zéro. Nous envisageons même de publier un guide sur la façon de fabriquer une version breadboard de notre produit qui serait également compatible avec notre logiciel.</p>
+<p>Notre communauté expérimente déjà différentes versions matérielles. Consultez nos publications communautaires pour en savoir plus ou partagez vos propres expériences DIY ! Cela pourrait vraiment enrichir notre communauté. De plus, vous pourriez découvrir qu'avec quelques ajustements du code, notre logiciel pourrait fonctionner parfaitement avec votre configuration DIY créative !</p>
+<h3 id="mecanisme-de-controle">Mécanisme de Contrôle<a class="headerlink" href="#mecanisme-de-controle" title="Permanent link">¶</a></h3>
+<h4 id="y-a-t-il-des-plans-pour-une-version-avec-connectivite-sans-fil-ou-ethernet">Y a-t-il des plans pour une version avec connectivité sans fil ou Ethernet ?<a class="headerlink" href="#y-a-t-il-des-plans-pour-une-version-avec-connectivite-sans-fil-ou-ethernet" title="Permanent link">¶</a></h4>
+<p>Actuellement, nous ne prévoyons pas d'ajouter la connectivité sans fil ou Ethernet à nos produits Openterface. Nous nous concentrons sur la fourniture d'un contrôle rapide et stable via USB directement à votre appareil cible, afin que vous n'ayez pas à vous soucier des problèmes de réseau.</p>
+<p>Mais nous sommes toujours ouverts aux suggestions ! Si vous pensez qu'il y a un réel besoin pour cette fonctionnalité, ou si vous avez du mal à trouver une bonne solution KVM-over-IP, envoyez-nous un email : info@techxartisan.com. Et rappelez-vous, si nous décidons d'élargir nos options de connectivité, notre <a href="https://www.reddit.com/r/Openterface_miniKVM/">communauté</a> sera la première informée.</p>
+<h4 id="en-quoi-cela-differe-t-il-des-autres-solutions-kvm-comme-les-kvm-traditionnels-le-kvm-over-ip-et-le-vnc-etc">En quoi cela diffère-t-il des autres solutions KVM comme les KVM traditionnels, le KVM-over-IP, et le VNC, etc. ?<a class="headerlink" href="#en-quoi-cela-differe-t-il-des-autres-solutions-kvm-comme-les-kvm-traditionnels-le-kvm-over-ip-et-le-vnc-etc" title="Permanent link">¶</a></h4>
+<p>Curieux de savoir comment l'Openterface Mini-KVM se compare aux autres solutions ? Consultez notre page de <a href="https://openterface.com/comparison">Comparaison</a>.</p>
+<h4 id="fonctionne-t-il-avec-un-ordinateur-cible-necessitant-ps2">Fonctionne-t-il avec un ordinateur cible nécessitant PS/2 ?<a class="headerlink" href="#fonctionne-t-il-avec-un-ordinateur-cible-necessitant-ps2" title="Permanent link">¶</a></h4>
+<p>Non. Nous sommes conscients qu'il existe encore de nombreux anciens ordinateurs sans écran qui nécessitent des claviers et des souris PS/2. À notre connaissance, il n'existe pas encore de solution élégante pour convertir les signaux USB HID en signaux de clavier et de souris PS/2. Nous continuons à étudier cette question et envisageons comment prendre en charge le PS/2 dans les futures versions du Mini-KVM. Si vous connaissez des solutions qui pourraient fonctionner élégamment avec notre Mini-KVM, veuillez les partager avec nous. Merci !</p>
+<h4 id="puis-je-utiliser-plusieurs-mini-kvm-pour-controler-plusieurs-appareils-cibles-depuis-un-ordinateur-maitre">Puis-je utiliser plusieurs Mini-KVM pour contrôler plusieurs appareils cibles depuis un ordinateur maître ?<a class="headerlink" href="#puis-je-utiliser-plusieurs-mini-kvm-pour-controler-plusieurs-appareils-cibles-depuis-un-ordinateur-maitre" title="Permanent link">¶</a></h4>
+<p>Oui, vous pouvez ! Notre Mini-KVM peut techniquement gérer cela, mais nous peaufinons encore le code et effectuons des tests. Nous nous concentrons sur le fait que notre logiciel puisse automatiquement lier le clavier et la souris à la bonne source vidéo lorsque vous utilisez plus d'un Mini-KVM à la fois. De plus, nous améliorons l'interface utilisateur du logiciel pour l'adapter à ce type de configuration. Restez à l'écoute de nos mises à jour communautaires pour savoir quand nous déploierons cette fonctionnalité !</p>
+<h4 id="est-il-capable-deteindre-allumer-lordinateur-auquel-il-est-connecte">Est-il capable d'éteindre/ allumer l'ordinateur auquel il est connecté ?<a class="headerlink" href="#est-il-capable-deteindre-allumer-lordinateur-auquel-il-est-connecte" title="Permanent link">¶</a></h4>
+<p>Notre appareil ne prend pas en charge l'ATX (contrôle de l'alimentation marche/arrêt pour l'ordinateur cible). Nous l'avons conçu pour être portable, rapide pour le dépannage et stable pour le contrôle local. Il est vraiment destiné à être utilisé lorsque vous êtes sur place avec votre ordinateur portable, gérant un ou plusieurs ordinateurs cibles. Nous pourrions développer une version pro à l'avenir avec l'ATX et plus de fonctionnalités.</p>
+<h3 id="video">Vidéo<a class="headerlink" href="#video" title="Permanent link">¶</a></h3>
+<h4 id="quen-est-il-de-la-latence-video-et-de-la-resolution">Qu'en est-il de la latence vidéo et de la résolution ?<a class="headerlink" href="#quen-est-il-de-la-latence-video-et-de-la-resolution" title="Permanent link">¶</a></h4>
+<p>Notre appareil gère la vidéo en 1080p avec une latence inférieure à 140 millisecondes, rendant votre expérience de contrôle fluide et transparente.</p>
+<h4 id="lopenterface-mini-kvm-est-il-adapte-aux-jeux-de-haute-qualite">L'Openterface Mini-KVM est-il adapté aux jeux de haute qualité ?<a class="headerlink" href="#lopenterface-mini-kvm-est-il-adapte-aux-jeux-de-haute-qualite" title="Permanent link">¶</a></h4>
+<p>Le design actuel se concentre sur les opérations techniques et informatiques, fournissant un contrôle fiable pour la configuration des appareils et le dépannage plutôt que pour les jeux en haute résolution. Bien qu'il soit excellent pour de nombreuses tâches, ce mini-KVM pourrait ne pas répondre aux besoins d'affichage des jeux de haute qualité.</p>
+<h4 id="y-aura-t-il-une-prise-en-charge-dun-affichage-de-haute-qualite-dans-les-futures-versions-de-lopenterface-mini-kvm">Y aura-t-il une prise en charge d'un affichage de haute qualité dans les futures versions de l'Openterface Mini-KVM ?<a class="headerlink" href="#y-aura-t-il-une-prise-en-charge-dun-affichage-de-haute-qualite-dans-les-futures-versions-de-lopenterface-mini-kvm" title="Permanent link">¶</a></h4>
+<p>Nous savons que beaucoup d'entre vous recherchent des fonctionnalités d'affichage de premier ordre. Bien que cela ne soit pas notre priorité actuelle, en fonction de vos retours, nous envisageons d'ajouter des capacités d'affichage améliorées dans une version professionnelle de l'Openterface Mini-KVM.</p>
+<h4 id="pourquoi-lopenterface-mini-kvm-ne-diffuse-t-il-pas-la-video-via-ip-locale">Pourquoi l'Openterface Mini-KVM ne diffuse-t-il pas la vidéo via IP locale ?<a class="headerlink" href="#pourquoi-lopenterface-mini-kvm-ne-diffuse-t-il-pas-la-video-via-ip-locale" title="Permanent link">¶</a></h4>
+<p>L'Openterface Mini-KVM a été conçu pour assurer des performances fiables et stables grâce à des connexions filaires, en utilisant HDMI et USB. Bien qu'il soit techniquement possible de diffuser la vidéo sur un réseau via nos applications hôtes, nous envisageons d'ajouter une fonctionnalité VLC, et même VNC à nos applications hôtes à l'avenir.</p>
+<h4 id="peut-il-fonctionner-avec-differentes-sorties-video-comme-vga-dvi-displayport-etc">Peut-il fonctionner avec différentes sorties vidéo comme VGA, DVI, DisplayPort, etc. ?<a class="headerlink" href="#peut-il-fonctionner-avec-differentes-sorties-video-comme-vga-dvi-displayport-etc" title="Permanent link">¶</a></h4>
+<p>En quelque sorte. L'Openterface Mini-KVM capture la vidéo via un port HDMI. Cependant, vous pouvez utiliser divers adaptateurs vidéo tels que <a href="https://openterface.com/use-cases/#streamlined-server-management">VGA-to-HDMI</a>, <a href="https://openterface.com/use-cases/#unified-control-for-diverse-devices">DVI-to-HDMI</a>, <a href="https://openterface.com/use-cases/#simplified-setup-for-tech-enthusiasts">miniHDMI-to-HDMI</a>, ou DP-to-HDMI, pour connecter différentes sources vidéo.</p>
+<h3 id="plus">Plus<a class="headerlink" href="#plus" title="Permanent link">¶</a></h3>
+<h4 id="comment-puis-je-contribuer-a-ce-projet">Comment puis-je contribuer à ce projet ?<a class="headerlink" href="#comment-puis-je-contribuer-a-ce-projet" title="Permanent link">¶</a></h4>
+<p>Absolument ! Il existe de nombreuses façons de participer :</p>
+<ul>
+<li>Si vous êtes passionné par la programmation, aidez-nous en signalant et en corrigeant les bugs.</li>
+<li>Doué pour les mots et la technologie ? Vous pourriez nous donner un coup de main avec notre documentation.</li>
+<li>Et si vous êtes un expert en langues, pourquoi ne pas aider à traduire nos documents pour permettre à plus de gens de nous rejoindre ?</li>
+<li>Si le design est votre truc, nous recherchons toujours des nouvelles idées pour le design graphique, l'interface utilisateur de l'application et rendre notre appareil encore plus convivial.</li>
+<li>Envie d'aider à animer notre communauté ? Nous pourrions également utiliser vos compétences ici.</li>
+</ul>
+<p>Votre soutien et vos <a href="https://openterface.com/contributing/">contributions</a> sont ce qui fait grandir Openterface Mini-KVM. Merci de faire partie de notre aventure ! 🚀 Vous avez envie d'aider mais ne voyez pas de rôle parfait ? Envoyez-nous simplement un email !</p>
+<h4 id="vous-voulez-evaluer-notre-gadget-pratique">Vous voulez évaluer notre gadget pratique ?<a class="headerlink" href="#vous-voulez-evaluer-notre-gadget-pratique" title="Permanent link">¶</a></h4>
+<p>Hé, nous adorons faire du bruit et faire connaître notre Mini-KVM ! Si vous êtes journaliste ou actif sur les réseaux sociaux et souhaitez essayer notre produit, nous sommes tout ouïe. Que vous soyez passionné par les critiques détaillées, les vidéos de déballage ou que vous souhaitiez simplement nous donner un coup de pouce, nous sommes là pour cela et faisons des vagues ensemble ! 🎉 Envoyez-nous un email MAINTENANT !</p>
+<h4 id="quelles-sont-les-fonctionnalites-avancees-prevues-pour-le-mini-kvm">Quelles sont les fonctionnalités avancées prévues pour le mini-KVM ?<a class="headerlink" href="#quelles-sont-les-fonctionnalites-avancees-prevues-pour-le-mini-kvm" title="Permanent link">¶</a></h4>
+<p>Nous sommes enthousiastes quant au potentiel du mini-KVM et nous nous engageons à documenter toutes nos idées actuelles dans une feuille de route complète. Cette feuille de route décrira les fonctionnalités avancées et les développements futurs que nous envisageons pour l'appareil. Nous sommes impatients de développer ces fonctionnalités en collaboration avec notre communauté. Restez à l'écoute pour plus de mises à jour alors que nous continuons de grandir et d'innover ensemble.</p>
+<h4 id="comment-le-mini-kvm-sintegre-t-il-avec-lia-et-quelles-sont-ses-futures-possibilites">Comment le mini-KVM s'intègre-t-il avec l'IA et quelles sont ses futures possibilités ?<a class="headerlink" href="#comment-le-mini-kvm-sintegre-t-il-avec-lia-et-quelles-sont-ses-futures-possibilites" title="Permanent link">¶</a></h4>
+<p>Notre objectif ultime est de permettre à l'IA de contrôler les ordinateurs cibles, et l'Openterface joue un rôle crucial dans cette vision. Inspirés par des projets comme <a href="https://github.com/OthersideAI/self-operating-computer">l'ordinateur auto-opérant d'OthersideAI</a>, nous visons à ce que le mini-KVM agisse comme une extension des 'mains' (fournissant le contrôle du clavier et de la souris) et des 'yeux' (capturant la source vidéo) pour l'ordinateur hôte. Si l'ordinateur hôte est suffisamment puissant, il pourrait potentiellement émuler les capacités vues dans le film de 2013 "Her". Bien que cela soit une aspiration future, cela met en lumière les possibilités excitantes que nous voyons pour le mini-KVM.</p>
+<hr />
+<p>Votre curiosité et votre soutien alimentent notre progression, et nous voulons nous assurer que chacune de vos questions trouve une réponse. Veuillez noter qu'avec le temps, le contenu ci-dessus de notre FAQ peut devenir obsolète. Si votre question n'est pas couverte dans cette FAQ, vérifiez toujours notre site web <a href="https://openterface.com/">openterface.com</a> pour les informations les plus récentes. N'hésitez pas à rejoindre notre communauté enthousiaste. Nous sommes actifs sur notre Subreddit à <a href="https://www.reddit.com/r/Openterface_miniKVM/">/r/Openterface_miniKVM/</a> et notre serveur Discord, <a href="https://discord.gg/sFTJD6a3R8">TechxArtisan</a>, où vous pouvez poser des questions, partager des idées ou simplement discuter de tout ce qui concerne la technologie.</p>
+<p>De plus, n'hésitez pas à contacter directement notre équipe dédiée en envoyant un email à info@techxartisan.com. Nous aimons avoir de vos nouvelles et sommes toujours là pour vous aider !</p>
+<section class="dialogue-section-white" id="dialogues-section">
+    <div class="container">
+    <div class="callout-button-container">
+        <div class="dialogue-bubble" id="op-bubble">
+         <a class="glightbox" href="/images/op-avatar.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false"></a>
+         <p>Question ?🤔</p>
+         <a href="https://www.reddit.com/r/Openterface_miniKVM/" class="md-button md-button--primary" id="join-waitlist-button">Demandez sur Subreddit</a>
+        </div>
+      <div class="dialogue-bubble" id="op-bubble">
+        <a class="glightbox" href="/images/op-avatar.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false"></a>
+        <p>En savoir plus 📖</p>
+        <a href="/quick-start" class="md-button md-button--primary" id="join-waitlist-button">Docs</a>
+      </div>
+      <div class="dialogue-bubble" id="op-bubble">
+        <a class="glightbox" href="/images/op-avatar.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false"></a>
+        <p>Soutenez-nous ! ❤️</p>
+        <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" class="md-button md-button--primary" id="join-waitlist-button">Aller à Crowd Supply</a>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+  <h2 id="__comments">Commentaires</h2>
+  <script src="https://giscus.app/client.js"
+  data-repo="TechxArtisanStudio/Openterface_fr"
+  data-repo-id="R_kgDOL9SxEw"
+  data-category="Announcements"
+  data-category-id="DIC_kwDOL9SxE84Cfcxq"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="light"
+  data-lang="fr"
+  crossorigin="anonymous"
+  async>
+</script>
+
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    // Set palette on initial load
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate"
+        ? "transparent_dark"
+        : "light"
+
+      // Instruct Giscus to set theme
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    // Register event handlers after documented loaded
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate"
+            ? "transparent_dark"
+            : "light"
+
+          // Instruct Giscus to change theme
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pied de page" >
+        
+          
+          <a href="../comparison/" class="md-footer__link md-footer__link--prev" aria-label="Précédent: Comparaison 💬">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Précédent
+              </span>
+              <div class="md-ellipsis">
+                Comparaison 💬
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../contributing/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Contribuer 💬">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Suivant
+              </span>
+              <div class="md-ellipsis">
+                Contribuer 💬
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Droits d'auteur &copy; Tous droits réservés. 2023 <a href="https://www.openterface.com">Openterface MiniKVM</a>, Guangzhou Billio Tech. Co., Ltd. <br> <a href="">Accueil</a> | <a href="/terms-of-service">Conditions d'utilisation</a> | <a href="/privacy-policy">Politique de confidentialité</a> |  <a href="#__consent">Paramètres des cookies</a> |  <a href="/contact">Contactez-nous</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" target="_blank" rel="noopener" title="www.crowdsupply.com" class="md-social__link">
+      <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 140 140"><path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555" /><path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099" /><path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF" /><path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF" /></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.reddit.com/r/Openterface_miniKVM/" target="_blank" rel="noopener" title="www.reddit.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M373 138.6c-25.2 0-46.3-17.5-51.9-41-30.6 4.3-54.2 30.7-54.2 62.4v.2c47.4 1.8 90.6 15.1 124.9 36.3 12.6-9.7 28.4-15.5 45.5-15.5 41.3 0 74.7 33.4 74.7 74.7 0 29.8-17.4 55.5-42.7 67.5-2.4 86.8-97 156.6-213.2 156.6S45.5 410.1 43 323.4c-25.4-11.9-43-37.7-43-67.7C0 214.4 33.4 181 74.7 181c17.2 0 33 5.8 45.7 15.6 34-21.1 76.8-34.4 123.7-36.4v-.3c0-44.3 33.7-80.9 76.8-85.5C325.8 50.2 347.2 32 373 32c29.4 0 53.3 23.9 53.3 53.3s-23.9 53.3-53.3 53.3zM157.5 255.3c-20.9 0-38.9 20.8-40.2 47.9s17.1 38.1 38 38.1 36.6-9.8 37.8-36.9-14.7-49.1-35.7-49.1zM395 303.1c-1.2-27.1-19.2-47.9-40.2-47.9s-36.9 22-35.7 49.1c1.2 27.1 16.9 36.9 37.8 36.9s39.3-11 38-38.1zm-60.1 70.8c1.5-3.6-1-7.7-4.9-8.1-23-2.3-47.9-3.6-73.8-3.6s-50.8 1.3-73.8 3.6c-3.9.4-6.4 4.5-4.9 8.1 12.9 30.8 43.3 52.4 78.7 52.4s65.8-21.6 78.7-52.4z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://discord.gg/sFTJD6a3R8" target="_blank" rel="noopener" title="discord.gg" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485.065 485.065 0 0 0 404.081 32.03a1.816 1.816 0 0 0-1.923.91 337.461 337.461 0 0 0-14.9 30.6 447.848 447.848 0 0 0-134.426 0 309.541 309.541 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.689 483.689 0 0 0-119.688 37.107 1.712 1.712 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016 0 0 0 .765 1.375 487.666 487.666 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321.173 321.173 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251.047 251.047 0 0 0 9.109-7.137 1.819 1.819 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.812 1.812 0 0 1 1.924.233 234.533 234.533 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.407 301.407 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391.055 391.055 0 0 0 30.014 48.815 1.864 1.864 0 0 0 2.063.7A486.048 486.048 0 0 0 610.7 405.729a1.882 1.882 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541ZM222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241Zm195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241Z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://youtube.com/@TechxArtisan" target="_blank" rel="noopener" title="youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/TechxArtisan" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9L389.2 48zm-24.8 373.8h39.1L151.1 88h-42l255.3 333.8z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.facebook.com/TechxArtisan" target="_blank" rel="noopener" title="www.facebook.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M80 299.3V512h116V299.3h86.5l18-97.8H196v-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4v42.1H14v97.8h66z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/techxartisan/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            <!--
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine cookies -->
+
+
+  
+    
+  
+
+
+  
+    
+  
+
+
+<!-- Determine actions -->
+
+
+
+<!-- Determine initial settings state -->
+
+  
+
+
+<!-- Consent title -->
+<h4>Consentement aux cookies</h4>
+<p>Nous utilisons des cookies pour améliorer la qualité du contenu des documents, analyser l'efficacité du site et les besoins. En donnant votre consentement, vous nous aidez à améliorer notre site web. Merci!</p>
+
+<!-- Consent settings -->
+<input
+  class="md-toggle"
+  type="checkbox"
+  id="__settings"
+  checked
+/>
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="analytics" checked>
+          <span class="task-list-indicator"></span>
+          Google Analytics
+        </label>
+      </li>
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="github" checked>
+          <span class="task-list-indicator"></span>
+          GitHub
+        </label>
+      </li>
+    
+  </ul>
+</div>
+
+<!-- Consent controls -->
+<div class="md-consent__controls">
+  
+
+    <!-- Button to accept cookies -->
+    
+      <button class="md-button md-button--primary">Accepter</button>
+    
+
+    <!-- Button to reject cookies -->
+    
+
+    <!-- Button to manage settings -->
+    
+  
+
+    <!-- Button to accept cookies -->
+    
+
+    <!-- Button to reject cookies -->
+    
+      <button type="reset" class="md-button">Refuser</button>
+    
+
+    <!-- Button to manage settings -->
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    
+    
+  
+      <script src="../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      
+    
+  <script src="../assets/javascripts/custom.js"></script>
+
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
