@@ -1,7 +1,3 @@
----
-comments: true
----
-
 # Comment ça marche
 
 ## Décomposition du processus
