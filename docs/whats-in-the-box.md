@@ -1,21 +1,24 @@
-# Qu'y a-t-il dans la boîte
+# Contenu de la Boîte
 
 Découvrez nos deux options d'achat conçues pour répondre à vos besoins, que vous recherchiez l'essentiel ou un ensemble complet d'outils.
 
-## Forfait 1 : Pack de base
+## Pack 1 : Pack de Base
 
-![pack-de-base](/images/product/product-option-1-basic.jpg)
-
-1. Produit principal : Openterface Mini-KVM
-2. Guide de démarrage rapide
-
-## Forfait 2 : Pack d'outils
-
-![pack-d-outils](/images/product/product-option-2-toolkit.jpg)
+![basic-pack](images/product/basic-with-maunal.jpg){:style="width:680px"}
 
 1. Produit principal : Openterface Mini-KVM
 2. Guide de démarrage rapide
-3. Câble HDMI mâle-mâle (30cm)
-4. Câble Type-C mâle vers USB-A mâle (30cm) avec adaptateur USB-A femelle vers USB-C mâle
-5. Câble Type-C mâle-mâle (150cm)
-6. Sac à outils (14cm L x 10cm l x 3,8cm H)
+
+## Pack 2 : Pack d'Outils
+
+![toolkit-open](images/product/toolkit-open.jpg){:style="width:680px"}
+
+1. Produit principal : Openterface Mini-KVM
+2. Guide de démarrage rapide
+3. Sac à outils (165 x 110 x 50mm)
+4. Capuchon d'extension de broche
+5. Câble HDMI mâle-mâle (30cm)
+6. Câble Type-C mâle vers USB-A mâle (0,3m) avec adaptateur USB-A femelle vers USB-C mâle
+7. Câble Type-C mâle-mâle (1,5m) avec adaptateur USB-C femelle vers USB-A mâle
+
+![toolkit-parts-layout-2-numbers](images/product/toolkit-parts-layout-2-numbers.jpg){:style="width:680px"}

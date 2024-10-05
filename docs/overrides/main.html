@@ -4,42 +4,6 @@
   <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.css' | url }}">
 {% endblock %}
 
-<!-- Annonce bar -->
-{% block announce %}
-  Enthousiasmé par notre prochain Openterface mini-KVM ? Soutenez-nous sur
-  <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm">
-    <span class="twemoji reddit">
-      {% include ".icons/txa/crowd-supply-icon.svg" %}
-    </span>
-    Crowd Supply
-  </a>
-  MAINTENANT ! Pour les dernières mises à jour, suivez-nous sur
-  <a href="https://www.reddit.com/r/Openterface_miniKVM/">
-    <span class="twemoji reddit">
-      {% include ".icons/fontawesome/brands/reddit-alien.svg" %}
-    </span>
-  </a>
-
-  <a href="https://discord.gg/4khsrbGS">
-    <span class="twemoji discord">
-      {% include ".icons/fontawesome/brands/discord.svg" %}
-    </span>
-  </a>
-
-  <a href="https://twitter.com/TechxArtisan">
-    <span class="twemoji x-twitter">
-      {% include ".icons/fontawesome/brands/x-twitter.svg" %}
-    </span>
-  </a>
-
-  <a href="https://www.facebook.com/TechxArtisan">
-    <span class="twemoji facebook">
-      {% include ".icons/fontawesome/brands/facebook-f.svg" %}
-    </span>
-  </a>
-
-{% endblock %}
-
 {% block scripts %}
   {{ super() }}
   <script src="{{ 'assets/javascripts/custom.js' | url }}"></script>
