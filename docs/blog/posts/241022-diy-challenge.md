@@ -25,6 +25,7 @@ Attention à tous les bricoleurs, créateurs et rêveurs ! Nous sommes ravis de 
 **Catégories :** Des prix pour les meilleurs performeurs incluent des récompenses pour les compétences techniques et la créativité, donc tout le monde a une chance !
 
 **Prix Géniaux :**
+
 - Un Openterface Mini-KVM en édition limitée avec un boîtier transparent et argenté.
 - Le futuriste Pi-Cast KVM par HackerGadgets.
 - Le GameShell inspiré du rétro par Clockwork.
