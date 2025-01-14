@@ -29,3 +29,10 @@ Les professionnels gérant des tâches nécessitant une séparation réseau, com
 Les utilisateurs qui passent fréquemment d'un ordinateur personnel à un ordinateur de travail, ou ceux qui gèrent des appareils de calcul en périphérie, bénéficieront de l'intégration fluide des flux de travail que l'Openterface Mini-KVM offre.
 
 ![use-case-demo-macbookpro2010](/images/product/use-case-demo-macbookpro2010.jpg)
+
+## ***Contrôle Séamless : Mini-KVM + Crayon Android = Pure Magie***
+Et si vous pouviez utiliser votre crayon Android pour contrôler directement les systèmes Windows ou macOS sur votre tablette Android via l'Openterface MiniKVM ? Imaginez esquisser des designs, annoter des documents, ou naviguer dans des logiciels avec précision—tout cela sans avoir à changer d'appareil ! Que ce soit un outil de design graphique comme Photoshop, une application de modélisation 3D, ou même un éditeur de présentation, l'expérience est fluide et intuitive.
+
+Le Mini-KVM débloque cette intégration séamless, vous permettant d'utiliser votre tablette Android comme un hub pour le contrôle multi-plateforme. Avez-vous un logiciel préféré que vous aimeriez essayer en premier ? Faites-le nous savoir, et restez à l'écoute pour plus de façons créatives d'élever votre espace de travail !
+
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Voici une vidéo de démonstration rapide de notre application hôte Qt fonctionnant sur le Pi dans cette uConsole. <a href="https://t.co/xwrOE9pCcF">pic.twitter.com/xwrOE9pCcF</a></p>&mdash; TechxArtisan (@TechxArtisan) <a href="https://twitter.com/TechxArtisan/status/1872660955768946823?ref_src=twsrc%5Etfw">1er juillet 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
