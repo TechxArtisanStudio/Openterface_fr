@@ -1,0 +1,14 @@
+flatten_single_child_sections: true
+nav:
+    - Accueil: index.md
+    - FAQs: faq
+    - Produit: product
+    - Application: app
+    - Cas d'Utilisation: use-cases.md
+    - Avis: /product/minikvm/reviews/
+    - Conformité: compliance.md
+    - Boutique: https://shop.techxartisan.com
+    - Discord: /discord
+    - Blog: blog
+    - À Propos: about.md
+

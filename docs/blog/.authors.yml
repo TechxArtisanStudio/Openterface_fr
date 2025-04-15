@@ -1,10 +1,10 @@
 authors:
   TechxArtisan:
     name: TechxArtisan Studio
-    description: A creative studio and community of tech enthusiasts.
+    description: Un studio créatif et une communauté de passionnés de technologie.
     avatar: /images/txa-avatar.jpg
 
   Openterface:
-    name: Openterface
-    description: Hi there!
+    name: Openterface 
+    description: Salut !
     avatar: /images/op-avatar.jpg
