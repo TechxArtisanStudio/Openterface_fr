@@ -5,7 +5,7 @@ keywords: "Contrôles Mini-KVM, modes de contrôle souris, saisie clavier, accè
 
 # Contrôle de base pour les applications hôtes
 
-![use-case-pc-angled-view](/images/product/use-case-pc-angled-view.jpg){ width=600 }
+![use-case-pc-angled-view](https://assets.openterface.com/images/product/use-case-pc-angled-view.jpg){ width=600 }
 
 ## 💻 Compatibilité
 

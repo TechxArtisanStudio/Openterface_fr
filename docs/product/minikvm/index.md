@@ -7,7 +7,7 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, contrôle sans écran, HDMI KVM,
 
 # **Openterface Mini-KVM**
 
-![basic-two-angled](/images/product/basic-two-angled.jpg){:style="max-height:320px"}
+![basic-two-angled](https://assets.openterface.com/images/product/basic-two-angled.jpg){:style="max-height:320px"}
 
 Notre **Openterface™ Mini-KVM** est une solution **KVM-over-USB** plug-and-play. Il vous permet de contrôler un ordinateur sans écran à proximité directement depuis votre ordinateur portable ou de bureau en utilisant des connexions USB et HDMI, éliminant le besoin de périphériques supplémentaires ou de connectivité réseau. Dans cette documentation, nous faisons référence à
 

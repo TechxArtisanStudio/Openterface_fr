@@ -19,21 +19,21 @@ L'**Openterface Mini-KVM** améliore les flux de travail informatiques et transf
     ---
 
     Idéal pour les professionnels de l'IT dans les centres de données. Mini-KVM contrôle plusieurs serveurs depuis un seul ordinateur portable, augmentant l'efficacité et réduisant les temps d'arrêt.
-    <img src="/images/product/use-case-demo-pc-bios-1.jpg" alt="Server management BIOS demo" style="max-width: 100%;"/>
+    <img src="https://assets.openterface.com/images/product/use-case-demo-pc-bios-1.jpg" alt="Server management BIOS demo" style="max-width: 100%;"/>
 
 -   :material-tools:{ .lg } __Configuration Simplifiée pour les Passionnés de Tech__
 
     ---
 
     Pour les développeurs embarqués utilisant Raspberry Pi ou Jetson Nano, Mini-KVM permet un contrôle direct sans moniteurs ou périphériques supplémentaires.
-    <img src="/images/product/use-case-demo-respberry-pi.jpg" alt="Raspberry Pi setup demo" style="max-width: 100%;"/>
+    <img src="https://assets.openterface.com/images/product/use-case-demo-respberry-pi.jpg" alt="Raspberry Pi setup demo" style="max-width: 100%;"/>
 
 -   :material-devices:{ .lg } __Contrôle Unifié pour Divers Appareils__
 
     ---
 
     Gérez les machines personnelles/professionnelles ou le matériel spécialisé (GAB, kiosques, TLV) depuis une seule interface—plus besoin de changer de câbles ou de claviers.
-    <img src="/images/product/use-case-demo-macmini2009-3.jpg" alt="Unified control of multiple devices" style="max-width: 100%;"/>
+    <img src="https://assets.openterface.com/images/product/use-case-demo-macmini2009-3.jpg" alt="Unified control of multiple devices" style="max-width: 100%;"/>
 
 -   :material-hospital-building:{ .lg } __Opérations Sécurisées pour Tâches Sensibles__
 
@@ -47,7 +47,7 @@ L'**Openterface Mini-KVM** améliore les flux de travail informatiques et transf
     ---
 
     Passez facilement entre les configurations personnelles, professionnelles ou de calcul en périphérie grâce à un flux de contrôle rationalisé unique.
-    <img src="/images/product/use-case-demo-macbookpro2010.jpg" alt="Mixed workflow integration" style="max-width: 100%;"/>
+    <img src="https://assets.openterface.com/images/product/use-case-demo-macbookpro2010.jpg" alt="Mixed workflow integration" style="max-width: 100%;"/>
 
 -   :material-pencil:{ .lg } __Contrôle Transparent : Mini-KVM + Crayon Android__
 

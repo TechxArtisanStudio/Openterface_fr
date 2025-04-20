@@ -11,14 +11,14 @@ Découvrez nos deux options d'achat conçues pour répondre à vos besoins, que 
 
 ## Pack 1 : Pack Basic
 
-![basic-pack](/images/product/basic-with-maunal.jpg){:style="width:680px"}
+![basic-pack](https://assets.openterface.com/images/product/basic-with-maunal.jpg){:style="width:680px"}
 
 1. Produit Principal : Openterface Mini-KVM
 2. Guide de Démarrage Rapide
 
 ## Pack 2 : Pack Toolkit
 
-![toolkit-open](/images/product/toolkit-open-2024.jpg){:style="width:680px"}
+![toolkit-open](https://assets.openterface.com/images/product/toolkit-open-2024.jpg){:style="width:680px"}
 
 1. Produit Principal : Openterface Mini-KVM
 2. Guide de Démarrage Rapide
@@ -28,4 +28,4 @@ Découvrez nos deux options d'achat conçues pour répondre à vos besoins, que 
 6. Câble Type-C Mâle vers USB-A Mâle (0,3m) avec Adaptateur USB-A Femelle vers USB-C Mâle
 7. Câble Type-C Mâle-Mâle (1,5m) avec Adaptateur USB-C Femelle vers USB-A Mâle
 
-![toolkit-parts-layout-2-numbers](/images/product/toolkit-parts-layout-2-numbers.jpg){:style="width:680px"}
+![toolkit-parts-layout-2-numbers](https://assets.openterface.com/images/product/toolkit-parts-layout-2-numbers.jpg){:style="width:680px"}
