@@ -15,7 +15,7 @@ Nous nous engageons en faveur du matériel ouvert et des logiciels open-source, 
 -   Diffuse la sortie vidéo de l'appareil cible vers l'écran Android en temps réel.
 -   Prend en charge les ajustements d'image pour une visualisation optimale.
 
-![image](../../images/android/videoConnect.jpg)
+![image](https://assets.openterface.com/images/android/videoConnect.jpg)
 
 #### Description de l'interface utilisateur
 
@@ -29,13 +29,13 @@ Nous nous engageons en faveur du matériel ouvert et des logiciels open-source, 
 3. Lancez l'application ; le flux vidéo apparaît automatiquement.
 4. Utilisez les curseurs de la barre d'outils pour ajuster la luminosité, le contraste ou la teinte selon vos besoins.
 
-![image](../../images/android/colorSetting.jpg)
+![image](https://assets.openterface.com/images/android/colorSetting.webp)
 
 #### Fonctionnalités spéciales
 
 -   Le zoom à deux doigts améliore l'affichage
 
-![image](../../images/android/enlargeAndSideBar.jpg)
+![image](https://assets.openterface.com/images/android/enlargeAndSideBar.webp)
 
 ---
 
@@ -63,7 +63,7 @@ Nous nous engageons en faveur du matériel ouvert et des logiciels open-source, 
 
 -   Contrôle relatif de la souris (en développement, à activer via les paramètres lorsque disponible).
 
-## ![image](../../images/android/mouseThouchMode.jpg)
+## ![image](https://assets.openterface.com/images/android/mouseThouchMode.jpg)
 
 ### 3. Saisie au clavier
 
@@ -88,9 +88,9 @@ Nous nous engageons en faveur du matériel ouvert et des logiciels open-source, 
 -   **Touches de fonction** : F1-F12、Touches symboles.
 -   **Touches standard** : 0-9、A-Z、Entrée、Espace、Supprimer.
 
-![image](../../images/android/enlargeAndKeyBoard.jpg)
-![image](../../images/android/keyBoardFunction.jpg)
-![image](../../images/android/keyBoardSystem.jpg)
+![image](https://assets.openterface.com/images/android/enlargeAndKeyBoard.webp)
+![image](https://assets.openterface.com/images/android/keyBoardFunction.jpg)
+![image](https://assets.openterface.com/images/android/keyBoardSystem.jpg)
 
 ---
 
