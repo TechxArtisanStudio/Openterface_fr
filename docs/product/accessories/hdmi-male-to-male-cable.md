@@ -14,4 +14,4 @@ Ce câble HDMI compact est parfait pour connecter votre appareil cible et captur
 - **Couleur**: Noir
 - **Utilisation**: Idéal pour la transmission vidéo haute définition de l'appareil cible vers le Mini-KVM.
 
-<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/hdmi-male-to-male-cable'"> Commander <img src="/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/hdmi-male-to-male-cable'"> Commander <img src="https://assets.openterface.com/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>

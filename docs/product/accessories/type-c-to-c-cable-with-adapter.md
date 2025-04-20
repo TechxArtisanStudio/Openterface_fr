@@ -15,4 +15,4 @@ Ce câble Type-C Mâle vers Mâle élégant et doux au toucher, de couleur orang
 - **Adaptateur**: USB-C Femelle vers USB-A Mâle
 - **Utilisation**: Pour le transfert de données haute vitesse entre l'ordinateur hôte et le Mini-KVM, et pour la charge rapide des téléphones portables ou ordinateurs portables.
 
-<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/type-c-cable-with-usb-a-adapter-1-5m-4-11ft-240w-fast-charging-data-transfer-usb2-0'"> Commander <img src="/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/type-c-cable-with-usb-a-adapter-1-5m-4-11ft-240w-fast-charging-data-transfer-usb2-0'"> Commander <img src="https://assets.openterface.com/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>

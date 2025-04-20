@@ -15,4 +15,4 @@ Ce câble polyvalent Type-C Mâle vers USB-A Mâle, accompagné d'un adaptateur 
 - **Adaptateur**: USB-A Femelle vers USB-C Mâle
 - **Utilisation**: Facilite le contrôle et le transfert de données vers l'appareil cible.
 
-<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/type-c-to-usb-a-cable-with-adapter'"> Commander <img src="/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/type-c-to-usb-a-cable-with-adapter'"> Commander <img src="https://assets.openterface.com/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>

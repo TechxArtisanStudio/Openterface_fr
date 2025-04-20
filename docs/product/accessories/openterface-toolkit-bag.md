@@ -14,4 +14,4 @@ Gardez votre Mini-KVM Openterface et ses accessoires organisés et portables ave
 - **Couleur**: Noir avec fermeture éclair orange
 - **Utilisation**: Idéal pour ranger et organiser votre Mini-KVM et ses câbles.
 
-<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/openterface-toolkit-bag'"> Commander <img src="/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/openterface-toolkit-bag'"> Commander <img src="https://assets.openterface.com/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>

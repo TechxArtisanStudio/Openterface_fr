@@ -12,8 +12,8 @@ Un **KVM USB**—souvent appelé **KVM-over-USB**—est une solution de contrôl
 
 ### :material-chat-question:{ .faq } Comment fonctionne le KVM USB ? {: #how-usb-kvm-works }
 
-![USB KVM Connection Dark](/images/usbkvm/usb-kvm-connect-dark.svg#only-dark)
-![USB KVM Connection Light](/images/usbkvm/usb-kvm-connect-light.svg#only-light)
+![USB KVM Connection Dark](https://assets.openterface.com/images/usbkvm/usb-kvm-connect-dark.svg#only-dark)
+![USB KVM Connection Light](https://assets.openterface.com/images/usbkvm/usb-kvm-connect-light.svg#only-light)
 
 1. **Streaming d'écran**  
    Il capture l'affichage de l'appareil cible (via HDMI) et le montre dans une fenêtre d'application sur votre ordinateur hôte.
