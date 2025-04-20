@@ -15,7 +15,7 @@ Nous nous engageons en faveur du matériel ouvert et des logiciels open-source, 
 -   Diffuse la sortie vidéo de l'appareil cible vers l'écran Android en temps réel.
 -   Prend en charge les ajustements d'image pour une visualisation optimale.
 
-![image](https://assets.openterface.com/images/android/videoConnect.jpg)
+![image](https://assets.openterface.com/images/android/videoConnect.webp)
 
 #### Description de l'interface utilisateur
 
@@ -63,7 +63,7 @@ Nous nous engageons en faveur du matériel ouvert et des logiciels open-source, 
 
 -   Contrôle relatif de la souris (en développement, à activer via les paramètres lorsque disponible).
 
-## ![image](https://assets.openterface.com/images/android/mouseThouchMode.jpg)
+## ![image](https://assets.openterface.com/images/android/mouseThouchMode.webp)
 
 ### 3. Saisie au clavier
 
@@ -89,8 +89,8 @@ Nous nous engageons en faveur du matériel ouvert et des logiciels open-source, 
 -   **Touches standard** : 0-9、A-Z、Entrée、Espace、Supprimer.
 
 ![image](https://assets.openterface.com/images/android/enlargeAndKeyBoard.webp)
-![image](https://assets.openterface.com/images/android/keyBoardFunction.jpg)
-![image](https://assets.openterface.com/images/android/keyBoardSystem.jpg)
+![image](https://assets.openterface.com/images/android/keyBoardFunction.webp)
+![image](https://assets.openterface.com/images/android/keyBoardSystem.webp)
 
 ---
 
