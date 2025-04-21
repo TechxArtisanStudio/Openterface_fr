@@ -7,7 +7,7 @@ Ce document fournit un aperçu d'un logiciel KVM (Clavier, Vidéo, Souris) multi
 ### Préférences
 
 Le menu Préférences permet aux utilisateurs de personnaliser les paramètres via une boîte de dialogue avec quatre pages :<br>
-![Preferences Gernal](https://assets.openterface.com/images/qt/preferenceGernal.png)
+![Preferences Gernal](https://assets.openterface.com/images/qt/preferenceGernal.webp)
 
 -   **Général** Cette page configure le filtre des journaux de débogage et l'inhibition ou non de l'économiseur d'écran lorsque l'application est en cours d'exécution. Les catégories de journaux comprennent :
 
@@ -18,7 +18,7 @@ Le menu Préférences permet aux utilisateurs de personnaliser les paramètres v
 
     Les utilisateurs peuvent choisir d'enregistrer les journaux dans un fichier .txt et d'inhiber ou non l'économiseur d'écran.<br>
 
-![Preferences Video](https://assets.openterface.com/images/qt/preferenceVideo.png)
+![Preferences Video](https://assets.openterface.com/images/qt/preferenceVideo.webp)
 
 -   **Vidéo** Cette page permet aux utilisateurs de :
 
@@ -28,7 +28,7 @@ Le menu Préférences permet aux utilisateurs de personnaliser les paramètres v
 
 -   **Audio** Cette page est actuellement en développement.<br>
 
-![Preferences TargetControl](https://assets.openterface.com/images/qt/preferenceTargetControl.png)
+![Preferences TargetControl](https://assets.openterface.com/images/qt/preferenceTargetControl.webp)
 
 -   **Contrôle de la cible** Cette page offre des options pour configurer les modes de contrôle de l'appareil cible :
 
@@ -58,15 +58,15 @@ Ce menu offre des options pour :<br>
 ### Avancé
 
 Le menu Avancé comprend les options suivantes :<br>
-![Advance menu](https://assets.openterface.com/images/qt/menuAdvance.png)
+![Advance menu](https://assets.openterface.com/images/qt/menuAdvance.webp)
 
 -   **Vérification de l'environnement :** Vérifie si les pilotes requis pour le logiciel sont installés.
 -   **Réinitialiser le port série :** Redémarre le port série.
 -   **Réinitialiser le clavier et la souris :** Réinitialise les paramètres du clavier et de la souris.
 -   **Réinitialisation d'usine de la puce HID :** Restaure les paramètres d'usine de la puce HID.<br>
-    ![Advance SerialConsole](https://assets.openterface.com/images/qt/advanceSerialConsole.png)
+    ![Advance SerialConsole](https://assets.openterface.com/images/qt/advanceSerialConsole.webp)
 -   **Console série :** Ouvre une nouvelle fenêtre pour surveiller tous les messages envoyés au port série, avec des filtres pour les messages envoyés/reçus.<br>
-    ![Advance ScriptTool](https://assets.openterface.com/images/qt/advanceScriptTool.png)
+    ![Advance ScriptTool](https://assets.openterface.com/images/qt/advanceScriptTool.webp)
 -   **Outil de script :** Exécute des scripts AutoHotkey (AHK). Cette fonctionnalité imite AutoHotkey mais ne prend en charge qu'un sous-ensemble de fonctions souris/clavier et de captures d'écran. Les scripts affectent l'appareil cible.
 -   **Serveur TCP :** Reçoit des commandes AutoHotkey via TCP pour les exécuter sur l'appareil cible.
 -   **Mise à jour du firmware :** Récupère le dernier firmware depuis un serveur distant, permettant aux utilisateurs de choisir de le flasher ou non sur l'appareil.
@@ -85,7 +85,7 @@ L'interface peut être configurée en :
 ### Aide
 
 Le menu Aide fournit : <br>
-![Help menu](https://assets.openterface.com/images/qt/menuHelp.png)
+![Help menu](https://assets.openterface.com/images/qt/menuHelp.webp)
 
 -   Des liens vers le site web officiel et les formulaires de retour pour les problèmes logiciels/matériels.
 -   Des informations sur l'achat de matériel.
@@ -97,7 +97,7 @@ Le menu Aide fournit : <br>
 
 La barre de menu, de gauche à droite, comprend les fonctionnalités suivantes :<br>
 
-![MenuBar](https://assets.openterface.com/images/qt/menubar.png)
+![MenuBar](https://assets.openterface.com/images/qt/menubar.webp)
 
 -   Sélection de la disposition du clavier : Choisir la disposition du clavier.
 -   Contrôles de zoom : Zoom avant, zoom arrière ou réinitialisation de l'affichage du flux vidéo capturé.

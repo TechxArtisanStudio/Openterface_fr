@@ -6,7 +6,7 @@ keywords: "broches d'extension Mini-KVM, développement personnalisé, modificat
 
 # **Broches d'Extension** | Mode Développeur | Openterface Mini-KVM
 
-![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.png){:style="height:360px"}
+![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.webp){:style="height:360px"}
 ![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="height:300px"}
 
 Le Mini-KVM Openterface dispose de broches d'extension pour le développement avancé et l'expérimentation avec le [Logiciel Open Source](/app). Ces broches ne sont pas exposées dans la configuration standard du boîtier.
