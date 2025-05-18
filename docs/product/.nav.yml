@@ -14,6 +14,8 @@ nav:
         - minikvm/extension-pins.md
         - FAQ & Dépannage: /faq/minikvm/op-minikvm/
         - Pourquoi Openterface: /faq/usbkvm/openterface/
+    - Mini-KVM Lite (Pré-Lancement):
+        - minikvm-lite/pre-launch.md
     - Accessoires:
         - accessories/index.md
         - Câble VGA vers HDMI 1m: accessories/vga-to-hdmi-cable.md
