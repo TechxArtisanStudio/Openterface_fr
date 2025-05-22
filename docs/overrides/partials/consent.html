@@ -19,7 +19,6 @@
   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
   IN THE SOFTWARE.
 -->
-
 <!-- Determine cookies -->
 {% set cookies = config.extra.consent.cookies | d({}) %}
 {% if config.extra.analytics %}
@@ -47,16 +46,10 @@
 <!-- Consent title -->
 <h4>{{ config.extra.consent.title }}</h4>
 <p>{{ config.extra.consent.description }}</p>
-
 <!-- Consent settings -->
-<input
-  class="md-toggle"
-  type="checkbox"
-  id="__settings"
-  {{ checked }}
-/>
+<input checked="" class="md-toggle" id="__settings" type="checkbox" {{="" }}=""/>
 <div class="md-consent__settings">
-  <ul class="task-list">
+<ul class="task-list">
     {% for type in cookies %}
       {% set checked = "" %}
       {% if cookies[type] is string %}
@@ -69,16 +62,15 @@
         {% endif %}
       {% endif %}
       <li class="task-list-item">
-        <label class="task-list-control">
-          <input type="checkbox" name="{{ type }}" {{ checked }}>
-          <span class="task-list-indicator"></span>
+<label class="task-list-control">
+<input checked="" name="{{ type }}" type="checkbox" {{="" }}=""/>
+<span class="task-list-indicator"></span>
           {{ name }}
         </label>
-      </li>
+</li>
     {% endfor %}
   </ul>
 </div>
-
 <!-- Consent controls -->
 <div class="md-consent__controls">
   {% for action in actions %}
@@ -92,7 +84,7 @@
 
     <!-- Button to reject cookies -->
     {% if action == "reject" %}
-      <button type="reset" class="md-button">
+      <button class="md-button" type="reset">
         {{- lang.t("consent.reject") -}}
       </button>
     {% endif %}
