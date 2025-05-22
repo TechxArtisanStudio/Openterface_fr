@@ -4,10 +4,14 @@
   {% if "navigation.footer" in features %}
     {% if page.previous_page or page.next_page %}
       {% if page.meta and page.meta.hide %}
-        {% set hidden = "hidden" if "footer" in page.meta.hide %}
+        {% if "footer" in page.meta.hide %}
+          <nav aria-label="{{ lang.t('footer') }}" class="md-footer__inner md-grid" hidden="">
+        {% endif %}
+      {% else %}
+        <nav aria-label="{{ lang.t('footer') }}" class="md-footer__inner md-grid">
       {% endif %}
-      <nav aria-label="{{ lang.t('footer') }}" class="md-footer__inner md-grid" hidden="" {{="" }}="">
-<!-- Link to previous page -->
+
+        <!-- Link to previous page -->
         {% if page.previous_page %}
           {% set direction = lang.t("footer.previous") %}
           <a aria-label="{{ direction }}: {{ page.previous_page.title | e }}" class="md-footer__link md-footer__link--prev" href="{{ page.previous_page.url | url }}">
@@ -16,7 +20,7 @@
               {% include ".icons/" ~ icon ~ ".svg" %}
             </div>
 <div class="md-footer__title">
-<span class="md-footer__direction" data-i18n="footer.previous">{{ direction }}</span>
+<span class="md-footer__direction">{{ direction }}</span>
 <div class="md-ellipsis">
                 {{ page.previous_page.title }}
               </div>
@@ -29,7 +33,9 @@
           {% set direction = lang.t("footer.next") %}
           <a aria-label="{{ direction }}: {{ page.next_page.title | e }}" class="md-footer__link md-footer__link--next" href="{{ page.next_page.url | url }}">
 <div class="md-footer__title">
-<span class="md-footer__direction" data-i18n="footer.next">{{ direction }}</span>
+<span class="md-footer__direction">
+                {{ direction }}
+              </span>
 <div class="md-ellipsis">
                 {{ page.next_page.title }}
               </div>
@@ -95,4 +101,4 @@
     })();
 
   </script>
-</footer>
+</nav></footer>
