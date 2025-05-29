@@ -2,13 +2,14 @@
 
 {% block content %}
   <div style="text-align: center; margin-top: 50px;">
-<h1 data-i18n="error.404-title">404 - Page non trouvée</h1>
-<p data-i18n="error.404-desc">La page n'existe pas. Redirection vers la page d'accueil...</p>
-<img alt="" draggable="false" src="https://assets.openterface.com/images/cover.webp" style="max-width: 600px; height: auto;"/>
-<script>
+      <h1 data-i18n="error.404-title">404 - Page Non Trouvée</h1>
+      <p data-i18n="error.404-desc">Cette page n'existe pas. Redirection vers la page d'accueil...</p>
+      <img src="https://assets.openterface.com/images/cover.webp" alt="" style="max-width: 600px; height: auto;" draggable="false">
+
+      <script>
           setTimeout(function() {
               window.location.href = "/";
-          }, 1000); // Redirect after 1 second
+          }, 1000); // Redirection après 1 seconde
       </script>
-</div>
+  </div>
 {% endblock %}
