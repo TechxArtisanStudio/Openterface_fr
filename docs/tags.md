@@ -1,3 +1,0 @@
-# Étiquettes
-
-<!-- material/tags -->
