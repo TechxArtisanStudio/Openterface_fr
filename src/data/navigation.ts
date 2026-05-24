@@ -1,4 +1,4 @@
-import { docsPath, newsPath } from '../config/site';
+import { docsPath, newsPath, siteConfig } from '../config/site';
 
 export interface NavItem {
   label: string;
@@ -21,8 +21,9 @@ export const mainNav: NavItem[] = [
     ],
   },
   { label: 'Vidéos', href: '/videos/' },
-  { label: 'Cas d\'utilisation', href: '/use-cases/' },
+  { label: "Cas d'utilisation", href: '/use-cases/' },
+  { label: 'À propos', href: '/about/' },
   { label: 'Documentation', href: docsPath(), external: true },
   { label: 'Actualités', href: newsPath(), external: true },
-  { label: 'À propos', href: '/about/' },
+  { label: 'Boutique', href: siteConfig.links.shop, external: true },
 ];
