@@ -9,29 +9,29 @@ export interface NavItem {
 
 export const mainNav: NavItem[] = [
   {
-    label: 'Products',
+    label: "Produits",
     href: '/products/',
     children: [
-      { label: 'All Products', href: '/products/' },
+      { label: "Tous les produits", href: '/products/' },
       { label: 'KeyMod Series', href: '/keymod/' },
       { label: 'KVM-GO Series', href: '/kvmgo/' },
       { label: 'Mini-KVM', href: '/minikvm/' },
       { label: 'uConsole KVM Extension', href: '/kvmext/' },
-      { label: 'Accessories', href: '/accessories/' },
+      { label: "Accessoires", href: '/accessories/' },
     ],
   },
   {
-    label: 'Apps',
+    label: "Apps",
     href: '/app/',
     children: [
-      { label: 'All Apps', href: '/app/' },
-      { label: 'KVM Control', href: '/kvm/' },
+      { label: "Toutes les apps", href: '/app/' },
+      { label: "Contrôle KVM", href: '/kvm/' },
       { label: 'KeyCmd', href: '/keycmd/' },
     ],
   },
-  { label: 'Media', href: '/videos/' },
-  { label: 'About', href: '/about/' },
-  { label: 'Docs', href: docsPath(), external: true },
-  { label: 'News', href: newsPath(), external: true },
-  { label: 'Shop', href: siteConfig.links.shop, external: true },
+  { label: "Médias", href: '/videos/' },
+  { label: "À propos", href: '/about/' },
+  { label: "Documentation", href: docsPath(), external: true },
+  { label: "Actualités", href: newsPath(), external: true },
+  { label: "Boutique", href: siteConfig.links.shop, external: true },
 ];
