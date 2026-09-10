@@ -9,6 +9,7 @@ export const fr: KeymodLandingStrings = {
     },
     nav: {
       docs: "Docs",
+    forum: "Forum",
       preLaunchCta: "Soutenir sur Crowd Supply",
     },
     povTabs: {
